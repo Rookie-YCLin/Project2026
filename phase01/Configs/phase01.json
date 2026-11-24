@@ -1,0 +1,13 @@
+{
+  "upstream_url": "https://github.com/guofei9987/blind_watermark.git",
+  "upstream_sha": "322c90dc02d45644692095b34d3a6b735b6edbd8",
+  "upstream_core_lf_sha256": "74ced3731ee9361c519dc98a2e9e00359d67d6f12e2fa61feb2358d6aa18422b",
+  "upstream_image": "examples/pic/ori_img.jpeg",
+  "image_sha256": "17bed8cfeb5534351d2f35d4addd9407e0c0132132444276a0f826c7ae9923c2",
+  "project_spec_sha": "8686ebc8cc1533a0c1fc55fac6cbd6842293c335",
+  "password_img": 1,
+  "jpeg_subsampling": 0,
+  "pilot_qf": [1, 50, 100],
+  "figure_qf": [10, 50, 90],
+  "relative_near_threshold": 0.000001
+}

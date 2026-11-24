@@ -1,0 +1,12 @@
+["C:\\Users\\macuz\\AppData\\Local\\Programs\\Python\\Python313\\python.exe", "-m", "unittest", "discover", "-s", "C:\\Users\\macuz\\Documents\\Codex\\2026-11-24\\project2026-python-matlab-jpeg-a4-chatgpt\\work\\stage\\Tests", "-v"]
+test_distributions (test_numerics.NumericalTests.test_distributions) ... ok
+test_identity_and_diagnostics (test_numerics.NumericalTests.test_identity_and_diagnostics) ... ok
+test_sign_and_right_vector (test_numerics.NumericalTests.test_sign_and_right_vector) ... ok
+test_spatial_layout_with_odd_edges (test_numerics.NumericalTests.test_spatial_layout_with_odd_edges) ... ok
+test_subspace_nonuniqueness (test_numerics.NumericalTests.test_subspace_nonuniqueness) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+Exit code: 0

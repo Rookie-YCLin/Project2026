@@ -1,0 +1,73 @@
+Build Dependencies:
+  blas:
+    detection method: pkgconfig
+    found: true
+    include directory: C:/Users/runneradmin/AppData/Local/Temp/cibw-run-zj20k55h/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include
+    lib directory: C:/Users/runneradmin/AppData/Local/Temp/cibw-run-zj20k55h/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib
+    name: scipy-openblas
+    openblas configuration: OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY
+      Haswell MAX_THREADS=24
+    pc file directory: D:/a/numpy-release/numpy-release/.openblas
+    version: 0.3.31.188.0
+  lapack:
+    detection method: pkgconfig
+    found: true
+    include directory: C:/Users/runneradmin/AppData/Local/Temp/cibw-run-zj20k55h/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/include
+    lib directory: C:/Users/runneradmin/AppData/Local/Temp/cibw-run-zj20k55h/cp313-win_amd64/build/venv/Lib/site-packages/scipy_openblas64/lib
+    name: scipy-openblas
+    openblas configuration: OpenBLAS 0.3.31.188.0  USE64BITINT DYNAMIC_ARCH NO_AFFINITY
+      Haswell MAX_THREADS=24
+    pc file directory: D:/a/numpy-release/numpy-release/.openblas
+    version: 0.3.31.188.0
+Compilers:
+  c:
+    commands: cl
+    linker: link
+    name: msvc
+    version: 19.44.35226
+  c++:
+    commands: cl
+    linker: link
+    name: msvc
+    version: 19.44.35226
+  cython:
+    commands: cython
+    linker: cython
+    name: cython
+    version: 3.2.4
+Machine Information:
+  build:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: windows
+  host:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: windows
+Python Information:
+  path: C:\Users\runneradmin\AppData\Local\Temp\build-env-d6q4wvvz\Scripts\python.exe
+  version: '3.13'
+SIMD Extensions:
+  baseline:
+  - X86_V2
+  found:
+  - X86_V3
+
+[{'numpy_version': '2.4.6',
+  'python': '3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC '
+            'v.1944 64 bit (AMD64)]',
+  'uname': uname_result(system='Windows', node='WIN-C2ANEVBHN6Q', release='11', version='10.0.26200', machine='AMD64')},
+ {'simd_extensions': {'baseline': ['X86_V2'],
+                      'found': ['X86_V3'],
+                      'not_found': []}},
+ {'ignore_floating_point_errors_in_matmul': False},
+ {'architecture': 'Haswell',
+  'filepath': 'C:\\Users\\macuz\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-63c857e738469261263c764a36be9436.dll',
+  'internal_api': 'openblas',
+  'num_threads': 8,
+  'prefix': 'libscipy_openblas',
+  'threading_layer': 'pthreads',
+  'user_api': 'blas',
+  'version': '0.3.31.188.0'}]

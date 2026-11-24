@@ -1,0 +1,12 @@
+{
+  "correlations": {
+    "rows": 16160,
+    "max_scaled_same_input": 1.887379141862766e-15,
+    "max_abs_same_input": 1.887379141862766e-15
+  },
+  "gap_bins": {
+    "rows": 22624,
+    "max_scaled_same_input": 4.963500044135633e-15,
+    "max_abs_same_input": 6.394884621840902e-14
+  }
+}

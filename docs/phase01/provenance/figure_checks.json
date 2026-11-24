@@ -1,0 +1,332 @@
+[
+  {
+    "figure": "Fig01",
+    "csv_rows": 400,
+    "png_size": [
+      1982,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15812,
+      "svg": 24277,
+      "pdf": 24951,
+      "png": 119619,
+      "csv": 65359
+    }
+  },
+  {
+    "figure": "Fig02",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15831,
+      "svg": 24238,
+      "pdf": 25390,
+      "png": 106892,
+      "csv": 72976
+    }
+  },
+  {
+    "figure": "Fig03",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15859,
+      "svg": 25614,
+      "pdf": 25410,
+      "png": 97516,
+      "csv": 70417
+    }
+  },
+  {
+    "figure": "Fig04",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15860,
+      "svg": 24919,
+      "pdf": 25425,
+      "png": 97222,
+      "csv": 70888
+    }
+  },
+  {
+    "figure": "Fig05",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15848,
+      "svg": 24236,
+      "pdf": 25267,
+      "png": 97830,
+      "csv": 72189
+    }
+  },
+  {
+    "figure": "Fig06",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15777,
+      "svg": 24236,
+      "pdf": 25073,
+      "png": 116498,
+      "csv": 65970
+    }
+  },
+  {
+    "figure": "Fig07",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15716,
+      "svg": 23610,
+      "pdf": 25157,
+      "png": 111844,
+      "csv": 61296
+    }
+  },
+  {
+    "figure": "Fig08",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15714,
+      "svg": 23606,
+      "pdf": 25081,
+      "png": 111523,
+      "csv": 62377
+    }
+  },
+  {
+    "figure": "Fig09",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15735,
+      "svg": 23603,
+      "pdf": 25146,
+      "png": 113519,
+      "csv": 64137
+    }
+  },
+  {
+    "figure": "Fig10",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15773,
+      "svg": 24232,
+      "pdf": 25078,
+      "png": 114860,
+      "csv": 65053
+    }
+  },
+  {
+    "figure": "Fig11",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15712,
+      "svg": 23605,
+      "pdf": 25134,
+      "png": 110947,
+      "csv": 61254
+    }
+  },
+  {
+    "figure": "Fig12",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15713,
+      "svg": 23612,
+      "pdf": 25110,
+      "png": 110883,
+      "csv": 62340
+    }
+  },
+  {
+    "figure": "Fig13",
+    "csv_rows": 400,
+    "png_size": [
+      1909,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 15728,
+      "svg": 23608,
+      "pdf": 25121,
+      "png": 114166,
+      "csv": 63972
+    }
+  },
+  {
+    "figure": "Fig14",
+    "csv_rows": 1600,
+    "png_size": [
+      2188,
+      2328
+    ],
+    "file_bytes": {
+      "fig": 51053,
+      "svg": 102526,
+      "pdf": 37478,
+      "png": 251854,
+      "csv": 306078
+    }
+  },
+  {
+    "figure": "Fig15",
+    "csv_rows": 200,
+    "png_size": [
+      1925,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 13279,
+      "svg": 18053,
+      "pdf": 23458,
+      "png": 86202,
+      "csv": 37253
+    }
+  },
+  {
+    "figure": "Fig16",
+    "csv_rows": 300,
+    "png_size": [
+      1958,
+      1135
+    ],
+    "file_bytes": {
+      "fig": 14386,
+      "svg": 23865,
+      "pdf": 25019,
+      "png": 118678,
+      "csv": 51083
+    }
+  },
+  {
+    "figure": "Fig17",
+    "csv_rows": 1600,
+    "png_size": [
+      2198,
+      2328
+    ],
+    "file_bytes": {
+      "fig": 71197,
+      "svg": 687848,
+      "pdf": 408157,
+      "png": 362796,
+      "csv": 257085
+    }
+  },
+  {
+    "figure": "Fig18",
+    "csv_rows": 84,
+    "png_size": [
+      2089,
+      2329
+    ],
+    "file_bytes": {
+      "fig": 26909,
+      "svg": 542720,
+      "pdf": 29722,
+      "png": 257138,
+      "csv": 6093
+    }
+  },
+  {
+    "figure": "Fig19",
+    "csv_rows": 84,
+    "png_size": [
+      2089,
+      2329
+    ],
+    "file_bytes": {
+      "fig": 26911,
+      "svg": 546268,
+      "pdf": 29854,
+      "png": 257484,
+      "csv": 6106
+    }
+  },
+  {
+    "figure": "Fig20",
+    "csv_rows": 114264,
+    "png_size": [
+      2068,
+      2317
+    ],
+    "file_bytes": {
+      "fig": 871248,
+      "svg": 456511,
+      "pdf": 227326,
+      "png": 493719,
+      "csv": 3009985
+    }
+  },
+  {
+    "figure": "Fig21",
+    "csv_rows": 80,
+    "png_size": [
+      1969,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 11981,
+      "svg": 18522,
+      "pdf": 21795,
+      "png": 114959,
+      "csv": 13111
+    }
+  },
+  {
+    "figure": "Fig22",
+    "csv_rows": 100,
+    "png_size": [
+      1921,
+      1136
+    ],
+    "file_bytes": {
+      "fig": 16240,
+      "svg": 156885,
+      "pdf": 27596,
+      "png": 89062,
+      "csv": 16238
+    }
+  }
+]

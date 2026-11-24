@@ -1,0 +1,10 @@
+{
+  "run_id": "phase01_20261124_194030_975258",
+  "mode": "formal",
+  "timestamp": "2026-11-24T19:40:30.975258+08:00",
+  "actual_path": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\05_實驗一_JPEG矩陣擾動\\phase01_20261124_194030_975258",
+  "original_path": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\04_原始影像\\17bed8cfeb553435\\ori_img.jpeg",
+  "code_path": "C:\\Users\\macuz\\Documents\\Codex\\2026-11-24\\project2026-python-matlab-jpeg-a4-chatgpt\\work\\stage",
+  "matlab_executable": "C:\\Program Files\\MATLAB\\R2026b\\bin\\matlab.exe",
+  "upstream_path": "C:\\Users\\macuz\\Documents\\Codex\\2026-11-24\\project2026-python-matlab-jpeg-a4-chatgpt\\work\\upstream"
+}

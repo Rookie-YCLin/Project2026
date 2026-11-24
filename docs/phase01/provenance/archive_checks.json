@@ -1,0 +1,13 @@
+{
+  "qf_count": 100,
+  "jpeg_size": [
+    738,
+    1108
+  ],
+  "jpeg_files_verified": 100,
+  "hdf5_datasets_checked": 632,
+  "statistics_rows": 23028,
+  "core_statistics_rows": 4040,
+  "blocks_per_channel": 12696,
+  "total_jpeg_block_pairs": 3808800
+}
