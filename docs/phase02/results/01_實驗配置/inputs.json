@@ -1,0 +1,23 @@
+{
+  "original": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\04_原始影像\\17bed8cfeb553435\\ori_img.jpeg",
+  "original_sha256": "17bed8cfeb5534351d2f35d4addd9407e0c0132132444276a0f826c7ae9923c2",
+  "phase01_matrix": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\05_實驗一_JPEG矩陣擾動\\phase01_20261124_194030_975258\\02_原始矩陣\\block_matrices.h5",
+  "phase01_matrix_sha256": "89a0c64bb3f3f78a1655d624af9939335edcf41344760e4ec9f8a5e95ace21fa",
+  "watermark_sha256": "cf24cfed29dd31907153654a43c74b4f7af317eb6d64cd4dfa377f8eb500e621",
+  "encrypted_sha256": "8ff2006614bea70bf3f82dcaab42bc66d49eeb7ab3d0096c6c50eea79ea7ca61",
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "jpeg_lib": "8.0",
+  "jpeg_turbo": "3.1.4.1",
+  "hdf5": "1.14.6",
+  "libraries": {
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "PyWavelets": "1.10.0",
+    "Pillow": "12.3.0",
+    "h5py": "3.14.0",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

@@ -1,0 +1,8 @@
+test_allocation_against_enumeration (test_allocation.AllocationTests.test_allocation_against_enumeration) ... ok
+test_projection_kkt_and_zero (test_allocation.AllocationTests.test_projection_kkt_and_zero) ... ok
+test_tie_and_unsorted_reconstruction (test_allocation.AllocationTests.test_tie_and_unsorted_reconstruction) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.668s
+
+OK

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.h5
+*.jpg
+*.jpeg
+*.png
+*.zip

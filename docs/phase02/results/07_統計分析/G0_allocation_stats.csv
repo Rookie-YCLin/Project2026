@@ -1,0 +1,9 @@
+condition,comparison,scope,metric,count,mean,median,std,min,max,p10,p25,p75,p90,p95
+unattacked,allocation,Y,rank_reversal,12696,0.111609955891619,0,0.31488596926108,0,1,0,0,0,1,1
+unattacked,allocation,Y,adjacent_tie,12696,0.156112161310649,0,0.362961643154696,0,1,0,0,0,1,1
+unattacked,allocation,U,rank_reversal,12696,0.0175645872715816,0,0.131362371117308,0,1,0,0,0,0,0
+unattacked,allocation,U,adjacent_tie,12696,0.409577819785759,0,0.491755863539329,0,1,0,0,1,1,1
+unattacked,allocation,V,rank_reversal,12696,0.0221329552614997,0,0.147115898368915,0,1,0,0,0,0,0
+unattacked,allocation,V,adjacent_tie,12696,0.408475110270951,0,0.49155182286314,0,1,0,0,1,1,1
+unattacked,allocation,All,rank_reversal,38088,0.0504358328082336,0,0.21884254517161,0,1,0,0,0,0,1
+unattacked,allocation,All,adjacent_tie,38088,0.324721697122453,0,0.468270772673633,0,1,0,0,1,1,1

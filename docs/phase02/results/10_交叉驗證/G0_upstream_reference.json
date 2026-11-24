@@ -1,0 +1,30 @@
+[
+  {
+    "qf": 1,
+    "block_scores_match": 38088,
+    "votes_match": 512,
+    "final_bits_match": 512,
+    "image_sha256": "1491943d6ff1d58d8b6006aefbad95b4686de08a9e905130ccfa290778c471c4"
+  },
+  {
+    "qf": 50,
+    "block_scores_match": 38088,
+    "votes_match": 512,
+    "final_bits_match": 512,
+    "image_sha256": "5fcc6be8a6bc438015a6f1f6886ff7cdefa95baf0b6972fdc6a43ce70e52b104"
+  },
+  {
+    "qf": 80,
+    "block_scores_match": 38088,
+    "votes_match": 512,
+    "final_bits_match": 512,
+    "image_sha256": "eb5ba8fe531777bbb30271005c66c3bd520bb82e9cf64738693a9633a4dcb3ee"
+  },
+  {
+    "qf": 100,
+    "block_scores_match": 38088,
+    "votes_match": 512,
+    "final_bits_match": 512,
+    "image_sha256": "7f5849686169fe45bff85ce8ab5b5c6f81268031d8dc47c5b2e89a7a4d69d1bc"
+  }
+]

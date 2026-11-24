@@ -1,0 +1,23 @@
+{
+  "all_methods": {
+    "G0": 100,
+    "S1": 100,
+    "S2": 100,
+    "S3": 100,
+    "S4": 100,
+    "S5": 100,
+    "S6": 100,
+    "S7": 100
+  },
+  "total_conditions": 800,
+  "qf_1_through_100": true,
+  "figure_data_compared": [
+    1,
+    2,
+    8,
+    10,
+    11,
+    18
+  ],
+  "frozen_hash": "18d2be0f2aa58440f3cc7b8ed68e55803f269c6864331532c931b5c5f2bb1caa"
+}

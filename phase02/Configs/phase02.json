@@ -1,0 +1,16 @@
+{
+  "phase01_commit": "47ca4df851b08ff515c527f64861ca03535a3215",
+  "upstream_commit": "322c90dc02d45644692095b34d3a6b735b6edbd8",
+  "original_sha256": "17bed8cfeb5534351d2f35d4addd9407e0c0132132444276a0f826c7ae9923c2",
+  "watermark_seed": 20261124,
+  "watermark_length": 512,
+  "password_img": 1,
+  "password_wm": 1,
+  "jpeg_subsampling": 0,
+  "acceptance_psnr": [39.9, 40.1],
+  "s_search": [2.0, 512.0, 17],
+  "g0_search": [0.125, 8.0, 17],
+  "refinement_rounds": 3,
+  "refinement_subdivisions": 8,
+  "review_qf": [1, 10, 30, 50, 79, 80, 81, 90, 100]
+}

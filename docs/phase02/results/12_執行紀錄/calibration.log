@@ -1,0 +1,13 @@
+RUN=C:\Users\macuz\OneDrive\文件\Project1124\06_實驗二_奇異值嵌入\phase02_20261124_212421_537455
+[ WARN:0@1.295] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@1.336] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@1.364] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@4.132] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+S2 87 best accepted {'method': 'S2', 'round': 3, 'parameter': 20.271577361972543, 'psnr_db': 39.99336971362099, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '5a1f2691a5a59d72990fcb752351651a3286ffdf3c1ce533063965c73c228fdf'}
+S3 87 best accepted {'method': 'S3', 'round': 2, 'parameter': 12.778174593052022, 'psnr_db': 40.00116483191014, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': 'b6624cbddec998baf28ca18b1aa126a8697864682fe89c91932859623b871635'}
+S1 87 best accepted {'method': 'S1', 'round': 2, 'parameter': 35.52081528017131, 'psnr_db': 40.01053835350926, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '875012dbbba9d9dfb14887847d2d6c44368c091e7cab671fa258e8e9de532363'}
+S4 80 best accepted {'method': 'S4', 'round': 3, 'parameter': 11.991024067490867, 'psnr_db': 40.00309529725249, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '785b044739643a86b18b9bb8b974566270503b70106b7669c68fd7b6572f504a'}
+S5 87 best accepted {'method': 'S5', 'round': 3, 'parameter': 10.97068789264454, 'psnr_db': 40.00190101512469, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '003317a57a3dc824a9e7d79ff87031605e920b13c14bb3131c324306df9a8a27'}
+S6 87 best accepted {'method': 'S6', 'round': 3, 'parameter': 23.377955871178994, 'psnr_db': 39.995651647791874, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '1b158b2d9eb3a5f3cff3e6ad1214794985e836e150eecf6b487496f89b687e8b'}
+S7 87 best accepted {'method': 'S7', 'round': 3, 'parameter': 11.478460934567327, 'psnr_db': 39.998369670748914, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '4d8883bcacf0f858f232c79f366fe9475bff7008f9ae41522e167818b6ed8454'}
+G0 87 best accepted {'method': 'G0', 'round': 2, 'parameter': 0.7854113244099723, 'psnr_db': 40.00776115671053, 'bit_errors': 0, 'ber': 0.0, 'accepted': True, 'png_sha256': '5d103d788f3912de6f932260369449be661590bb140da22325a5334f3f9b95d2'}

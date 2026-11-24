@@ -1,0 +1,21 @@
+{
+  "run": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\06_實驗二_奇異值嵌入\\phase02_20261124_212421_537455",
+  "review_zip": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\06_實驗二_奇異值嵌入\\phase02_20261124_212421_537455\\13_獨立審查\\Phase02_Review_Package.zip",
+  "review_zip_bytes": 58169382,
+  "review_zip_sha256": "e54152cf283b5c4be8f17b4b317a4065804a2e41e9c859c7b4d5e7d5b4569920",
+  "review_zip_members": 453,
+  "files_in_manifest": 1301,
+  "bytes_before_zip": 20134134513,
+  "csv_parts": 102,
+  "review_qf": [
+    1,
+    10,
+    30,
+    50,
+    79,
+    80,
+    81,
+    90,
+    100
+  ]
+}
