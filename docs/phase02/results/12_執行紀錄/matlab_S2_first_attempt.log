@@ -1,0 +1,7 @@
+{Error using assert
+Assertion failed.
+
+Error in analyze_method (line 80)
+    assert(svError<=epsFactor);
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

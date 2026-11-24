@@ -1,0 +1,31 @@
+Phase02 Fig01 exported
+Phase02 Fig02 exported
+Phase02 Fig03 exported
+Phase02 Fig04 exported
+Phase02 Fig05 exported
+Phase02 Fig06 exported
+Phase02 Fig07 exported
+Phase02 Fig08 exported
+Phase02 Fig09 exported
+Phase02 Fig10 exported
+Phase02 Fig11 exported
+Phase02 Fig12 exported
+Phase02 Fig13 exported
+Phase02 Fig14 exported
+Phase02 Fig15 exported
+Phase02 Fig16 exported
+Phase02 Fig17 exported
+Phase02 Fig18 exported
+{Error using openFigure
+The value of 'Filename' is invalid. It must satisfy the function: ischar.
+
+Error in openfig>localGetFileAndOptions (line 76)
+ip.parse(args{:});
+^^^^^^^^^^^^^^^^^
+Error in openfig (line 9)
+[filename, reuse, visibleAction] = localGetFileAndOptions(varargin);
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Error in audit_phase02_figures (line 5)
+    f=openfig(path,'new','invisible');
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

@@ -1,0 +1,85 @@
+{
+  "matlab": "26.2.0.3433840 (R2026b) Update 1",
+  "release": "2026b",
+  "products": [
+    {
+      "Name": "MATLAB",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "MATLAB Copilot",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    }
+  ],
+  "passed": true,
+  "model_checks": {
+    "G0": {
+      "native_sigma_max_scaled": 5.941776668322481E-8,
+      "frobenius_identity_max_scaled": 0.00038200380810193835,
+      "allocation_max_absolute": null,
+      "projection_kkt_max_absolute": null,
+      "fixed_weight_loss_formula_error": null,
+      "native_centers_at_numeric_boundary": null
+    },
+    "S1": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 2.3684403592514066E-12,
+      "allocation_max_absolute": 2.2737367544323206E-13,
+      "projection_kkt_max_absolute": 4.5474735088646412E-13,
+      "fixed_weight_loss_formula_error": 1.1291238443780997E-13,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S2": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 4.741645315575606E-12,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 4.3357445739565792E-14,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S3": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 7.9717593145384925E-13,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 2.2443442429608732E-14,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S4": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 4.0989417541104759E-13,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 8.9530956732459057E-15,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S5": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 3.02174715006024E-13,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 5.773159728050814E-15,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S6": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 3.7776847809980547E-12,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 2.227107387398064E-13,
+      "native_centers_at_numeric_boundary": 0
+    },
+    "S7": {
+      "native_sigma_max_scaled": 6.6446674551468021E-13,
+      "frobenius_identity_max_scaled": 5.892895744193944E-13,
+      "allocation_max_absolute": 0,
+      "projection_kkt_max_absolute": 0,
+      "fixed_weight_loss_formula_error": 1.6173304771842664E-14,
+      "native_centers_at_numeric_boundary": 0
+    }
+  }
+}
