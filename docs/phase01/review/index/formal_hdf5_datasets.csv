@@ -1,0 +1,634 @@
+namespace,file,condition,dataset_path,shape_c_order,dtype,axes,index_rule,chunks_c_order,compression
+matrices,block_matrices.h5,identity,/identity/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,index,/index/block,12696,int32,block,0-based,1587,gzip
+matrices,block_matrices.h5,index,/index/block_col,12696,int32,block,0-based,1587,gzip
+matrices,block_matrices.h5,index,/index/block_id,3x12696,int32,"channel,block",0-based global ID; channel*n+block,1x3174,gzip
+matrices,block_matrices.h5,index,/index/block_row,12696,int32,block,0-based,1587,gzip
+matrices,block_matrices.h5,index,/index/channel,3,int32,channel,0=Y; 1=U; 2=V,3,gzip
+matrices,block_matrices.h5,index,/index/grid,2,int32,grid_dimension,"rows,columns",2,gzip
+matrices,block_matrices.h5,index,/index/ll_col,12696,int32,block,0-based,1587,gzip
+matrices,block_matrices.h5,index,/index/ll_row,12696,int32,block,0-based,1587,gzip
+matrices,block_matrices.h5,index,/index/shuffle,12696x16,uint8,"block,coefficient","0-based; C-order gather, reused across YUV and all conditions",3174x4,gzip
+matrices,block_matrices.h5,QF001,/jpeg/QF001/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF001,/jpeg/QF001/preprocess_check/LL,6x3x4x4,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x4x4,gzip
+matrices,block_matrices.h5,QF001,/jpeg/QF001/preprocess_check/bgr,6x3x8x8,uint8,"sample,channel,row,column","0-based; B,G,R",6x3x8x8,gzip
+matrices,block_matrices.h5,QF001,/jpeg/QF001/preprocess_check/block,6,int32,sample,0-based block,6,gzip
+matrices,block_matrices.h5,QF001,/jpeg/QF001/preprocess_check/yuv,6x3x8x8,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x8x8,gzip
+matrices,block_matrices.h5,QF002,/jpeg/QF002/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF003,/jpeg/QF003/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF004,/jpeg/QF004/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF005,/jpeg/QF005/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF006,/jpeg/QF006/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF007,/jpeg/QF007/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF008,/jpeg/QF008/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF009,/jpeg/QF009/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF010,/jpeg/QF010/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF011,/jpeg/QF011/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF012,/jpeg/QF012/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF013,/jpeg/QF013/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF014,/jpeg/QF014/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF015,/jpeg/QF015/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF016,/jpeg/QF016/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF017,/jpeg/QF017/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF018,/jpeg/QF018/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF019,/jpeg/QF019/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF020,/jpeg/QF020/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF021,/jpeg/QF021/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF022,/jpeg/QF022/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF023,/jpeg/QF023/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF024,/jpeg/QF024/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF025,/jpeg/QF025/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF026,/jpeg/QF026/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF027,/jpeg/QF027/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF028,/jpeg/QF028/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF029,/jpeg/QF029/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF030,/jpeg/QF030/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF031,/jpeg/QF031/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF032,/jpeg/QF032/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF033,/jpeg/QF033/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF034,/jpeg/QF034/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF035,/jpeg/QF035/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF036,/jpeg/QF036/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF037,/jpeg/QF037/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF038,/jpeg/QF038/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF039,/jpeg/QF039/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF040,/jpeg/QF040/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF041,/jpeg/QF041/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF042,/jpeg/QF042/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF043,/jpeg/QF043/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF044,/jpeg/QF044/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF045,/jpeg/QF045/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF046,/jpeg/QF046/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF047,/jpeg/QF047/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF048,/jpeg/QF048/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF049,/jpeg/QF049/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF050,/jpeg/QF050/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF050,/jpeg/QF050/preprocess_check/LL,6x3x4x4,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x4x4,gzip
+matrices,block_matrices.h5,QF050,/jpeg/QF050/preprocess_check/bgr,6x3x8x8,uint8,"sample,channel,row,column","0-based; B,G,R",6x3x8x8,gzip
+matrices,block_matrices.h5,QF050,/jpeg/QF050/preprocess_check/block,6,int32,sample,0-based block,6,gzip
+matrices,block_matrices.h5,QF050,/jpeg/QF050/preprocess_check/yuv,6x3x8x8,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x8x8,gzip
+matrices,block_matrices.h5,QF051,/jpeg/QF051/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF052,/jpeg/QF052/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF053,/jpeg/QF053/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF054,/jpeg/QF054/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF055,/jpeg/QF055/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF056,/jpeg/QF056/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF057,/jpeg/QF057/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF058,/jpeg/QF058/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF059,/jpeg/QF059/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF060,/jpeg/QF060/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF061,/jpeg/QF061/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF062,/jpeg/QF062/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF063,/jpeg/QF063/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF064,/jpeg/QF064/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF065,/jpeg/QF065/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF066,/jpeg/QF066/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF067,/jpeg/QF067/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF068,/jpeg/QF068/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF069,/jpeg/QF069/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF070,/jpeg/QF070/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF071,/jpeg/QF071/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF072,/jpeg/QF072/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF073,/jpeg/QF073/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF074,/jpeg/QF074/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF075,/jpeg/QF075/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF076,/jpeg/QF076/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF077,/jpeg/QF077/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF078,/jpeg/QF078/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF079,/jpeg/QF079/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF080,/jpeg/QF080/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF081,/jpeg/QF081/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF082,/jpeg/QF082/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF083,/jpeg/QF083/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF084,/jpeg/QF084/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF085,/jpeg/QF085/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF086,/jpeg/QF086/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF087,/jpeg/QF087/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF088,/jpeg/QF088/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF089,/jpeg/QF089/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF090,/jpeg/QF090/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF091,/jpeg/QF091/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF092,/jpeg/QF092/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF093,/jpeg/QF093/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF094,/jpeg/QF094/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF095,/jpeg/QF095/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF096,/jpeg/QF096/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF097,/jpeg/QF097/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF098,/jpeg/QF098/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF099,/jpeg/QF099/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF100,/jpeg/QF100/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,QF100,/jpeg/QF100/preprocess_check/LL,6x3x4x4,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x4x4,gzip
+matrices,block_matrices.h5,QF100,/jpeg/QF100/preprocess_check/bgr,6x3x8x8,uint8,"sample,channel,row,column","0-based; B,G,R",6x3x8x8,gzip
+matrices,block_matrices.h5,QF100,/jpeg/QF100/preprocess_check/block,6,int32,sample,0-based block,6,gzip
+matrices,block_matrices.h5,QF100,/jpeg/QF100/preprocess_check/yuv,6x3x8x8,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x8x8,gzip
+matrices,block_matrices.h5,layout_sentinel,/layout_sentinel,3x2x4x4,int64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",3x2x4x4,gzip
+matrices,block_matrices.h5,original,/original/A,3x12696x4x4,float64,"channel,block,row,column","0-based; Y,U,V; block row-major; matrix row-major",1x3174x1x1,gzip
+matrices,block_matrices.h5,original,/original/preprocess_check/LL,6x3x4x4,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x4x4,gzip
+matrices,block_matrices.h5,original,/original/preprocess_check/bgr,6x3x8x8,uint8,"sample,channel,row,column","0-based; B,G,R",6x3x8x8,gzip
+matrices,block_matrices.h5,original,/original/preprocess_check/block,6,int32,sample,0-based block,6,gzip
+matrices,block_matrices.h5,original,/original/preprocess_check/yuv,6x3x8x8,float32,"sample,channel,row,column","0-based; Y,U,V",6x3x8x8,gzip
+svd,svd_matlab.h5,QF001,/jpeg/QF001/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF001,/jpeg/QF001/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF001,/jpeg/QF001/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF002,/jpeg/QF002/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF002,/jpeg/QF002/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF002,/jpeg/QF002/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF003,/jpeg/QF003/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF003,/jpeg/QF003/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF003,/jpeg/QF003/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF004,/jpeg/QF004/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF004,/jpeg/QF004/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF004,/jpeg/QF004/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF005,/jpeg/QF005/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF005,/jpeg/QF005/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF005,/jpeg/QF005/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF006,/jpeg/QF006/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF006,/jpeg/QF006/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF006,/jpeg/QF006/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF007,/jpeg/QF007/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF007,/jpeg/QF007/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF007,/jpeg/QF007/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF008,/jpeg/QF008/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF008,/jpeg/QF008/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF008,/jpeg/QF008/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF009,/jpeg/QF009/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF009,/jpeg/QF009/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF009,/jpeg/QF009/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF010,/jpeg/QF010/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF010,/jpeg/QF010/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF010,/jpeg/QF010/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF011,/jpeg/QF011/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF011,/jpeg/QF011/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF011,/jpeg/QF011/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF012,/jpeg/QF012/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF012,/jpeg/QF012/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF012,/jpeg/QF012/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF013,/jpeg/QF013/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF013,/jpeg/QF013/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF013,/jpeg/QF013/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF014,/jpeg/QF014/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF014,/jpeg/QF014/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF014,/jpeg/QF014/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF015,/jpeg/QF015/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF015,/jpeg/QF015/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF015,/jpeg/QF015/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF016,/jpeg/QF016/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF016,/jpeg/QF016/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF016,/jpeg/QF016/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF017,/jpeg/QF017/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF017,/jpeg/QF017/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF017,/jpeg/QF017/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF018,/jpeg/QF018/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF018,/jpeg/QF018/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF018,/jpeg/QF018/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF019,/jpeg/QF019/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF019,/jpeg/QF019/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF019,/jpeg/QF019/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF020,/jpeg/QF020/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF020,/jpeg/QF020/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF020,/jpeg/QF020/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF021,/jpeg/QF021/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF021,/jpeg/QF021/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF021,/jpeg/QF021/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF022,/jpeg/QF022/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF022,/jpeg/QF022/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF022,/jpeg/QF022/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF023,/jpeg/QF023/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF023,/jpeg/QF023/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF023,/jpeg/QF023/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF024,/jpeg/QF024/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF024,/jpeg/QF024/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF024,/jpeg/QF024/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF025,/jpeg/QF025/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF025,/jpeg/QF025/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF025,/jpeg/QF025/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF026,/jpeg/QF026/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF026,/jpeg/QF026/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF026,/jpeg/QF026/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF027,/jpeg/QF027/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF027,/jpeg/QF027/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF027,/jpeg/QF027/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF028,/jpeg/QF028/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF028,/jpeg/QF028/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF028,/jpeg/QF028/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF029,/jpeg/QF029/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF029,/jpeg/QF029/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF029,/jpeg/QF029/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF030,/jpeg/QF030/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF030,/jpeg/QF030/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF030,/jpeg/QF030/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF031,/jpeg/QF031/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF031,/jpeg/QF031/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF031,/jpeg/QF031/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF032,/jpeg/QF032/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF032,/jpeg/QF032/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF032,/jpeg/QF032/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF033,/jpeg/QF033/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF033,/jpeg/QF033/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF033,/jpeg/QF033/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF034,/jpeg/QF034/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF034,/jpeg/QF034/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF034,/jpeg/QF034/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF035,/jpeg/QF035/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF035,/jpeg/QF035/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF035,/jpeg/QF035/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF036,/jpeg/QF036/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF036,/jpeg/QF036/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF036,/jpeg/QF036/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF037,/jpeg/QF037/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF037,/jpeg/QF037/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF037,/jpeg/QF037/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF038,/jpeg/QF038/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF038,/jpeg/QF038/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF038,/jpeg/QF038/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF039,/jpeg/QF039/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF039,/jpeg/QF039/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF039,/jpeg/QF039/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF040,/jpeg/QF040/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF040,/jpeg/QF040/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF040,/jpeg/QF040/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF041,/jpeg/QF041/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF041,/jpeg/QF041/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF041,/jpeg/QF041/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF042,/jpeg/QF042/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF042,/jpeg/QF042/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF042,/jpeg/QF042/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF043,/jpeg/QF043/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF043,/jpeg/QF043/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF043,/jpeg/QF043/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF044,/jpeg/QF044/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF044,/jpeg/QF044/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF044,/jpeg/QF044/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF045,/jpeg/QF045/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF045,/jpeg/QF045/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF045,/jpeg/QF045/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF046,/jpeg/QF046/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF046,/jpeg/QF046/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF046,/jpeg/QF046/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF047,/jpeg/QF047/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF047,/jpeg/QF047/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF047,/jpeg/QF047/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF048,/jpeg/QF048/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF048,/jpeg/QF048/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF048,/jpeg/QF048/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF049,/jpeg/QF049/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF049,/jpeg/QF049/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF049,/jpeg/QF049/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF050,/jpeg/QF050/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF050,/jpeg/QF050/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF050,/jpeg/QF050/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF051,/jpeg/QF051/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF051,/jpeg/QF051/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF051,/jpeg/QF051/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF052,/jpeg/QF052/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF052,/jpeg/QF052/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF052,/jpeg/QF052/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF053,/jpeg/QF053/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF053,/jpeg/QF053/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF053,/jpeg/QF053/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF054,/jpeg/QF054/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF054,/jpeg/QF054/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF054,/jpeg/QF054/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF055,/jpeg/QF055/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF055,/jpeg/QF055/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF055,/jpeg/QF055/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF056,/jpeg/QF056/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF056,/jpeg/QF056/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF056,/jpeg/QF056/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF057,/jpeg/QF057/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF057,/jpeg/QF057/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF057,/jpeg/QF057/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF058,/jpeg/QF058/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF058,/jpeg/QF058/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF058,/jpeg/QF058/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF059,/jpeg/QF059/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF059,/jpeg/QF059/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF059,/jpeg/QF059/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF060,/jpeg/QF060/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF060,/jpeg/QF060/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF060,/jpeg/QF060/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF061,/jpeg/QF061/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF061,/jpeg/QF061/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF061,/jpeg/QF061/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF062,/jpeg/QF062/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF062,/jpeg/QF062/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF062,/jpeg/QF062/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF063,/jpeg/QF063/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF063,/jpeg/QF063/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF063,/jpeg/QF063/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF064,/jpeg/QF064/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF064,/jpeg/QF064/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF064,/jpeg/QF064/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF065,/jpeg/QF065/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF065,/jpeg/QF065/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF065,/jpeg/QF065/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF066,/jpeg/QF066/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF066,/jpeg/QF066/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF066,/jpeg/QF066/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF067,/jpeg/QF067/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF067,/jpeg/QF067/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF067,/jpeg/QF067/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF068,/jpeg/QF068/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF068,/jpeg/QF068/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF068,/jpeg/QF068/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF069,/jpeg/QF069/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF069,/jpeg/QF069/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF069,/jpeg/QF069/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF070,/jpeg/QF070/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF070,/jpeg/QF070/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF070,/jpeg/QF070/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF071,/jpeg/QF071/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF071,/jpeg/QF071/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF071,/jpeg/QF071/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF072,/jpeg/QF072/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF072,/jpeg/QF072/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF072,/jpeg/QF072/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF073,/jpeg/QF073/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF073,/jpeg/QF073/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF073,/jpeg/QF073/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF074,/jpeg/QF074/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF074,/jpeg/QF074/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF074,/jpeg/QF074/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF075,/jpeg/QF075/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF075,/jpeg/QF075/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF075,/jpeg/QF075/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF076,/jpeg/QF076/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF076,/jpeg/QF076/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF076,/jpeg/QF076/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF077,/jpeg/QF077/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF077,/jpeg/QF077/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF077,/jpeg/QF077/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF078,/jpeg/QF078/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF078,/jpeg/QF078/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF078,/jpeg/QF078/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF079,/jpeg/QF079/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF079,/jpeg/QF079/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF079,/jpeg/QF079/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF080,/jpeg/QF080/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF080,/jpeg/QF080/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF080,/jpeg/QF080/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF081,/jpeg/QF081/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF081,/jpeg/QF081/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF081,/jpeg/QF081/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF082,/jpeg/QF082/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF082,/jpeg/QF082/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF082,/jpeg/QF082/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF083,/jpeg/QF083/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF083,/jpeg/QF083/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF083,/jpeg/QF083/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF084,/jpeg/QF084/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF084,/jpeg/QF084/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF084,/jpeg/QF084/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF085,/jpeg/QF085/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF085,/jpeg/QF085/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF085,/jpeg/QF085/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF086,/jpeg/QF086/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF086,/jpeg/QF086/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF086,/jpeg/QF086/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF087,/jpeg/QF087/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF087,/jpeg/QF087/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF087,/jpeg/QF087/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF088,/jpeg/QF088/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF088,/jpeg/QF088/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF088,/jpeg/QF088/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF089,/jpeg/QF089/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF089,/jpeg/QF089/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF089,/jpeg/QF089/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF090,/jpeg/QF090/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF090,/jpeg/QF090/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF090,/jpeg/QF090/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF091,/jpeg/QF091/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF091,/jpeg/QF091/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF091,/jpeg/QF091/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF092,/jpeg/QF092/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF092,/jpeg/QF092/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF092,/jpeg/QF092/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF093,/jpeg/QF093/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF093,/jpeg/QF093/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF093,/jpeg/QF093/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF094,/jpeg/QF094/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF094,/jpeg/QF094/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF094,/jpeg/QF094/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF095,/jpeg/QF095/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF095,/jpeg/QF095/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF095,/jpeg/QF095/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF096,/jpeg/QF096/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF096,/jpeg/QF096/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF096,/jpeg/QF096/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF097,/jpeg/QF097/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF097,/jpeg/QF097/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF097,/jpeg/QF097/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF098,/jpeg/QF098/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF098,/jpeg/QF098/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF098,/jpeg/QF098/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF099,/jpeg/QF099/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF099,/jpeg/QF099/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF099,/jpeg/QF099/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,QF100,/jpeg/QF100/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF100,/jpeg/QF100/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,QF100,/jpeg/QF100/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+svd,svd_matlab.h5,original,/original/U,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,original,/original/V,3x12696x4x4,float64,"channel,block,row,column","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4x4,gzip
+svd,svd_matlab.h5,original,/original/sigma,3x12696x4,float64,"channel,block,singular_index","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x4,gzip
+perturbations,perturbation_matlab.h5,identity,/identity/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,identity,/identity/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF001,/jpeg/QF001/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF001,/jpeg/QF001/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF002,/jpeg/QF002/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF002,/jpeg/QF002/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF003,/jpeg/QF003/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF003,/jpeg/QF003/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF004,/jpeg/QF004/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF004,/jpeg/QF004/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF005,/jpeg/QF005/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF005,/jpeg/QF005/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF006,/jpeg/QF006/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF006,/jpeg/QF006/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF007,/jpeg/QF007/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF007,/jpeg/QF007/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF008,/jpeg/QF008/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF008,/jpeg/QF008/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF009,/jpeg/QF009/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF009,/jpeg/QF009/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF010,/jpeg/QF010/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF010,/jpeg/QF010/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF011,/jpeg/QF011/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF011,/jpeg/QF011/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF012,/jpeg/QF012/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF012,/jpeg/QF012/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF013,/jpeg/QF013/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF013,/jpeg/QF013/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF014,/jpeg/QF014/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF014,/jpeg/QF014/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF015,/jpeg/QF015/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF015,/jpeg/QF015/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF016,/jpeg/QF016/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF016,/jpeg/QF016/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF017,/jpeg/QF017/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF017,/jpeg/QF017/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF018,/jpeg/QF018/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF018,/jpeg/QF018/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF019,/jpeg/QF019/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF019,/jpeg/QF019/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF020,/jpeg/QF020/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF020,/jpeg/QF020/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF021,/jpeg/QF021/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF021,/jpeg/QF021/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF022,/jpeg/QF022/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF022,/jpeg/QF022/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF023,/jpeg/QF023/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF023,/jpeg/QF023/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF024,/jpeg/QF024/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF024,/jpeg/QF024/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF025,/jpeg/QF025/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF025,/jpeg/QF025/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF026,/jpeg/QF026/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF026,/jpeg/QF026/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF027,/jpeg/QF027/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF027,/jpeg/QF027/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF028,/jpeg/QF028/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF028,/jpeg/QF028/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF029,/jpeg/QF029/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF029,/jpeg/QF029/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF030,/jpeg/QF030/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF030,/jpeg/QF030/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF031,/jpeg/QF031/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF031,/jpeg/QF031/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF032,/jpeg/QF032/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF032,/jpeg/QF032/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF033,/jpeg/QF033/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF033,/jpeg/QF033/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF034,/jpeg/QF034/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF034,/jpeg/QF034/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF035,/jpeg/QF035/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF035,/jpeg/QF035/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF036,/jpeg/QF036/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF036,/jpeg/QF036/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF037,/jpeg/QF037/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF037,/jpeg/QF037/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF038,/jpeg/QF038/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF038,/jpeg/QF038/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF039,/jpeg/QF039/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF039,/jpeg/QF039/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF040,/jpeg/QF040/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF040,/jpeg/QF040/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF041,/jpeg/QF041/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF041,/jpeg/QF041/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF042,/jpeg/QF042/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF042,/jpeg/QF042/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF043,/jpeg/QF043/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF043,/jpeg/QF043/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF044,/jpeg/QF044/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF044,/jpeg/QF044/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF045,/jpeg/QF045/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF045,/jpeg/QF045/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF046,/jpeg/QF046/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF046,/jpeg/QF046/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF047,/jpeg/QF047/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF047,/jpeg/QF047/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF048,/jpeg/QF048/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF048,/jpeg/QF048/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF049,/jpeg/QF049/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF049,/jpeg/QF049/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF050,/jpeg/QF050/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF050,/jpeg/QF050/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF051,/jpeg/QF051/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF051,/jpeg/QF051/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF052,/jpeg/QF052/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF052,/jpeg/QF052/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF053,/jpeg/QF053/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF053,/jpeg/QF053/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF054,/jpeg/QF054/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF054,/jpeg/QF054/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF055,/jpeg/QF055/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF055,/jpeg/QF055/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF056,/jpeg/QF056/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF056,/jpeg/QF056/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF057,/jpeg/QF057/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF057,/jpeg/QF057/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF058,/jpeg/QF058/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF058,/jpeg/QF058/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF059,/jpeg/QF059/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF059,/jpeg/QF059/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF060,/jpeg/QF060/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF060,/jpeg/QF060/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF061,/jpeg/QF061/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF061,/jpeg/QF061/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF062,/jpeg/QF062/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF062,/jpeg/QF062/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF063,/jpeg/QF063/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF063,/jpeg/QF063/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF064,/jpeg/QF064/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF064,/jpeg/QF064/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF065,/jpeg/QF065/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF065,/jpeg/QF065/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF066,/jpeg/QF066/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF066,/jpeg/QF066/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF067,/jpeg/QF067/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF067,/jpeg/QF067/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF068,/jpeg/QF068/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF068,/jpeg/QF068/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF069,/jpeg/QF069/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF069,/jpeg/QF069/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF070,/jpeg/QF070/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF070,/jpeg/QF070/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF071,/jpeg/QF071/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF071,/jpeg/QF071/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF072,/jpeg/QF072/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF072,/jpeg/QF072/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF073,/jpeg/QF073/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF073,/jpeg/QF073/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF074,/jpeg/QF074/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF074,/jpeg/QF074/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF075,/jpeg/QF075/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF075,/jpeg/QF075/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF076,/jpeg/QF076/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF076,/jpeg/QF076/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF077,/jpeg/QF077/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF077,/jpeg/QF077/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF078,/jpeg/QF078/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF078,/jpeg/QF078/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF079,/jpeg/QF079/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF079,/jpeg/QF079/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF080,/jpeg/QF080/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF080,/jpeg/QF080/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF081,/jpeg/QF081/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF081,/jpeg/QF081/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF082,/jpeg/QF082/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF082,/jpeg/QF082/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF083,/jpeg/QF083/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF083,/jpeg/QF083/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF084,/jpeg/QF084/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF084,/jpeg/QF084/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF085,/jpeg/QF085/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF085,/jpeg/QF085/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF086,/jpeg/QF086/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF086,/jpeg/QF086/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF087,/jpeg/QF087/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF087,/jpeg/QF087/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF088,/jpeg/QF088/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF088,/jpeg/QF088/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF089,/jpeg/QF089/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF089,/jpeg/QF089/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF090,/jpeg/QF090/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF090,/jpeg/QF090/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF091,/jpeg/QF091/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF091,/jpeg/QF091/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF092,/jpeg/QF092/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF092,/jpeg/QF092/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF093,/jpeg/QF093/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF093,/jpeg/QF093/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF094,/jpeg/QF094/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF094,/jpeg/QF094/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF095,/jpeg/QF095/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF095,/jpeg/QF095/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF096,/jpeg/QF096/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF096,/jpeg/QF096/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF097,/jpeg/QF097/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF097,/jpeg/QF097/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF098,/jpeg/QF098/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF098,/jpeg/QF098/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF099,/jpeg/QF099/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF099,/jpeg/QF099/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip
+perturbations,perturbation_matlab.h5,QF100,/jpeg/QF100/diagnostics,3x12696x28,uint8,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x28,gzip
+perturbations,perturbation_matlab.h5,QF100,/jpeg/QF100/metrics,3x12696x57,float64,"channel,block,field","HDF5 0-based; Y,U,V; block row-major; SVD j=1..4 in math",1x1024x57,gzip

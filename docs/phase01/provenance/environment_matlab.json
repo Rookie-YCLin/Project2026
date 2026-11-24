@@ -1,0 +1,41 @@
+{
+  "version": "26.2.0.3433840 (R2026b) Update 1",
+  "release": "2026b",
+  "products": [
+    {
+      "Name": "MATLAB",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    },
+    {
+      "Name": "MATLAB Copilot",
+      "Version": "26.2",
+      "Release": "(R2026b)",
+      "Date": "22-May-2026"
+    }
+  ],
+  "timestamp_utc": "2026-11-24 11:47:29 +0000",
+  "computer": "PCWIN64",
+  "n_per_channel": 12696,
+  "grid": [
+    138,
+    92
+  ],
+  "available_plot_font": true,
+  "original_svd_residual": 1.107692361531555E-14,
+  "original_orthogonality": 3.4962111164855176E-15,
+  "preprocess_relative_max": [
+    7.5425355911173954E-8,
+    1.3363717002629778E-7,
+    7.2131032049852663E-8,
+    6.2070815373172421E-7
+  ],
+  "synth": {
+    "passed": true,
+    "matrix_count": 6,
+    "max_reconstruction": 3.7934876491773933E-16,
+    "max_orthogonality": 1.3299553405776038E-15,
+    "sign_check_max_degree": 1.4787793334710982E-6
+  }
+}

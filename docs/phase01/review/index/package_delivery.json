@@ -1,0 +1,31 @@
+{
+  "run_id": "phase01_20261124_194030_975258",
+  "source_commit": "d17004331acce952480c4f74415a80c74423b440",
+  "review_directory": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\Phase01_Independent_Review_20261124_203201_420606",
+  "zip_members": 251,
+  "csv_parts": 20,
+  "max_part_bytes": 444862,
+  "source_full_hdf5_hashes_verified_after_packaging": true,
+  "zip_entries_verified_by_sha256": true,
+  "qf": [
+    1,
+    10,
+    50,
+    79,
+    80,
+    81,
+    90,
+    100
+  ],
+  "zip": {
+    "path": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\Phase01_Independent_Review_20261124_203201_420606\\Phase01_Review_Package.zip",
+    "bytes": 20442496,
+    "sha256": "82b1f2231d2d91816f86f3fea45788abb83b5af9ff3ca58d5a1d7bf129ceb766"
+  },
+  "hdf5": {
+    "path": "C:\\Users\\macuz\\OneDrive\\文件\\Project1124\\Phase01_Independent_Review_20261124_203201_420606\\Phase01_Review_Subset.h5",
+    "bytes": 165060361,
+    "sha256": "6a98cda55639a6acbe9380e868805d50f43f63cbab352b937d5a7901aa87985f"
+  },
+  "selected_jpeg_bytes": 1300917
+}

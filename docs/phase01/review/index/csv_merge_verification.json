@@ -1,0 +1,29 @@
+[
+  {
+    "original_file": "statistics_matlab.csv",
+    "rows": 23028,
+    "parts": 11,
+    "original_sha256": "470737d718d9c4988c6ba696ad33a38b98c31c9551e85ff79b5ce6d54e4daa2f",
+    "condition_rows": 228,
+    "max_part_bytes": 444862,
+    "byte_identical_to_original": true
+  },
+  {
+    "original_file": "correlations_matlab.csv",
+    "rows": 16160,
+    "parts": 4,
+    "original_sha256": "8248f30095ba39992203d38232fdc8f7b634279c506b892bea5c3eaa824e8a80",
+    "condition_rows": 160,
+    "max_part_bytes": 441556,
+    "byte_identical_to_original": true
+  },
+  {
+    "original_file": "gap_bins_matlab.csv",
+    "rows": 22624,
+    "parts": 5,
+    "original_sha256": "9164c0c9a3907ae08c934760db0f67d5a8b5a73a40988504863c7f809ff4dde1",
+    "condition_rows": 224,
+    "max_part_bytes": 443885,
+    "byte_identical_to_original": true
+  }
+]
