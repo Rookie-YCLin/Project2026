@@ -1,0 +1,24 @@
+{
+  "formal_datasets_including_hard_link_paths": 633,
+  "reviewed_hdf5_dataset_paths": 81,
+  "formal_condition_channel_groups": 306,
+  "blocks_per_channel": 12696,
+  "block_grid": [
+    138,
+    92
+  ],
+  "qf": [
+    1,
+    10,
+    50,
+    79,
+    80,
+    81,
+    90,
+    100
+  ],
+  "review_jpeg_block_pairs": 304704,
+  "formal_hdf5_total_bytes": 1847722286,
+  "review_hdf5_bytes": 165060361,
+  "review_hdf5_sha256": "6a98cda55639a6acbe9380e868805d50f43f63cbab352b937d5a7901aa87985f"
+}
