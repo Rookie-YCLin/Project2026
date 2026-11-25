@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "case_count": 1625,
+  "categories": {
+    "platelet_near_rank_stress": 456,
+    "platelet": 160,
+    "full_rank": 112,
+    "positive_repeat": 112,
+    "near_repeat": 112,
+    "rank_0": 112,
+    "rank_1": 112,
+    "rank_2": 112,
+    "rank_3": 112,
+    "parallel": 112,
+    "perpendicular": 112,
+    "O4_duality_gap": 1
+  },
+  "independent_objective_errors": {
+    "D_S": 5.322612698389942e-15,
+    "D_G": 4.603686397265204e-15,
+    "D_R": 4.6655580126672346e-15,
+    "D_P": 5.0115218087675684e-15,
+    "F1": 5.3289867662447046e-15,
+    "F2": 4.36307650946997e-12,
+    "F3": 5.884182030513301e-15,
+    "F4": 3.5163154641011897e-12
+  },
+  "phase01_fixtures": 616,
+  "example": {
+    "ordinary_dual": 22,
+    "det_positive_primal": 21.5,
+    "det_positive_dual": 21.500000000000448,
+    "lambda_sample": -17.000000000000085,
+    "squared_loss": 17.000000000000004,
+    "dual_gap": 0.5
+  },
+  "limits": {
+    "objective_agreement": 1e-08,
+    "angle_rad": 1e-08,
+    "orthogonality": 1e-10
+  }
+}
