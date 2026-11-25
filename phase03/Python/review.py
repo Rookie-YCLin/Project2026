@@ -81,12 +81,13 @@ def audit(run):
     data=run/DATA
     stats=run/STATS
     by_method=[]
+    by_qf=[]
     for label in LABELS:
         folder=data/label
         method=freeze["methods"][label]
         png=folder/"unattacked.png"
         assert phase01.sha(png)==method["png_sha256"]
-        result=pd.read_csv(stats/f"{label}_ber_psnr.csv")
+        result=pd.read_csv(stats/f"{label}_ber_psnr.csv",float_precision="round_trip")
         assert len(result)==101 and result.qf.dropna().tolist()==list(range(1,101))
         assert result.block_count.eq(38088).all() and result.bit_count.eq(512).all()
         assert result.classification.eq(method["classification"]).all()
@@ -106,6 +107,9 @@ def audit(run):
                 assert phase01.sha(jpeg)==group.attrs["jpeg_sha256"]
                 assert json.loads(group.attrs["jpeg_metadata"])["sampling_factors"] == [
                     [1,1,1,0],[2,1,1,1],[3,1,1,1]]
+                by_qf.append(dict(method=label,qf=quality,hdf5=(folder/"attacks.h5").relative_to(run).as_posix(),
+                    dataset=group.name,matlab_hdf5=(folder/"matlab_checks"/f"part{(quality-1)//10+1:02d}.h5").relative_to(run).as_posix(),
+                    jpeg=jpeg.relative_to(run).as_posix(),jpeg_bytes=jpeg.stat().st_size,jpeg_sha256=group.attrs["jpeg_sha256"]))
         x=result.iloc[1:]
         by_method.append(dict(method=label,classification=method["classification"],q_rad=method["q_rad"],
             q_deg=method["q_degrees"],png_psnr=method["psnr"],png_final_errors=method["errors"],
@@ -113,19 +117,23 @@ def audit(run):
             mean_low20_ber=float(x.loc[x.qf<=20,"ber"].mean()),zero_qf=int(x.final_errors.eq(0).sum()),
             qf_worsen_with_higher_quality=int((x.ber.diff()>0).sum()),
             cross_platform_bit_disagreements=int(checks.bit_disagreement.sum()),
-            unexplained_disagreements=int(checks.unexplained_bit_disagreement.sum())))
+            unexplained_disagreements=int(checks.unexplained_bit_disagreement.sum()),
+            seconds_embed_and_write_png=method["seconds_embed_png"],seconds_png_blind=method["seconds_blind"],
+            seconds_jpeg_blind_total=float(x.seconds_blind.sum()),
+            seconds_jpeg_encode_decode_total=float(x.seconds_jpeg_encode_decode.sum())))
     for j in range(1,25):
         for ext in ("fig","png","svg","pdf","csv"):
             f=run/FIGURES/f"Fig{j:02d}.{ext}"
             assert f.stat().st_size>100
-    return pd.DataFrame(by_method),gates
+    return pd.DataFrame(by_method),gates,pd.DataFrame(by_qf)
 
 
-def overview(run,phase02):
-    methods,gate=audit(run)
+def overview(run,phase02,phase01_root=None):
+    methods,gate,index=audit(run)
     report=run/REPORT
     report.mkdir(exist_ok=True)
     methods.to_csv(report/"method_summary.csv",index=False)
+    index.to_csv(report/"qf_data_index.csv",index=False)
     f=methods[methods.classification=="formal"].sort_values("mean_ber")
     e=methods[methods.classification=="exploratory"]
     ref=pd.read_csv(phase02/"07_統計分析"/"all_methods_ber_psnr.csv")
@@ -133,9 +141,20 @@ def overview(run,phase02):
     math_csv=pd.read_csv(run/GATE/"stress_gate"/"matlab_cases.csv")
     matrix=pd.concat([pd.read_csv(run/STATS/f"{m}_matrix_matlab.csv") for m in LABELS],ignore_index=True)
     diag=matrix[(matrix.scope=="All")&(matrix.comparison=="embedding")]
+    png_matrix=matrix[(matrix.scope=="All")&(matrix.qf==0)&(matrix.metric=="D_F")]
+    pvals=png_matrix.pivot(index="method",columns="comparison",values="mean")
+    pvals.to_csv(report/"unattacked_frobenius_by_transition.csv")
+    thresholds=diag[diag.metric.isin(["embed_success","reselected","B_angle_target_error_success","certificate_gap"])]
+    thresholds.pivot(index="method",columns="metric",values="mean").to_csv(report/"embedding_diagnostics.csv")
+    relation=pd.concat([pd.read_csv(run/STATS/f"{m}_relation_matlab.csv") for m in LABELS],ignore_index=True)
+    sweep=relation[(relation.scope=="All")&(relation.rank_class==0)&(relation.qf>0)]
+    rho=sweep.groupby("method").pearson_gap_angle.agg(["min","median","max"])
+    rho.to_csv(report/"gap_angle_correlation_by_method.csv")
+    rank=relation[(relation.scope=="All")&(relation.rank_class>0)&(relation.qf.isin([0,10,50,90]))].copy()
+    rank.to_csv(report/"rank_and_recovery_selected_conditions.csv",index=False)
     paired=math_csv[math_csv.category.str.startswith("platelet")]
     matched=paired[paired.D_G.notna()]
-    ran=paired.D_R>0
+    ran=paired.D_R>1e-12
     reduction=(1-paired.loc[ran,"D_P"]/paired.loc[ran,"D_R"]).median()
     f_comp="沒有符合正式校準門檻的第三階段組別。"
     if len(f):
@@ -152,7 +171,7 @@ def overview(run,phase02):
         f"P 的正規化平方失真在兩套實作間最大差為 {gate['independent_objective_errors']['D_P']:.3g}。"
         "指定反例的未分支對偶上界為 22。行列式正分支的可行及對偶目標皆為 21.5，對應平方 Frobenius 失真 17。","",
         f"實際影像數學案例共 {len(paired)} 個相同目標角度的配對，其中 {len(matched)} 個具有可行 G 平面。"
-        f"在 R 平方失真為正的配對，P 相對 R 的失真改善中位數為 {reduction:.3%}。"
+        f"在 R 正規化平方失真大於 10⁻¹² 的 {ran.sum()} 個配對，P 相對 R 的失真改善中位數為 {reduction:.3%}。"
         "P 保持因子正交與奇異值，重根子空間內用重新 SVD 找到的個別方向仍受選基影響。"
         "S 的單欄操作之後會重新分解 B。","",
         "## 影像與校準","",
@@ -163,11 +182,39 @@ def overview(run,phase02):
     for r in methods.itertuples():
         lines.append(f"| {r.method} | {'正式' if r.classification=='formal' else '探索'} | "
                      f"{r.q_deg:.6g} | {r.png_psnr:.6f} | {r.png_final_errors} | {r.mean_ber:.4%} | {r.zero_qf} |")
+    lines+=["","## 自然擾動與可用性",""]
+    if phase01_root is not None:
+        natural=pd.read_csv(phase01_root/"05_統計分析"/"component_rankings_for_report.csv")
+        natural=natural[(natural.scope=="All")&natural.family.isin(["theta_u","theta_v"])].copy()
+        natural["vector"]=natural.family.str[-1].str.upper()+natural.j.astype(str)
+        natural=natural[["vector","mean_across_qf"]].sort_values("mean_across_qf")
+        natural=natural.rename(columns={"mean_across_qf":"phase01_mean_angle_deg"})
+        formal=f.assign(vector=f.method.str[1:]).groupby("vector").mean_ber.min()
+        angles=natural.merge(formal.rename("best_phase03_formal_mean_ber"),how="left",on="vector")
+        angles.to_csv(report/"phase01_orientation_comparison.csv",index=False)
+        v=angles.iloc[0]
+        lines.append(f"第一階段自然角度擾動最小的成分為 {v.vector}，全 QF 合併通道平均 {v.phase01_mean_angle_deg:.4f} 度。"
+                     f"第三階段有正式組可供比較的方向共有 {formal.size} 種。"
+                     "逐方向資料表同列第一階段自然擾動與第三階段對應正式組的最低平均 BER。")
+        lines.append("")
+    error=thresholds[thresholds.metric=="B_angle_target_error_success"].copy()
+    error["family"]=error.method.str[0]
+    by_family=error.groupby("family")["mean"].mean()
+    lines.append("理論 B 重新 SVD 後的目標方向絕對誤差，先對已嵌入區塊平均，再對各家族八種方向平均。"
+                 +"、".join(f"{k} 為 {x:.4g} rad" for k,x in by_family.items())+"。")
+    if len(f)>0:
+        chosen=f.iloc[0]
+        vals=pvals.loc[chosen.method]
+        lines.append(f"正式組平均 BER 最低的 {chosen.method} 在 A→B、B→B₀、A→B₀ 的平均平方 Frobenius 失真依序為 "
+                     f"{vals.A_to_B:.6g}、{vals.B_to_B0:.6g}、{vals.A_to_B0:.6g}。"
+                     "三階段量值可用來定位重建前後的改變。兩段平方量與總平方量還相差誤差交叉項。")
     lines+=["","## 矩陣擾動與判決","",
             f"全方法中有 {(methods.qf_worsen_with_higher_quality>0).sum()} 組在某些相鄰 QF 提高時出現最終 BER 上升。"
             "這些變動保留在原始曲線。整體平均 BER 以 100 個離散 QF 同權計算。","",
             "PNG 與各 QF 的區塊級方向、間距、奇異值、位元與矩陣失真分別保存在 HDF5。"
-            "關係表保留 Y、U、V 與合併通道的逐條件 Pearson 相關及光譜分類。"
+            f"關係表保留 Y、U、V 與合併通道的逐條件 Pearson 相關及光譜分類。"
+            f"各方法 100 個 QF 的合併通道 Pearson 相關中位數介於 {rho['median'].min():.4f} 和 {rho['median'].max():.4f}。"
+            "秩類別的分母、區塊 BER 與方向偏移均在同一表保留，零筆類別的統計以缺值標示。","",
             f"Python 與 MATLAB 逐區塊判決相差 {methods.cross_platform_bit_disagreements.sum():,} 次，"
             f"其中 {methods.unexplained_disagreements.sum():,} 次未由精確重根分類或數值近界解釋。"
             "正式盲式 BER 以研究設定所指定的 Python 提取流程為準。","",
@@ -201,6 +248,11 @@ def package(run,output):
         for f in (run/rel).iterdir():
             if f.is_file() and f.suffix in (".json",".sha256",".md",".log") and f.stat().st_size<500000:
                 shutil.copy2(f,target/f.name)
+    for label in LABELS:
+        target=output/CALIB/label
+        target.mkdir(exist_ok=True)
+        for name in ("candidates.csv","selection.json"):
+            shutil.copy2(run/CALIB/label/name,target/name)
     json_file(output/"SPLIT_INDEX.json",items)
     raw=[p for p in run.rglob("*") if p.is_file() and PUBLISH not in p.relative_to(run).parts]
     records=file_index(raw,run)
@@ -217,8 +269,9 @@ if __name__=="__main__":
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("run",type=Path)
     p.add_argument("phase02",type=Path)
+    p.add_argument("--phase01",type=Path)
     p.add_argument("--publish-to",type=Path)
     args=p.parse_args()
-    overview(args.run,args.phase02)
+    overview(args.run,args.phase02,args.phase01)
     if args.publish_to:
         package(args.run,args.publish_to)

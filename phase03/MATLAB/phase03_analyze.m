@@ -65,18 +65,26 @@ for block=0:10
             preservation=max(abs(FA.s-FB.s)./max(1,FA.s(:,1)),[],'all');
             assert(preservation<=1e-10);
         end
+        fit=abs(phiB-target);
+        fitEmbedded=fit; fitEmbedded(~valid)=NaN;
         diagnostics=[phiA phiB phi0 gA gB g0 classA classB class0 turn ideal double(valid) ...
-            double(centers>=0 & centers~=unbounded) abs(phiB-target) double(~valid)];
+            double(centers>=0 & centers~=unbounded) fit fitEmbedded double(~valid)];
         names=["phi_A","phi_B","phi_B0","gap_A","gap_B","gap_B0","class_A","class_B","class_B0", ...
-            "rotation","theory_loss","embed_success","reselected","B_angle_target_error","embed_failure"];
+            "rotation","theory_loss","embed_success","reselected","B_angle_target_error", ...
+            "B_angle_target_error_success","embed_failure"];
         if startsWith(method,"G")
             diagnostics(:,end+1)=double(unbounded<0 & ~valid)+2*double(unbounded>=0 & ~valid);
             names(end+1)="givens_failure_code";
+            diagnostics(:,end+1)=vec(embed,"/geometry/feasible_planes");
+            names(end+1)="givens_feasible_planes";
         end
         for key=["orthogonality","primal","dual","scaled_lambda","svd_calls","solve_seconds_per_block_batch_average"]
             if startsWith(method,"P")
                 diagnostics(:,end+1)=vec(embed,"/geometry/"+key); %#ok<AGROW>
                 names(end+1)=key; %#ok<AGROW>
+            elseif key=="orthogonality"
+                diagnostics(:,end+1)=vec(fullfile(base,"geometry_audit.h5"),"/orthogonality");
+                names(end+1)=key;
             end
         end
         if startsWith(method,"P")
@@ -89,6 +97,7 @@ for block=0:10
         F=[F;describe(method,classification,0,"embedding",diagnostics,names,n)];
         T=checks(method,classification,0,F0,violation,sError,mismatch,unexplained,e);
         rows(1,:)={F,Q,T,relation(method,classification,0,gA,D,df,X(:,end,3),class0,n)};
+        count=2;
     else
         if ~isfile(attacks), return; end
         for quality=(block-1)*10+(1:10)
@@ -114,14 +123,15 @@ for block=0:10
             count=count+1;
         end
     end
-    rows=rows(1:count,:);
+    rows=rows(1:count-1,:);
     for k=1:4
         names=["matrix","decision","checks","relation"];
         path=fullfile(fReady,piece+"_"+names(k)+".csv");
         writetable(vertcat(rows{:,k}),path);
     end
     movefile(partial,final,'f');
-    writetable(table(count),marker);
+    completed=count-1;
+    writetable(table(completed),marker);
     fprintf('%s MATLAB %d/100\n',method,block*10);
 end
 for key=["matrix","decision","checks","relation"]

@@ -13,8 +13,8 @@ import h5py
 import numpy as np
 from PIL import features
 
-from image_experiment import (CALIB, DATA, LABELS, P2_CONFIG, STATS, PreparedImage,
-                              blind, gate, phase01, psnr, put, rank_info, upstream_module)
+from image_experiment import (CALIB, DATA, EYE, LABELS, P2_CONFIG, REF, STATS, PreparedImage,
+                              blind, gate, geometry, phase01, psnr, put, rank_info, upstream_module)
 
 
 def json_file(path,value):
@@ -51,6 +51,46 @@ def save_common(c,source):
     c.with_suffix(".pending").replace(c)
 
 
+def save_sgr_geometry(run,common):
+    """重建已保存名義旋轉的正交性，並由對應 B 核對。"""
+    with h5py.File(common,"r") as f:
+        U=f["/original/U"][:]
+        s=f["/original/sigma"][:]
+        V=f["/original/V"][:]
+    shape=s.shape[:2]
+    A=(U*s[...,None,:])@V.swapaxes(-1,-2)
+    norm=np.maximum(np.linalg.norm(A,axis=(-2,-1)),1)
+    weights=np.divide(s,s[...,:1],out=np.zeros_like(s),where=s[...,:1]>0).reshape(-1,4)**2
+    for label in LABELS:
+        if label.startswith("P"):
+            continue
+        base=run/DATA/label
+        target=base/"geometry_audit.h5"
+        if target.is_file():
+            continue
+        with h5py.File(base/"embedding.h5","r") as f:
+            valid=f["/geometry/embed_success"][:].ravel()
+            phi=f["/geometry/target_phi"][:].ravel()
+            B=f["/B/matrices"][:]
+        basis,other=(U,V) if label[1]=="U" else (V,U)
+        c=np.einsum("ijk,j->ik",basis.reshape(-1,4,4),REF)
+        c/=np.linalg.norm(c,axis=1)[:,None]
+        transform=np.broadcast_to(EYE,(len(c),4,4)).copy()
+        nominal,_=geometry(weights[valid],c[valid],int(label[2])-1,phi[valid],label[0])
+        transform[valid]=nominal
+        T=transform.reshape(*shape,4,4)
+        predicted=(basis@T*s[...,None,:])@other.swapaxes(-1,-2)
+        if label[1]=="V":
+            predicted=predicted.swapaxes(-1,-2)
+        error=np.linalg.norm(B-predicted,axis=(-2,-1))/norm
+        assert float(error.max())<=1e-10,(label,float(error.max()))
+        residual=np.linalg.norm(T.swapaxes(-1,-2)@T-EYE,axis=(-2,-1))
+        with h5py.File(target.with_suffix(".pending"),"w") as f:
+            put(f,"/orthogonality",residual)
+            f.attrs["max_scaled_B_reconstruction_error"]=float(error.max())
+        target.with_suffix(".pending").replace(target)
+
+
 def freeze(run,source):
     gate(run)
     gate_pin=phase01.sha(run/"01_數學驗證"/"gate.json")
@@ -64,13 +104,22 @@ def freeze(run,source):
     for label in LABELS:
         status=run/CALIB/label/"selection.json"
         d=json.loads(status.read_text(encoding="utf-8"))
+        book=status.with_name("candidates.csv")
+        with book.open(encoding="utf-8",newline="") as stream:
+            rows=list(csv.DictReader(stream))
+        assert len(rows)==d["tested_candidates"] and len(set(r["q_rad"] for r in rows))==len(rows)
+        none=[r for r in rows if int(r["errors"])==0]
+        successful=[r for r in none if 39.9<=float(r["psnr"])<=40.1]
+        best=min(successful or none or rows,key=lambda r:(abs(float(r["psnr"])-40),float(r["q_rad"])))
+        assert float(best["q_rad"])==d["q_rad"] and float(best["psnr"])==d["psnr"]
+        assert int(best["errors"])==d["errors"] and best["png_sha256"]==d["png_sha256"]
         png=run/DATA/label/"unattacked.png"
         assert d["done"] and d["label"]==label and d["math_gate_sha256"]==gate_pin
         assert isinstance(d["q_rad"],float) and 0<d["q_rad"]<=np.pi/2
         assert phase01.sha(png)==d["png_sha256"]
         formally_calibrated=d["errors"]==0 and 39.9<=d["psnr"]<=40.1
         assert (d["classification"]=="formal")==formally_calibrated
-        methods[label]=d
+        methods[label]={**d,"candidates_sha256":phase01.sha(book)}
     result=dict(
         methods=methods,phase02_commit="ecce4da07c7ba010a8bfe247c7e56273ddffc4cc",
         calibration=dict(calibration_uses_unattacked_only=True,log_grid_points=13,
@@ -84,7 +133,9 @@ def freeze(run,source):
     else:
         json_file(config,result)
     (run/CALIB/"frozen.sha256").write_text(phase01.sha(config)+"  frozen.json\n",encoding="ascii")
-    save_common(run/DATA/"common.h5",source)
+    common=run/DATA/"common.h5"
+    save_common(common,source)
+    save_sgr_geometry(run,common)
     if not (run/"02_研究規格"/"environment.json").is_file():
         batch=run/"01_數學驗證"/"batch_gate.json"
         assert json.loads(batch.read_text(encoding="utf-8"))["passed"]
@@ -117,7 +168,7 @@ def process_one(task):
         expected=common["/original/expected"][:]
         payload=common["/index/plaintext"][:]
 
-    def record(quality,received,bits,blocks,seconds):
+    def record(quality,received,bits,blocks,seconds,encoder_seconds=""):
         wrong=blocks!=expected
         by_channel=wrong.sum(axis=1)
         errors=int(np.count_nonzero(bits!=payload))
@@ -127,7 +178,8 @@ def process_one(task):
                     final_errors=errors,bit_count=len(payload),ber=errors/len(payload),
                     block_errors_y=int(by_channel[0]),block_errors_u=int(by_channel[1]),
                     block_errors_v=int(by_channel[2]),block_count=int(wrong.size),
-                    block_errors=int(wrong.sum()),block_ber=float(wrong.mean()),seconds_blind=seconds)
+                    block_errors=int(wrong.sum()),block_ber=float(wrong.mean()),seconds_blind=seconds,
+                    seconds_jpeg_encode_decode=encoder_seconds)
 
     with h5py.File(base/"embedding.h5","r") as h:
         rows=[record(None,clean,h["/B0/final_bits"][:],h["/B0/block_bits"][:],
@@ -152,7 +204,9 @@ def process_one(task):
                     metadata.append(json.loads(group.attrs["jpeg_metadata"]))
                     continue
                 del h[name]
+            t=time.perf_counter()
             img,meta=phase01.encode(rgb,quality,jpeg)
+            encoder_seconds=time.perf_counter()-t
             t=time.perf_counter()
             bits,block,votes,phi,idx,C,(U,s,V)=blind(img,label,q,upstream)
             elapsed=time.perf_counter()-t
@@ -162,7 +216,7 @@ def process_one(task):
                             final_bits=bits,block_error=block!=expected,votes=votes,phi=phi,
                             nearest_index=idx,nearest_gap=gap,rank_class=tag).items():
                 put(group,k,x)
-            row=record(quality,img,bits,block,elapsed)
+            row=record(quality,img,bits,block,elapsed,encoder_seconds)
             group.attrs.update(qf=quality,jpeg_sha256=meta["sha256"],
                                row_json=json.dumps(row,allow_nan=False),
                                jpeg_metadata=json.dumps(meta,allow_nan=False))

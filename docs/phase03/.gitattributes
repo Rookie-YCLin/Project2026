@@ -1,2 +1,2 @@
-validation/** -text
-review/** -text
+validation/** -text whitespace=cr-at-eol
+review/** -text whitespace=cr-at-eol

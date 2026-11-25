@@ -98,7 +98,7 @@ for id=ids
                 plot(ax,1:height(x),100*x.vs_G,'o',1:height(x),100*x.vs_R,'+','MarkerSize',3);
                 xlabel(ax,'Paired platelet test'); ylabel(ax,'Loss reduction (%)');
             case {9,10,11,13}
-                keys=["certificate_gap","solve_seconds_per_block_batch_average","orthogonality","B_angle_target_error"];
+                keys=["certificate_gap","solve_seconds_per_block_batch_average","orthogonality","B_angle_target_error_success"];
                 idx=find([9,10,11,13]==id);
                 y=["Scaled trace gap","Time per block (s)","Orthogonality residual","Mean direction error (rad)"];
                 x=tE(tE.metric==keys(idx),:);

@@ -28,12 +28,14 @@ python phase03/Python/check_batch.py $stress
 python phase03/Python/image_experiment.py $run $source $upstream --workers 6
 python phase03/Python/jpeg_experiment.py $run $source $upstream --workers 5
 python phase03/Python/matlab_runner.py $run $matlab --phase02 $phase02 --workers 2
-python phase03/Python/review.py $run $phase02 --publish-to $review
+python phase03/Python/review.py $run $phase02 --phase01 $phase01 --publish-to $review
 ```
 
 校準從 13 個對數步長開始，每輪按已有未攻擊結果最接近門檻的位置取左右相鄰步長，將區間等分為八份並補測中間點，共兩輪。重複步長只計一次。若未達正式門檻，先在零 BER 候選選最接近 40 dB 的步長。沒有零 BER 候選時，從全候選取 PSNR 最接近 40 dB 者。步長平手取較小者。每個正式及探索候選的 PNG 都經存檔與重新讀取。
 
 首輪與擴充數學驗證通過、32 組 PNG 的雜湊都與所選候選一致後，JPEG 程式才寫入凍結組態。所有 JPEG 從同組 PNG 獨立產生，採同一 Pillow 設定與 1:1 色度取樣比例。每個品質值保存量化表及雜湊。MATLAB 獨立計算的矩陣擾動、方向與奇異值結果保存於逐十品質值的檢查點中。Python 盲式提取只讀收到的影像、方法、凍結步長及金鑰。評分時另以相同浮水印核對。MATLAB 驗證時會保存跨軟體 SVD 選基及判決差異。
+
+共有 3,200 個 JPEG 條件，每組使用 38,088 個區塊。依原始矩陣、SVD、逐塊轉移量及判決資料的 float64 欄位估算，壓縮前約 125 GB。實際空間需同時計入 JPEG、PNG、檢查點、圖表與雜湊，預留 200 GB。HDF5 採無損壓縮，攻擊與 MATLAB 程式可從已核對的檢查點續跑。
 
 ## 矩陣資料
 

@@ -25,6 +25,12 @@ def analyze(exe,run,label):
     print(label,"MATLAB statistics complete",flush=True)
 
 
+def figures(exe,run,phase02,ids):
+    label=str(ids[0])+":"+str(ids[-1])
+    batch(exe,f"phase03_figures({quote(run)},{quote(phase02)},{label})",
+          run/"02_研究規格"/f"matlab_figures_{ids[0]:02d}_{ids[-1]:02d}.log")
+
+
 def main(args):
     labels={l for l in args.labels if not (args.run/STATS/(l+"_relation_matlab.csv")).is_file()}
     inflight={}
@@ -51,8 +57,11 @@ def main(args):
     if failures:
         raise RuntimeError(f"MATLAB measurement failed for {', '.join(failures)}")
     if args.phase02:
-        batch(args.matlab,f"phase03_figures({quote(args.run)},{quote(args.phase02)})",
-              args.run/"02_研究規格"/"matlab_figures.log")
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            tasks=[pool.submit(figures,args.matlab,args.run,args.phase02,r)
+                   for r in (range(1,13),range(13,25))]
+            for task in tasks:
+                task.result()
         fig=args.run/"06_MATLAB圖表"
         assert all((fig/f"Fig{i:02d}.{ext}").is_file() for i in range(1,25)
                    for ext in ("fig","png","pdf","svg","csv"))
