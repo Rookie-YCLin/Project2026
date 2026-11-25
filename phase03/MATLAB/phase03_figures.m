@@ -89,13 +89,19 @@ for id=ids
             case 7
                 x=fromImage(fromImage.vector==vec,:);
                 values=x{:,{'D_S','D_G','D_R','D_P'}};
-                plot(ax,1:height(x),values,'o','MarkerSize',2.8);
+                markers=["o","+","^","s"];
+                for j=1:4
+                    plot(ax,1:height(x),values(:,j),markers(j),'Color',palette(j,:),'MarkerSize',2.8);
+                end
                 xlabel(ax,'Paired platelet test'); ylabel(ax,'Normalized squared loss');
             case 8
                 x=fromImage(fromImage.vector==vec,:);
-                x.vs_G=(x.D_G-x.D_P)./max(x.D_G,realmin);
-                x.vs_R=(x.D_R-x.D_P)./max(x.D_R,realmin);
-                plot(ax,1:height(x),100*x.vs_G,'o',1:height(x),100*x.vs_R,'+','MarkerSize',3);
+                x.vs_G=nan(height(x),1); x.vs_R=x.vs_G;
+                eligibleG=x.D_G>1e-12; eligibleR=x.D_R>1e-12;
+                x.vs_G(eligibleG)=1-x.D_P(eligibleG)./x.D_G(eligibleG);
+                x.vs_R(eligibleR)=1-x.D_P(eligibleR)./x.D_R(eligibleR);
+                plot(ax,1:height(x),100*x.vs_G,'o','Color',palette(2,:),'MarkerSize',3);
+                plot(ax,1:height(x),100*x.vs_R,'+','Color',palette(3,:),'MarkerSize',3);
                 xlabel(ax,'Paired platelet test'); ylabel(ax,'Loss reduction (%)');
             case {9,10,11,13}
                 keys=["certificate_gap","solve_seconds_per_block_batch_average","orthogonality","B_angle_target_error_success"];
@@ -109,7 +115,8 @@ for id=ids
             case 14
                 x=tE(startsWith(tE.method,"G") & ismember(tE.metric,["reselected","embed_failure"]),:);
                 x.percent=100*x.mean;
-                bar(ax,categorical(x.metric),x.percent,'FaceColor',palette(2,:));
+                x.event=replace(replace(x.metric,"reselected","Reselected"),"embed_failure","Failed");
+                bar(ax,categorical(x.event),x.percent,'FaceColor',palette(2,:));
                 ylabel(ax,'Blocks (%)');
             case 15
                 x=tR(tR.qf==0 & tR.rank_class>0,:);
@@ -165,9 +172,24 @@ for id=ids
         x.panel=repmat(vec,height(x),1);
         evidence{k}=x;
     end
-    annotation(f,'textbox',[.01 .002 .98 .045],'String', ...
-        "S blue   •   G orange   •   R green   •   P purple     |     Hollow markers indicate exploratory calibration where shown.", ...
-        'HorizontalAlignment','center','FontName','Times New Roman','FontSize',8,'EdgeColor','none');
+    details="S blue, G orange, R green, P purple. Hollow curve markers or bars indicate exploratory calibration.";
+    switch id
+        case 3
+            details="Bars show step size, diamonds show PNG PSNR. Outlined bars indicate exploratory calibration.";
+        case {6,12}
+            details="Grouped bars show the metrics in each panel legend. S, G, R and P appear on the horizontal axes.";
+        case 7
+            details="S blue circle, G orange plus, R green triangle, P purple square. Infeasible G values are missing.";
+        case 8
+            details="Orange circles compare with G, green plus signs with R. Baseline loss must exceed 10^{-12}.";
+        case 14
+            details="Reselection and failure are measured over all 38,088 blocks for each G method.";
+        case {15,22}
+            details="S blue, G orange, R green, P purple. Point clouds include every calibration status.";
+        case 24
+            details="Grey curves are the eight Phase 02 methods. Coloured curves show Phase 03 groups meeting the PNG thresholds.";
+    end
+    xlabel(tl,details,'FontName','Times New Roman','FontSize',8);
     path=fullfile(figDir,compose("Fig%02d",id));
     writetable(vertcat(evidence{:}),path+".csv");
     savefig(f,path+".fig");

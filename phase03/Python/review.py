@@ -78,6 +78,9 @@ def audit(run):
     assert set(freeze["methods"])==set(LABELS)
     gates=read_json(run/GATE/"stress_gate"/"gate.json")
     assert gates["passed"]
+    sample=pd.read_csv(run/GATE/"frozen_p_matlab_audit.csv")
+    assert sample.method.nunique()==8 and len(sample)>=8*60
+    assert sample[["branch_value_difference","matlab_gap","python_gap","matlab_max_angle_error"]].max().max()<=1e-8
     data=run/DATA
     stats=run/STATS
     by_method=[]
@@ -125,11 +128,11 @@ def audit(run):
         for ext in ("fig","png","svg","pdf","csv"):
             f=run/FIGURES/f"Fig{j:02d}.{ext}"
             assert f.stat().st_size>100
-    return pd.DataFrame(by_method),gates,pd.DataFrame(by_qf)
+    return pd.DataFrame(by_method),gates,pd.DataFrame(by_qf),sample
 
 
 def overview(run,phase02,phase01_root=None):
-    methods,gate,index=audit(run)
+    methods,gate,index,sample=audit(run)
     report=run/REPORT
     report.mkdir(exist_ok=True)
     methods.to_csv(report/"method_summary.csv",index=False)
@@ -170,6 +173,8 @@ def overview(run,phase02,phase01_root=None):
         f"MATLAB 與 Python 獨立驗證 {gate['case_count']:,} 組，其中 {gate['phase01_fixtures']:,} 組取自正式影像。"
         f"P 的正規化平方失真在兩套實作間最大差為 {gate['independent_objective_errors']['D_P']:.3g}。"
         "指定反例的未分支對偶上界為 22。行列式正分支的可行及對偶目標皆為 21.5，對應平方 Frobenius 失真 17。","",
+        f"凍結後從 P 的八組抽取 {len(sample)} 個實際角度目標，再由 MATLAB 獨立重算四分支。"
+        f"與 Python 的正規化分支跡目標最大差為 {sample.branch_value_difference.max():.3g}。","",
         f"實際影像數學案例共 {len(paired)} 個相同目標角度的配對，其中 {len(matched)} 個具有可行 G 平面。"
         f"在 R 正規化平方失真大於 10⁻¹² 的 {ran.sum()} 個配對，P 相對 R 的失真改善中位數為 {reduction:.3%}。"
         "P 保持因子正交與奇異值，重根子空間內用重新 SVD 找到的個別方向仍受選基影響。"
@@ -229,7 +234,7 @@ def package(run,output):
     assert not output.exists()
     output.mkdir(parents=True)
     items=[]
-    for rel in (STATS,FIGURES,GATE+"/stress_gate",REPORT):
+    for rel in (STATS,FIGURES,GATE,GATE+"/stress_gate",REPORT):
         for source in sorted((run/rel).glob("*.csv")):
             path=output/rel/source.name
             path.parent.mkdir(exist_ok=True,parents=True)
