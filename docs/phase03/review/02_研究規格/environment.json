@@ -1,0 +1,16 @@
+{
+  "host": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "python": "3.13.14",
+  "libraries": {
+    "numpy": "2.4.6",
+    "opencv-python": "5.0.0.93",
+    "PyWavelets": "1.10.0",
+    "Pillow": "12.3.0",
+    "h5py": "3.14.0",
+    "scipy": "1.18.0"
+  },
+  "libjpeg": "8.0",
+  "hdf5": "1.14.6",
+  "run_id": "phase03_20261125_125020_465621"
+}

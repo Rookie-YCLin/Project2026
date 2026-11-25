@@ -1,0 +1,17 @@
+method,classification,qf,scope,comparison,metric,count,mean,std,min,max,p10,p25,median,p75,p90,p95,percent,event,panel
+GU1,formal,0,All,embedding,reselected,38088,0,0,0,0,0,0,0,0,0,0,0,Reselected,U1
+GU1,formal,0,All,embedding,embed_failure,38088,0,0,0,0,0,0,0,0,0,0,0,Failed,U1
+GU2,exploratory,0,All,embedding,reselected,38088,0.021686620457887,0.145658199051761,0,1,0,0,0,0,0,0,2.1686620457887,Reselected,U2
+GU2,exploratory,0,All,embedding,embed_failure,38088,0.215264650283554,0.411005815800519,0,1,0,0,0,0,1,1,21.5264650283554,Failed,U2
+GU3,exploratory,0,All,embedding,reselected,38088,0,0,0,0,0,0,0,0,0,0,0,Reselected,U3
+GU3,exploratory,0,All,embedding,embed_failure,38088,0.515752993068683,0.499751781597002,0,1,0,0,1,1,1,1,51.5752993068683,Failed,U3
+GU4,exploratory,0,All,embedding,reselected,38088,0.0396975425330813,0.195247657220045,0,1,0,0,0,0,0,0,3.96975425330813,Reselected,U4
+GU4,exploratory,0,All,embedding,embed_failure,38088,0.17559336273892,0.380473827879077,0,1,0,0,0,0,1,1,17.559336273892,Failed,U4
+GV1,formal,0,All,embedding,reselected,38088,0,0,0,0,0,0,0,0,0,0,0,Reselected,V1
+GV1,formal,0,All,embedding,embed_failure,38088,0,0,0,0,0,0,0,0,0,0,0,Failed,V1
+GV2,exploratory,0,All,embedding,reselected,38088,0.0336851501785339,0.180417462669175,0,1,0,0,0,0,0,0,3.36851501785339,Reselected,V2
+GV2,exploratory,0,All,embedding,embed_failure,38088,0.164723797521529,0.370931082617266,0,1,0,0,0,0,1,1,16.4723797521529,Failed,V2
+GV3,exploratory,0,All,embedding,reselected,38088,0,0,0,0,0,0,0,0,0,0,0,Reselected,V3
+GV3,exploratory,0,All,embedding,embed_failure,38088,0.515752993068683,0.499751781597002,0,1,0,0,1,1,1,1,51.5752993068683,Failed,V3
+GV4,exploratory,0,All,embedding,reselected,38088,0.0346040747742071,0.182774814411691,0,1,0,0,0,0,0,0,3.46040747742071,Reselected,V4
+GV4,exploratory,0,All,embedding,embed_failure,38088,0.195940978785969,0.396923306972977,0,1,0,0,0,0,1,1,19.5940978785969,Failed,V4

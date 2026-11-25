@@ -1,0 +1,17 @@
+{
+  "label": "PU3",
+  "round": 1,
+  "q_rad": 0.49771086247966634,
+  "q_degrees": 28.516731837901,
+  "psnr": 37.050528381963886,
+  "errors": 0,
+  "block_errors": 11257,
+  "failed_blocks": 0,
+  "seconds_embed_png": 145.09098609999637,
+  "seconds_blind": 4.051262399996631,
+  "png_sha256": "f71dc455f99ace77c4d39819b39df528dad35ac8c018aa206eb1392fb588d63e",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 26,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_probe.py", line 14, in <module>
+    b,diag=embed(p,lab,np.deg2rad(.01))
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 164, in embed
+    if np.any(active):
+               ^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 73, in geometry
+    from procrustes_batch import solve_batch
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 159, in solve_batch
+    branches=[solve_one(w,c,j,phi,s,d) for s in (1,-1) for d in (1,-1)]
+              ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 152, in solve_one
+    assert np.max(gap)<=1e-8 and np.min(gap)>=-1e-10
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_probe.py", line 14, in <module>
+    b,diag=embed(p,lab,np.deg2rad(.01))
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 164, in embed
+    back={}
+    
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 73, in geometry
+    if method=="P":
+               ^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 159, in solve_batch
+    better=val>F[active]
+          ^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 152, in solve_one
+    low[active[slope<0]]=mid[slope<0]
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_probe.py", line 14, in <module>
+    b,diag=embed(p,lab,np.deg2rad(.01))
+           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 164, in embed
+    back={}
+    
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 73, in geometry
+    if method=="P":
+               ^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 159, in solve_batch
+    better=val>F[active]
+          ^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\procrustes_batch.py", line 152, in solve_one
+    low[active[slope<0]]=mid[slope<0]
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

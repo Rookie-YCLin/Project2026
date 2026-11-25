@@ -1,0 +1,58 @@
+[
+  {
+    "original_filename": "matlab_cases.csv",
+    "bytes": 702488,
+    "sha256": "ba63f2ae2e14d633532f4ea2f892fc69899d3d8a222eb9ef122ecd5e4a41790b",
+    "row_count": 1625,
+    "merged_sha256": "ba63f2ae2e14d633532f4ea2f892fc69899d3d8a222eb9ef122ecd5e4a41790b",
+    "parts": [
+      {
+        "path": "part_001.csv",
+        "row_start": 1,
+        "row_count": 1163,
+        "qf_min": null,
+        "qf_max": null,
+        "bytes": 499906,
+        "sha256": "643a0d936cd03047046d6e909f813a016f67cad8aa99e4b2dfd03b38e02b0545"
+      },
+      {
+        "path": "part_002.csv",
+        "row_start": 1164,
+        "row_count": 462,
+        "qf_min": null,
+        "qf_max": null,
+        "bytes": 202855,
+        "sha256": "36d23e9f03ff61816090e694078bf1e407b3875fe27956593e6893a4f225291f"
+      }
+    ],
+    "destination": "matlab_cases"
+  },
+  {
+    "original_filename": "python_cases.csv",
+    "bytes": 765206,
+    "sha256": "589b39fa66242bbe62b2e688a71b0ac9614a822196ceceb10d09e67e41ba32c3",
+    "row_count": 1625,
+    "merged_sha256": "589b39fa66242bbe62b2e688a71b0ac9614a822196ceceb10d09e67e41ba32c3",
+    "parts": [
+      {
+        "path": "part_001.csv",
+        "row_start": 1,
+        "row_count": 1075,
+        "qf_min": null,
+        "qf_max": null,
+        "bytes": 499895,
+        "sha256": "42d3623674263bded1aed9bbb5f6bdb160b21a534673a75bb6715a43e67d5f93"
+      },
+      {
+        "path": "part_002.csv",
+        "row_start": 1076,
+        "row_count": 550,
+        "qf_min": null,
+        "qf_max": null,
+        "bytes": 265584,
+        "sha256": "da6419faf6bbda2fad66e918dbbd81cbf91b8154d0effe32c9242aacfb4ae54c"
+      }
+    ],
+    "destination": "python_cases"
+  }
+]

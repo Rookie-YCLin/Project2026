@@ -1,0 +1,3337 @@
+[
+  {
+    "path": "01_數學驗證/batch_gate.json",
+    "bytes": 181,
+    "sha256": "84e889c06b42d6e1e5daf348f14ecca00f62a455c9569bf5c4c6def949fb5c9a"
+  },
+  {
+    "path": "01_數學驗證/frozen_p_matlab.log",
+    "bytes": 62,
+    "sha256": "25f2ba37c63f2ef5fec0e0422ed61bcfa73db0e70954641950995297e0d55590"
+  },
+  {
+    "path": "01_數學驗證/frozen_p_matlab_audit.csv",
+    "bytes": 63944,
+    "sha256": "796009190bcbdc9c2389d53407941d9096707d47d0ea0ba7045f32027c860fe5"
+  },
+  {
+    "path": "01_數學驗證/gate.json",
+    "bytes": 1017,
+    "sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+  },
+  {
+    "path": "01_數學驗證/matlab_cases/part_001.csv",
+    "bytes": 499870,
+    "sha256": "24175bd6259d4518b862cc2cb8a4d6b1b1e981e44e01d2c3b25a0fc1ea6df0b3"
+  },
+  {
+    "path": "01_數學驗證/matlab_cases/part_002.csv",
+    "bytes": 2526,
+    "sha256": "3aa0d735051c885055e299a491fddd0264d4d5bb6211694b242af0f93d666931"
+  },
+  {
+    "path": "01_數學驗證/matlab_failures.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "path": "01_數學驗證/matlab_math.log",
+    "bytes": 111,
+    "sha256": "cee093015d28c457f3ee5e180475bf1f20a92913ff8512206cf139d7e191fb50"
+  },
+  {
+    "path": "01_數學驗證/matlab_summary.json",
+    "bytes": 618,
+    "sha256": "d054b77cf00e7e99e9e4208c27bdfeca37076349099e95f06a6451dc0c857f39"
+  },
+  {
+    "path": "01_數學驗證/python_cases/part_001.csv",
+    "bytes": 499903,
+    "sha256": "37c4da09a84ae3e48ef9fd370a0c0de78f277f4097a3427ff8793986291efbb5"
+  },
+  {
+    "path": "01_數學驗證/python_cases/part_002.csv",
+    "bytes": 43224,
+    "sha256": "bf99d51fe413e907148bf32b21ed388dee7cef3abe14734b3ac3014f0dc76d3c"
+  },
+  {
+    "path": "01_數學驗證/python_failures.json",
+    "bytes": 4,
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  {
+    "path": "01_數學驗證/python_summary.json",
+    "bytes": 636,
+    "sha256": "9400a75c0a1ce8957f4d5eadb8f4c956a6b4a64ae48a792b54b2e99243e1b568"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/batch_gate.json",
+    "bytes": 182,
+    "sha256": "e6b9a5bb0f827c332429b52f5bf21ee320860d7614b96f64c3de84c86a6f0ac8"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/batch_image_probe.log",
+    "bytes": 2597,
+    "sha256": "5bd77417670f6a923a2f5e4b1cd9ffe90b5c90d78b85b828f994963a21954cae"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/gate.json",
+    "bytes": 1055,
+    "sha256": "ed79bba0b7713e07831efaf5704c1955a82b63cbd7f7dcd979f39a28bbf9f2d1"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/matlab_cases/part_001.csv",
+    "bytes": 499906,
+    "sha256": "643a0d936cd03047046d6e909f813a016f67cad8aa99e4b2dfd03b38e02b0545"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/matlab_cases/part_002.csv",
+    "bytes": 202855,
+    "sha256": "36d23e9f03ff61816090e694078bf1e407b3875fe27956593e6893a4f225291f"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/matlab_failures.json",
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/matlab_math.log",
+    "bytes": 180,
+    "sha256": "020fa3366b3c8f2283d02bf8579cd5cb277e387e45b4ecb5f873a3502be4867b"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/matlab_summary.json",
+    "bytes": 621,
+    "sha256": "399d571babe775d03da3f57e7442bd6d1db787b8d9a3fa2e7a69667aad2965b1"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/near_rank_matlab.json",
+    "bytes": 121,
+    "sha256": "c076a2f5a2ca50a786070dc53c44d3a728f6dd15255c49157faf0909d3699ccf"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/near_rank_python.json",
+    "bytes": 312,
+    "sha256": "41cdbb4e5c05720114870dc34c48f4eab229fc35638e7b4f64cd70758fceed30"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/near_rank_regression.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/near_rank_regression_input.json",
+    "bytes": 485,
+    "sha256": "6ca6f9782caecd7bcd6fc3d7d818df398bf4957792759917f4589208b920eec5"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/python_cases/part_001.csv",
+    "bytes": 499895,
+    "sha256": "42d3623674263bded1aed9bbb5f6bdb160b21a534673a75bb6715a43e67d5f93"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/python_cases/part_002.csv",
+    "bytes": 265584,
+    "sha256": "da6419faf6bbda2fad66e918dbbd81cbf91b8154d0effe32c9242aacfb4ae54c"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/python_failures.json",
+    "bytes": 4,
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/python_math.log",
+    "bytes": 455,
+    "sha256": "4965aa515b7d933ee418ef439937dd1fa3c59c4f412c3291d6517f15a01dd10d"
+  },
+  {
+    "path": "01_數學驗證/stress_gate/python_summary.json",
+    "bytes": 635,
+    "sha256": "a095c2d7f1504d9edf55fd28cc6b5874705452266dd1000270a0f9282171ec64"
+  },
+  {
+    "path": "02_研究規格/calibration_P.log",
+    "bytes": 276,
+    "sha256": "13559a152f156f8d05e895a9049a1de3656752c99321144e3df4b13f53241396"
+  },
+  {
+    "path": "02_研究規格/calibration_P_certified.log",
+    "bytes": 822,
+    "sha256": "e1cdeb91cbf9e27c535888a317531604cc6521aaf887baa4026a34877274a48d"
+  },
+  {
+    "path": "02_研究規格/calibration_P_parallel.log",
+    "bytes": 1495,
+    "sha256": "480314577a25b3646b9d9ff64230d7d9c541ee67ebbd84c54ec3a78175b29be9"
+  },
+  {
+    "path": "02_研究規格/calibration_SGR.log",
+    "bytes": 2166,
+    "sha256": "13f2ced9c8be2e66cce0d61034971316ced0c22b1c8a219d3cb2a7bb629db47b"
+  },
+  {
+    "path": "02_研究規格/calibration_SGR_recovery.log",
+    "bytes": 1736,
+    "sha256": "11b0ec84ddf0dc9c75bbbd7e8e8c7a845bd9e3f0152be1bfa971919975d9a554"
+  },
+  {
+    "path": "02_研究規格/DECISIONS_73_102.md",
+    "bytes": 1911,
+    "sha256": "f505eb9e7d6d82746f90bcdf7ea4cb7c9efe5d28e564e10e89f89100cbe2195c"
+  },
+  {
+    "path": "02_研究規格/environment.json",
+    "bytes": 410,
+    "sha256": "e5bb5dc26fc5ca2ed7ce9dacc9fa661582490c12facb2ec2358c230fdc97ddbc"
+  },
+  {
+    "path": "02_研究規格/jpeg_all.log",
+    "bytes": 4260,
+    "sha256": "6cb2b63fc4d856a171e2be523519c3797b87ab81aa090e94cff6a66668600505"
+  },
+  {
+    "path": "02_研究規格/jpeg_integrity.json",
+    "bytes": 170,
+    "sha256": "f4ddf61362996e978e8d303c376baaed9bccfbdd9b1ad49ee7af2aa572818033"
+  },
+  {
+    "path": "02_研究規格/matched_targets.log",
+    "bytes": 315,
+    "sha256": "586ed23a4413a477c0d7a27fda61d27d7d225e1b2799972b634e66c059d3b244"
+  },
+  {
+    "path": "02_研究規格/matched_targets_matlab.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "02_研究規格/matched_targets_resolved.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "02_研究規格/MATHEMATICS.md",
+    "bytes": 5252,
+    "sha256": "3da75e7d4107ef3cd8229e56ed136f1225b4784e4ca11ec725a5cf1693c6bbfb"
+  },
+  {
+    "path": "02_研究規格/matlab_figure_release.log",
+    "bytes": 411,
+    "sha256": "d884ca4f533cc91c8d5ee43b39b16369d443001b0bcfa1b179c8030423c4ccab"
+  },
+  {
+    "path": "02_研究規格/matlab_figures_01_12.log",
+    "bytes": 1644,
+    "sha256": "2a8d5ef22dc4a00751b6dc80b603daa0250b585fa5977c0e073042c5740a2ca6"
+  },
+  {
+    "path": "02_研究規格/matlab_figures_13_24.log",
+    "bytes": 1644,
+    "sha256": "b7dc026290ede4e199904a7df126cba02ddc774120443074a8b5f58f20a2a8ef"
+  },
+  {
+    "path": "02_研究規格/matlab_overlap_checkpoint_SU1.log",
+    "bytes": 35,
+    "sha256": "81b46ab644f72d666023bae9e87f437fd5b3b96596a7062fcf0dc78eda74ab1f"
+  },
+  {
+    "path": "02_研究規格/matlab_overlap_checkpoint_SU4.log",
+    "bytes": 35,
+    "sha256": "def5e0f3cdf4b12f90259735f467ce7a4fc6a8ac8574c448e38567c8000c10dd"
+  },
+  {
+    "path": "02_研究規格/matlab_parallel.log",
+    "bytes": 556,
+    "sha256": "ba063c2bd65f4ebe4b1fc014f928cb2f3bbd1ef9cf1cdde2e66648e75f2c65e9"
+  },
+  {
+    "path": "02_研究規格/matlab_scaled.log",
+    "bytes": 10468,
+    "sha256": "531c089969deba0f655ca16ac469817f84e37da4ff709ba23148a120722f5abb"
+  },
+  {
+    "path": "02_研究規格/preflight_geometry.json",
+    "bytes": 946,
+    "sha256": "2d1ae582c1fee31760591dd755d492cf065838f11a29523ea22e908b24c3315a"
+  },
+  {
+    "path": "02_研究規格/probe_P.log",
+    "bytes": 3588,
+    "sha256": "1b26a02e483706c7a48d1ab101494f4c046b92671afc0f6d73007ee0ef565762"
+  },
+  {
+    "path": "02_研究規格/REPRODUCE.md",
+    "bytes": 5859,
+    "sha256": "0e520efa264f01ab362fbf879e4ade72db19aaa142428713768be15463fe7cc2"
+  },
+  {
+    "path": "02_研究規格/RESOURCE_PLAN.md",
+    "bytes": 1648,
+    "sha256": "96d0acd3a722b99c9035387ba124beeb1ec233778d59863a3936f3e7da91a647"
+  },
+  {
+    "path": "02_研究規格/review_collection.log",
+    "bytes": 133,
+    "sha256": "cba74eff6387ab43b6d6ecaeb8758fc5535c8d133a18ba4817ae4fd932622b83"
+  },
+  {
+    "path": "03_校準與凍結/frozen.json",
+    "bytes": 25218,
+    "sha256": "e3002fd48760e5bb0a38466802552f35f3839aeee1b2cc71cf4f88f4c9eed41f"
+  },
+  {
+    "path": "03_校準與凍結/frozen.sha256",
+    "bytes": 79,
+    "sha256": "3e825b1f8f01563f2136a6b7e0f081c623978e99d29959be83a294aae1ee667f"
+  },
+  {
+    "path": "03_校準與凍結/GU1/candidates.csv",
+    "bytes": 4835,
+    "sha256": "814ace64e6c1d027155cf6824bcccae273377c01fd15634e6faecaae4bd95101"
+  },
+  {
+    "path": "03_校準與凍結/GU1/selection.json",
+    "bytes": 539,
+    "sha256": "78d0a1ae8eb062e4f1c8a64e9b64f8bd975cf505a3f80e9bbc0d66f06df19e4d"
+  },
+  {
+    "path": "03_校準與凍結/GU2/candidates.csv",
+    "bytes": 4838,
+    "sha256": "7bdf55a8c7613241e5bb938264d0ad7d172bc39f8c806ce451d7f8801b02352f"
+  },
+  {
+    "path": "03_校準與凍結/GU2/selection.json",
+    "bytes": 546,
+    "sha256": "de12d11f02a3f835cdb3611903a29a5ec03e82751f940cffb5c666c6af88e8c0"
+  },
+  {
+    "path": "03_校準與凍結/GU3/candidates.csv",
+    "bytes": 4903,
+    "sha256": "ffab957d6331977d88bdefd453cf25eaef0bf6a663635d483f7ca33e6044ecb9"
+  },
+  {
+    "path": "03_校準與凍結/GU3/selection.json",
+    "bytes": 536,
+    "sha256": "7fe8e94f65e9b61a1f3828aedd8f9b2156a8218c29d0840df3e7060fb558395b"
+  },
+  {
+    "path": "03_校準與凍結/GU4/candidates.csv",
+    "bytes": 4854,
+    "sha256": "5b4d72dad90f9821543d3604b81917656ce63c7af45c8e3879fd522e0db0be6c"
+  },
+  {
+    "path": "03_校準與凍結/GU4/selection.json",
+    "bytes": 545,
+    "sha256": "2870848a1d5f1626ef97113dbee2f600018151a2552574e1e403bd71b57fadfa"
+  },
+  {
+    "path": "03_校準與凍結/GV1/candidates.csv",
+    "bytes": 4829,
+    "sha256": "bac957052d6a00537bcea95aaa8e36856a9c8ef3ae2a73a3e16590f744be6434"
+  },
+  {
+    "path": "03_校準與凍結/GV1/selection.json",
+    "bytes": 539,
+    "sha256": "71ed69aa0c5956671e8263a51ced4f3149c6d649abf12a24e532e3a8e8c0097c"
+  },
+  {
+    "path": "03_校準與凍結/GV2/candidates.csv",
+    "bytes": 4851,
+    "sha256": "b0b9ed6822ded235053bad31b04d1797aa05c161418c7fdd78e8dfbff4575a13"
+  },
+  {
+    "path": "03_校準與凍結/GV2/selection.json",
+    "bytes": 543,
+    "sha256": "5a470824f8e05360a83efc81029a8dc9fff54d5d9db287ad9f18bbb641e9b939"
+  },
+  {
+    "path": "03_校準與凍結/GV3/candidates.csv",
+    "bytes": 4724,
+    "sha256": "02b16e70b89ab3085c10d86919e5409ad17aa78c33ad11021d8cbc28c002d04a"
+  },
+  {
+    "path": "03_校準與凍結/GV3/selection.json",
+    "bytes": 548,
+    "sha256": "8d65d64a5709ba0b53ff1c644b936e21866c37c1735787317cc9ce12a9537331"
+  },
+  {
+    "path": "03_校準與凍結/GV4/candidates.csv",
+    "bytes": 4842,
+    "sha256": "45cb79be41a984384a0656ce7d885f8de5e29bdf5ee94cc66e7d63956f3f17d1"
+  },
+  {
+    "path": "03_校準與凍結/GV4/selection.json",
+    "bytes": 545,
+    "sha256": "70dc4f3ce2342cbd77d445f9fc5c840f6b99234be36416519395165da099d63a"
+  },
+  {
+    "path": "03_校準與凍結/PU1/candidates.csv",
+    "bytes": 4807,
+    "sha256": "490cbfd6fb18908b41245d09d12393adcbff1b555b99b646db850d2980d8f50d"
+  },
+  {
+    "path": "03_校準與凍結/PU1/selection.json",
+    "bytes": 544,
+    "sha256": "0e328420b00a39459588fac09e0c7056c1b95c90d747b44240110e81b9064195"
+  },
+  {
+    "path": "03_校準與凍結/PU2/candidates.csv",
+    "bytes": 4610,
+    "sha256": "ff3068fe84e35053053a53aa381e79047d44506289e9cb37cefa0a021358af9a"
+  },
+  {
+    "path": "03_校準與凍結/PU2/selection.json",
+    "bytes": 540,
+    "sha256": "7e01affd72ac6636cd76703d5ad691cbda0baf17535ed69f861b08fa64a8497a"
+  },
+  {
+    "path": "03_校準與凍結/PU3/candidates.csv",
+    "bytes": 4604,
+    "sha256": "aed4e0919bb5bbb6efe465036c16ef005b3cb8959563fad7b1a048ddcc8e49e9"
+  },
+  {
+    "path": "03_校準與凍結/PU3/selection.json",
+    "bytes": 541,
+    "sha256": "df1889950c916b71ccc1de2c5073f7ebfbbe540e298ace18d49b9819e4dbd7ee"
+  },
+  {
+    "path": "03_校準與凍結/PU4/candidates.csv",
+    "bytes": 4599,
+    "sha256": "c4c269e6f57b2d6ab9a9078020bfb2088ec0c87c717ca397701da8e297441c01"
+  },
+  {
+    "path": "03_校準與凍結/PU4/selection.json",
+    "bytes": 538,
+    "sha256": "3146003b216c4be6a3c2d618fa5502db52d314c3c8dc8562d3ab7ca74156e762"
+  },
+  {
+    "path": "03_校準與凍結/PV1/candidates.csv",
+    "bytes": 4796,
+    "sha256": "c6d494189967d62ef7422d35850d2b72739bd2b0c7dca38d3f6873fa2774f469"
+  },
+  {
+    "path": "03_校準與凍結/PV1/selection.json",
+    "bytes": 545,
+    "sha256": "f54cf3fa38d1d426621f91a9391b0bc3996ad175024946d937e42067bab4aae1"
+  },
+  {
+    "path": "03_校準與凍結/PV2/candidates.csv",
+    "bytes": 4605,
+    "sha256": "c677e35eee6dbb5a4591fa3d6fc23c3f30ed7804dace43d0cb8d1a7a4465daee"
+  },
+  {
+    "path": "03_校準與凍結/PV2/selection.json",
+    "bytes": 543,
+    "sha256": "daaec29fc3bc90d82c986be161994ddbb96f4336c5405efc4df009be2c022e3c"
+  },
+  {
+    "path": "03_校準與凍結/PV3/candidates.csv",
+    "bytes": 4622,
+    "sha256": "0311f63fd026d6c365ed3944ceb0890f070a2bf4bc0d56d73d3e86866e89a989"
+  },
+  {
+    "path": "03_校準與凍結/PV3/selection.json",
+    "bytes": 543,
+    "sha256": "b2b63af56e96c1639085eac477a3dec668a2f1be56843ffe4906285df8851fba"
+  },
+  {
+    "path": "03_校準與凍結/PV4/candidates.csv",
+    "bytes": 4609,
+    "sha256": "1f9dbe95d7b38fa986e6ac96bc529954c65e90114089940bc9ec229c9729b664"
+  },
+  {
+    "path": "03_校準與凍結/PV4/selection.json",
+    "bytes": 543,
+    "sha256": "5aac63043ba72b75690df256e6cd51a86af3543baba7f5259f64db19a646a5f1"
+  },
+  {
+    "path": "03_校準與凍結/RU1/candidates.csv",
+    "bytes": 4816,
+    "sha256": "18483ded1233d0e633c92ca7826736ba7d73c2012bd0a52c7e271c99acd0c709"
+  },
+  {
+    "path": "03_校準與凍結/RU1/selection.json",
+    "bytes": 543,
+    "sha256": "915e50ab89aa4a9a5bb799061ddea9d80368e297e118ea81d68e67f986ec45e0"
+  },
+  {
+    "path": "03_校準與凍結/RU2/candidates.csv",
+    "bytes": 4837,
+    "sha256": "42e133f5fb8415244907e89e97bffdc3b15a604b99b873fe3a52508d65542a6d"
+  },
+  {
+    "path": "03_校準與凍結/RU2/selection.json",
+    "bytes": 546,
+    "sha256": "5481ca646c26070110167bd530d9f703b8fcc9eda351c982e6c5b6b9c5738777"
+  },
+  {
+    "path": "03_校準與凍結/RU3/candidates.csv",
+    "bytes": 4839,
+    "sha256": "a0bd76d3b4ba0f706888dbc9b38202f9c2f0b89d7b74448cadbf8c74d61e1774"
+  },
+  {
+    "path": "03_校準與凍結/RU3/selection.json",
+    "bytes": 542,
+    "sha256": "491f20de1fc6f5e1f3b3ab1a4cc98f648a31878f24935d7675909387d70fc7be"
+  },
+  {
+    "path": "03_校準與凍結/RU4/candidates.csv",
+    "bytes": 4829,
+    "sha256": "ee71c453207cde082dd3298cdbaf37ea03c5ce36d2dbe32adf321c59cc1bf7c9"
+  },
+  {
+    "path": "03_校準與凍結/RU4/selection.json",
+    "bytes": 544,
+    "sha256": "74280272cb434c68576ba3b008d1ec845897e1fe69b10e2df0d4a16d84ef7826"
+  },
+  {
+    "path": "03_校準與凍結/RV1/candidates.csv",
+    "bytes": 4802,
+    "sha256": "220344050c108984a7a2a77ad8bf89d4005cc5ea95efc571bd7dc8eb341ea361"
+  },
+  {
+    "path": "03_校準與凍結/RV1/selection.json",
+    "bytes": 544,
+    "sha256": "a329d5a4d196dcea234da485900946497af692bef46c288f0ea6fdd4fa605093"
+  },
+  {
+    "path": "03_校準與凍結/RV2/candidates.csv",
+    "bytes": 4816,
+    "sha256": "3b6205e9a36a6ea493479fff5f0203db014831a64e8d1503c697d0816d510a71"
+  },
+  {
+    "path": "03_校準與凍結/RV2/selection.json",
+    "bytes": 542,
+    "sha256": "8cdc79283793dd123de04a6aaac87edf7f375745a807d439c854b969ab5fd096"
+  },
+  {
+    "path": "03_校準與凍結/RV3/candidates.csv",
+    "bytes": 4836,
+    "sha256": "0a647d6ec65965ed1eb790e8052f2a44bf5bf3c40ef4c2d1c8419113fc5e4592"
+  },
+  {
+    "path": "03_校準與凍結/RV3/selection.json",
+    "bytes": 543,
+    "sha256": "b4ebcda9abf609a46876e1647bafea5ee29bd3bd0be99aabe79ae52c9637ea68"
+  },
+  {
+    "path": "03_校準與凍結/RV4/candidates.csv",
+    "bytes": 4844,
+    "sha256": "2542ad566bc09abaa3a4d86f7ac0b72a20a5f7ef3b75a697e7d0c5e6c626f421"
+  },
+  {
+    "path": "03_校準與凍結/RV4/selection.json",
+    "bytes": 545,
+    "sha256": "f1d98ca88d602a28ad3db9467447e1f8fc622818d32be5c3be6dfcafb57db4cb"
+  },
+  {
+    "path": "03_校準與凍結/SU1/candidates.csv",
+    "bytes": 4839,
+    "sha256": "a8a4dd7fd3fd77fb0fc60018f60ffea9336f3f1aebc7c888b9cf645a6843c2eb"
+  },
+  {
+    "path": "03_校準與凍結/SU1/selection.json",
+    "bytes": 544,
+    "sha256": "98d2c5fa9bf8939106cff6dccb5ddab173c8fe43f5974f4aa9f238ad4912eecc"
+  },
+  {
+    "path": "03_校準與凍結/SU2/candidates.csv",
+    "bytes": 4822,
+    "sha256": "0e3c637d139858c4e1f9d29bb910afe64ca3e6a3615e61434e4f494e84293172"
+  },
+  {
+    "path": "03_校準與凍結/SU2/selection.json",
+    "bytes": 543,
+    "sha256": "9112bdc05aa5b9d8825f2949ea4e07984315193d576e913d07544824e2e9fc11"
+  },
+  {
+    "path": "03_校準與凍結/SU3/candidates.csv",
+    "bytes": 4635,
+    "sha256": "d04cecdaf516158553c4db1d516ca76a0c280349227e5846723bb6a3c4c75ffa"
+  },
+  {
+    "path": "03_校準與凍結/SU3/selection.json",
+    "bytes": 544,
+    "sha256": "41282fad3a8f8bfd1e03c25795875216f240fa035ff952f94feede41449b28f9"
+  },
+  {
+    "path": "03_校準與凍結/SU4/candidates.csv",
+    "bytes": 4789,
+    "sha256": "f274766239b9a81606f956cf9dcfc4acb46853943c881a9422983df12ddbadba"
+  },
+  {
+    "path": "03_校準與凍結/SU4/selection.json",
+    "bytes": 531,
+    "sha256": "aa852cc37bd1a734c9ce3b198f27ea3c0d25438b648f8cc2e0995706fca57e02"
+  },
+  {
+    "path": "03_校準與凍結/SV1/candidates.csv",
+    "bytes": 4811,
+    "sha256": "ab523f0f35dd7431f00f08926f07990f0771fdaaba2725ac7ad01565b751c2ab"
+  },
+  {
+    "path": "03_校準與凍結/SV1/selection.json",
+    "bytes": 545,
+    "sha256": "aca2b09ce0dbcb25d546b26428cdf312a78994ff1ede5c3e29fd0f7d1ef19026"
+  },
+  {
+    "path": "03_校準與凍結/SV2/candidates.csv",
+    "bytes": 4803,
+    "sha256": "4d2059a9df3324f67dbcd714953177034531cd62b858e631068d1f40c31e5e0e"
+  },
+  {
+    "path": "03_校準與凍結/SV2/selection.json",
+    "bytes": 543,
+    "sha256": "8cff81b933282e0dcfeb77944b21913c5b192054cf4566b1cfab2d9ca5f52197"
+  },
+  {
+    "path": "03_校準與凍結/SV3/candidates.csv",
+    "bytes": 4628,
+    "sha256": "c756e66d22ca744ccb58f437f67808da181ec00c2cdbf9d1c48c45c02deeea03"
+  },
+  {
+    "path": "03_校準與凍結/SV3/selection.json",
+    "bytes": 545,
+    "sha256": "5e9692b1b85a974e0f2cd077a7ef81fb62aaf2abb64cc86578415fe6f637e349"
+  },
+  {
+    "path": "03_校準與凍結/SV4/candidates.csv",
+    "bytes": 4803,
+    "sha256": "9449abde643da07f55388ffe81edca6dceb213bf0216642673a9d14f2e92e95d"
+  },
+  {
+    "path": "03_校準與凍結/SV4/selection.json",
+    "bytes": 529,
+    "sha256": "bbd2d86ac512233fa081ceb978f7abeac5dd3f8ec7906a05105b37c573ff5eb0"
+  },
+  {
+    "path": "05_統計分析/GU1_ber_psnr.csv",
+    "bytes": 17198,
+    "sha256": "43c637671b375d799f01763d5ddb412411e763b1cb0b0fc9fc34379498263610"
+  },
+  {
+    "path": "05_統計分析/GU1_checks_matlab.csv",
+    "bytes": 12582,
+    "sha256": "edbd79b3c4171bd29f92b98cd80ef027975609c45ef6d1cb12f928fb6b64e8b2"
+  },
+  {
+    "path": "05_統計分析/GU1_decision_matlab/part_001.csv",
+    "bytes": 499867,
+    "sha256": "65f78cf89ccefac0e2efd922fc9697b5c25312afa5b9ab6d1f2a41c32722424d"
+  },
+  {
+    "path": "05_統計分析/GU1_decision_matlab/part_002.csv",
+    "bytes": 499959,
+    "sha256": "2264a23c346290df917197fd6735521b0aff75158d5f100af1976276a66eb8d5"
+  },
+  {
+    "path": "05_統計分析/GU1_decision_matlab/part_003.csv",
+    "bytes": 23098,
+    "sha256": "a196c8b28d00fa96d99728356e4d392ccc02c4ccdb183f4c1911830ff047f8dc"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_001.csv",
+    "bytes": 499897,
+    "sha256": "22da45ac28c7e757a2a59cbef73c013258c4d97e6d1d14536d5ddea69313a8ef"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_002.csv",
+    "bytes": 499864,
+    "sha256": "dee4b36b8b56f11068dd79a0a08a754f042470d01b29d22ff50da2e4b1e1cc08"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_003.csv",
+    "bytes": 499985,
+    "sha256": "f3230a213279407d8391ab0a707e981613ca72fcbcb5c4f92df4f72e3936ae13"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_004.csv",
+    "bytes": 499906,
+    "sha256": "997f44429592d3923d0f8cc1f0840cd961153c47034183124316a1c12535ab04"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_005.csv",
+    "bytes": 499967,
+    "sha256": "8fcfc66f0c36c776f78c1a8ee3650d5f69c9ffb9a5277f3f3e794e742c1ff3f7"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_006.csv",
+    "bytes": 499932,
+    "sha256": "381737a17d7cdbde3bffdfefe2caf518fb7c0801ccadebdd6c88ff527716456d"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_007.csv",
+    "bytes": 499840,
+    "sha256": "0eac09d580d729841f7217cc6a6b1b837e597bb58d582e3a14c7601f0345a3c7"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_008.csv",
+    "bytes": 499841,
+    "sha256": "0a30a3a9ff830d5eace239e707a0db7f29ac318dd23abd28c3eafd259f13b52a"
+  },
+  {
+    "path": "05_統計分析/GU1_matrix_matlab/part_009.csv",
+    "bytes": 441364,
+    "sha256": "25b9e4a8f5649c224c414e0fd30add0e3ac9edfdeeff240e249f5633b91d3d68"
+  },
+  {
+    "path": "05_統計分析/GU1_relation_matlab.csv",
+    "bytes": 119976,
+    "sha256": "98e3edd0352a718aa2de6d2aa2251f95ee48c1ffc05846624893ff999d5bf2fd"
+  },
+  {
+    "path": "05_統計分析/GU2_ber_psnr.csv",
+    "bytes": 18170,
+    "sha256": "93c8b118574dd09ff5c8279eafcf312a229a66557e5e0f72497a7c6480a7cbf4"
+  },
+  {
+    "path": "05_統計分析/GU2_checks_matlab.csv",
+    "bytes": 12886,
+    "sha256": "5d9f94d629c1700ae91fe5b37e30e00abd85b3db66f7c5623da3ac31233ac68e"
+  },
+  {
+    "path": "05_統計分析/GU2_decision_matlab/part_001.csv",
+    "bytes": 499951,
+    "sha256": "b993c58c1dcdbff4f7ce70bfa58f1fad7a634075d07f4fb0a598cdaae1d9c71e"
+  },
+  {
+    "path": "05_統計分析/GU2_decision_matlab/part_002.csv",
+    "bytes": 496082,
+    "sha256": "88187b1857c211d806f9b3f1294c78e5640b0ccae5aeea526f12895d893ed9ce"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_001.csv",
+    "bytes": 499954,
+    "sha256": "ca92c788b11b886f1246f12d4ea73527a3c1210fa67d35fb1a5e7476a1a8a48c"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_002.csv",
+    "bytes": 499986,
+    "sha256": "99cfeb19ad9e14b9317b6e4c58cf78823013848f0aa4e8cc79accdfef79d05a5"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_003.csv",
+    "bytes": 499823,
+    "sha256": "b23ccefaa34581641bf90c59682a87ab1fa44fccb4190518739dbdee997a2beb"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_004.csv",
+    "bytes": 499813,
+    "sha256": "a01ac58c8142da8e6baf8c0cc6fa8bf7582b8cf3050b0b318c2e37eb5a7c0647"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_005.csv",
+    "bytes": 499973,
+    "sha256": "1b855c6de91b02021c7e1a4fea272bc6c5bebc3064b36f0add8df290e1628a39"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_006.csv",
+    "bytes": 499936,
+    "sha256": "cd32be7c1d0a5cd34241a88042c8e7db375c585181a8d14d71629881bbf3e912"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_007.csv",
+    "bytes": 499823,
+    "sha256": "dc32004d9b5e2169b0bc3977ad1142ce46f01f04c9fd5747252cc00ef45bdfd7"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_008.csv",
+    "bytes": 499972,
+    "sha256": "2d4d69771ec68eee03e970d13ef7b1e5afb0661ae0fc91a199f2872f67d10cd6"
+  },
+  {
+    "path": "05_統計分析/GU2_matrix_matlab/part_009.csv",
+    "bytes": 370306,
+    "sha256": "47e48d740cdc9db8b51e5002ca71a6a8664871f0bf77cabe19d9b48629ad1d0b"
+  },
+  {
+    "path": "05_統計分析/GU2_relation_matlab.csv",
+    "bytes": 172290,
+    "sha256": "934aa1deb9cf540c637482caafe8948e696b8826f16a2e96187ecff990f1df9f"
+  },
+  {
+    "path": "05_統計分析/GU3_ber_psnr.csv",
+    "bytes": 18222,
+    "sha256": "41cd99d8e4dc8a3e6caa26166cd8760aff9a80c1329b17f1f395972b6522717c"
+  },
+  {
+    "path": "05_統計分析/GU3_checks_matlab.csv",
+    "bytes": 12149,
+    "sha256": "59e6bb79821d1fa268eea265b3f2f31982842d8bbfa74ec204b882250556fd4f"
+  },
+  {
+    "path": "05_統計分析/GU3_decision_matlab/part_001.csv",
+    "bytes": 499886,
+    "sha256": "26f90d2737ccb9fc5d3a8c018270bfd89d42bb57675db16af1b906cdc15f1678"
+  },
+  {
+    "path": "05_統計分析/GU3_decision_matlab/part_002.csv",
+    "bytes": 497159,
+    "sha256": "1f83e1b75b3adcb1920efbe1bb7a377b1d12574914011c8aaec8dcddb87d9c68"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_001.csv",
+    "bytes": 499936,
+    "sha256": "428afa2c1806726d29f376661b94ae7d79242a3138a94fb5452d180f1a7f0396"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_002.csv",
+    "bytes": 499849,
+    "sha256": "4a7b3a9898dfc5a0ab4a13c6f6ddba786f31b638abe7d31171e3057dcc5f2b1c"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_003.csv",
+    "bytes": 499935,
+    "sha256": "7c4d293b272312b11386ff5f3cebfccfa9879c8bc1d5d459b04b9635729c2bbd"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_004.csv",
+    "bytes": 499846,
+    "sha256": "80a63d6f19564946d7330f5fb85a2c2c6d742c80d841b0d7b96ae24ddc64d547"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_005.csv",
+    "bytes": 499932,
+    "sha256": "e00fd213368bbe010f5dfaed6838a600e0025e80fff0c5a73ed67c695b9f0044"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_006.csv",
+    "bytes": 499844,
+    "sha256": "f88d3e957857c3741556b22d392844f4010d5040c3a489844a60c4918c2515f7"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_007.csv",
+    "bytes": 499920,
+    "sha256": "9619c80c6eebad5f3df8ca696f6589b41e86fdfee96406c8e300ece041fcd2d8"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_008.csv",
+    "bytes": 499865,
+    "sha256": "0aecf15443ddd60f3947a105211478ebde052eb581c5c88aa25afa914d5dd061"
+  },
+  {
+    "path": "05_統計分析/GU3_matrix_matlab/part_009.csv",
+    "bytes": 348165,
+    "sha256": "92b663d57fe51ce537345f666884edfffe0cacdb55d18198e2eae66460e0ce2f"
+  },
+  {
+    "path": "05_統計分析/GU3_relation_matlab.csv",
+    "bytes": 173457,
+    "sha256": "f3cb34e2cf29a03494903224ec670de7c96b3f2e0dd218d4f79e228c7e9a95f0"
+  },
+  {
+    "path": "05_統計分析/GU4_ber_psnr.csv",
+    "bytes": 18251,
+    "sha256": "ff29ed08dfef47aa7b4a21e936842e08e4d9fcd35c73efd4254a406a000dd712"
+  },
+  {
+    "path": "05_統計分析/GU4_checks_matlab.csv",
+    "bytes": 13122,
+    "sha256": "6e3aeed1de6d5ea1b7c4fe2cad5c165c40395378cbe8cdceeb340a6628551929"
+  },
+  {
+    "path": "05_統計分析/GU4_decision_matlab/part_001.csv",
+    "bytes": 499926,
+    "sha256": "b9c123388bc4d038e02e0ad70568226b39c3fa6b6bfe46f6d966ed5af461bf25"
+  },
+  {
+    "path": "05_統計分析/GU4_decision_matlab/part_002.csv",
+    "bytes": 492105,
+    "sha256": "8f7eb22e6c063c99de3c04054a7c64144274e2f9b8982519cc24e0523e546242"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_001.csv",
+    "bytes": 499999,
+    "sha256": "7de3e77cf1c798d096430fbba49f5973c308aff21ed93a9a969025774a166686"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_002.csv",
+    "bytes": 499890,
+    "sha256": "cae81449946355f63e16287df77f4911faf5805674e5a75538fda19359c7f513"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_003.csv",
+    "bytes": 499850,
+    "sha256": "92e8f5254b9c93204f372e13b82df83f26f07a96066ea3d4272350151783ab7b"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_004.csv",
+    "bytes": 499893,
+    "sha256": "25b0a8dd39ea15a45f9bb10f69f2fa5f827858c5fe45dbc35fffcb33fda360d3"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_005.csv",
+    "bytes": 499910,
+    "sha256": "a895fc82db2f0dea9a761c334b846eb9f28234786b62450f765aa75beba066b5"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_006.csv",
+    "bytes": 499908,
+    "sha256": "5b0530ff7d7f08f0974edab9ca7482a4b0a2002d659e511fbcce99da330d4c58"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_007.csv",
+    "bytes": 499892,
+    "sha256": "3c79b895582c0bb733a858d30627eb501bf767002c7d984ff7192ee8394bb588"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_008.csv",
+    "bytes": 499834,
+    "sha256": "2013ea85d3cceadc92f7c2f6a177e1841a31d442d212585b1ac0ce1e80a83d63"
+  },
+  {
+    "path": "05_統計分析/GU4_matrix_matlab/part_009.csv",
+    "bytes": 359336,
+    "sha256": "1d0b728ace8eac3e426417df209d96e2297932b4f2de3c057137a2371d7ecc02"
+  },
+  {
+    "path": "05_統計分析/GU4_relation_matlab.csv",
+    "bytes": 185830,
+    "sha256": "412ee03bd3f44c4f7968a425c881b77f89481e8f32f51ae42d447598f2cbf562"
+  },
+  {
+    "path": "05_統計分析/GV1_ber_psnr.csv",
+    "bytes": 17178,
+    "sha256": "24bf9ebd2f51a82308799e39dd53386a797fc95594f3c2b8db0656c90df64995"
+  },
+  {
+    "path": "05_統計分析/GV1_checks_matlab.csv",
+    "bytes": 12226,
+    "sha256": "7b7c3c11a870c5caa593ac732b665abc7202ac6846ba1ef4fdcb0ed7cca31be4"
+  },
+  {
+    "path": "05_統計分析/GV1_decision_matlab/part_001.csv",
+    "bytes": 499943,
+    "sha256": "aed8b91b48b9e22a5faf49022560b5ef81721b421cc717be146350e4fda14615"
+  },
+  {
+    "path": "05_統計分析/GV1_decision_matlab/part_002.csv",
+    "bytes": 499821,
+    "sha256": "eb66dbc906424cddb3e67aaac32da47b18f8cbbc44d6a8bd6217bfa2658c468a"
+  },
+  {
+    "path": "05_統計分析/GV1_decision_matlab/part_003.csv",
+    "bytes": 22503,
+    "sha256": "662427a3e47a37cde795fbc7a6ce6ca50641a70f9108405d30961bf2591a2599"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_001.csv",
+    "bytes": 499853,
+    "sha256": "759f66c68861b95535173f9699a06fcad4f7558124f78a9c41bc5c2126c94313"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_002.csv",
+    "bytes": 499917,
+    "sha256": "64f0bbc463c4c6adfb6c9e371074b5c9f7c0b2ad700a385836d4526c4d9020d1"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_003.csv",
+    "bytes": 499990,
+    "sha256": "2d5867cdb8c560f46a65be7a606011b968135ff26fc34da1b6374e389b2dcab4"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_004.csv",
+    "bytes": 499931,
+    "sha256": "465f51ba0e7bc5e2b1156a65c80bb35edc33f3f2fbea25de6a9bbb685e169b57"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_005.csv",
+    "bytes": 499932,
+    "sha256": "b20aa13eff8b6b8f67e9a60c131763bebd46ba5794a0e9f2533bc4c18e2885c4"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_006.csv",
+    "bytes": 499871,
+    "sha256": "f99a60d15fa3d04b67026a3e4c2c1aa24429af36987e68ce1b2ce47121b264f7"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_007.csv",
+    "bytes": 499865,
+    "sha256": "77a4fdff6223e3ba372023a6f50efcd3d2b651ff66d4b2b2fbed66396a69608a"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_008.csv",
+    "bytes": 499928,
+    "sha256": "42b99a8c8db41a763a682c6fb092d61844f6ae4b420c82fbe33e9121f7aec886"
+  },
+  {
+    "path": "05_統計分析/GV1_matrix_matlab/part_009.csv",
+    "bytes": 441283,
+    "sha256": "bbb1693073b66a11c195f9e8adceef210b70c7cfb421c8dfc43eb6d925135c80"
+  },
+  {
+    "path": "05_統計分析/GV1_relation_matlab.csv",
+    "bytes": 119712,
+    "sha256": "0f2fcf9d910a0ba9b323062c45e207801b2c7615af03a597ea6e7254171d52fa"
+  },
+  {
+    "path": "05_統計分析/GV2_ber_psnr.csv",
+    "bytes": 18092,
+    "sha256": "6404cf3e5cb638ef3448bac78bc34a2a3eb96711ad0692d297c10a8e6054d8d9"
+  },
+  {
+    "path": "05_統計分析/GV2_checks_matlab.csv",
+    "bytes": 12954,
+    "sha256": "7805413b1e20b013afd5b809f189683528c3bf71be7928080a98fcf0684915e9"
+  },
+  {
+    "path": "05_統計分析/GV2_decision_matlab/part_001.csv",
+    "bytes": 499836,
+    "sha256": "e8d5b3186d3a30e23c582d604c43affaf3f9a73122c43fc8dc30ae48a1bc58b6"
+  },
+  {
+    "path": "05_統計分析/GV2_decision_matlab/part_002.csv",
+    "bytes": 495095,
+    "sha256": "df054e7c60aacb2322387477edc8a7de249fbb825bba3aa541a34e0fbf051f2e"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_001.csv",
+    "bytes": 499874,
+    "sha256": "caacdf4bc0c348d020b266c99b98c85d65f279a83f974bf442e947176e2ec52c"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_002.csv",
+    "bytes": 499810,
+    "sha256": "6b7898dc10c2c4e149119543bfb8044532ef2659531d1d7bd6b6b1eaabb81f7a"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_003.csv",
+    "bytes": 499976,
+    "sha256": "bd3a1c97e47925a1198eddcb44b6d9e5cf25fd1216bf763b41e3aae4c76da84d"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_004.csv",
+    "bytes": 499911,
+    "sha256": "95977884ad30e79cd2b80146d145c5fe09bd97853ca35717e58cf9417c46ab44"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_005.csv",
+    "bytes": 499865,
+    "sha256": "9361ec2e51ccad2136fbe2d8bfff873031193a33039ca7bb2ac7ff25654ea385"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_006.csv",
+    "bytes": 499837,
+    "sha256": "865fb5af7a18d292f3ff83f34e96f616eedc579ff8035b2c111fcb22d7c3cf93"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_007.csv",
+    "bytes": 499945,
+    "sha256": "80bf5a1c173a2af064c5cb64bc960b7dbf1e2f5738fc1cdaa826bc33d4177fb4"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_008.csv",
+    "bytes": 499923,
+    "sha256": "1f28512904e58431dcc516acb80b1b7084c8cca3ff5067e0851e9fd6334e9a2f"
+  },
+  {
+    "path": "05_統計分析/GV2_matrix_matlab/part_009.csv",
+    "bytes": 374045,
+    "sha256": "c75762f2640722e106fff0aa11be7fca7cfe3329b20af774de595f83670b41bd"
+  },
+  {
+    "path": "05_統計分析/GV2_relation_matlab.csv",
+    "bytes": 172575,
+    "sha256": "b956b229e182c05bbe29d13f50972595b7e7f3e67a47001b9744f022b3e11173"
+  },
+  {
+    "path": "05_統計分析/GV3_ber_psnr.csv",
+    "bytes": 18238,
+    "sha256": "5a88e4639816e9edd46139b0911ee5f936ed2c3491594b410955e3b610ee4d1e"
+  },
+  {
+    "path": "05_統計分析/GV3_checks_matlab.csv",
+    "bytes": 12913,
+    "sha256": "c3249d972a00105e03b2311ad9fe4d56e536c93b5c59367f25dbcf8a62909d90"
+  },
+  {
+    "path": "05_統計分析/GV3_decision_matlab/part_001.csv",
+    "bytes": 499910,
+    "sha256": "817a2c894aaee0dc9c4bc31f7d73e1eee8d0fe98b19b88e9efef3c1e91782426"
+  },
+  {
+    "path": "05_統計分析/GV3_decision_matlab/part_002.csv",
+    "bytes": 489676,
+    "sha256": "d9af2b2a25840dd8b7e42ae067caea7aa038100acdaf918bb35c9dffddc474d5"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_001.csv",
+    "bytes": 499821,
+    "sha256": "9b2a5eba6b005ba386521c2da468248b6b71a511372651eb2241c86de3f95200"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_002.csv",
+    "bytes": 499821,
+    "sha256": "a02f28a2974cb7c6d464f03f8478e4cd79bad2d022cb895311be3c97a8817316"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_003.csv",
+    "bytes": 499892,
+    "sha256": "bf32e0ff206e2768e19530d1e5be2fc287a5197ec497dd4da1c52fe47d2e87fb"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_004.csv",
+    "bytes": 499820,
+    "sha256": "a4ac6806510e96554581912bb7e3afd24dc73a251c679cb7faa17dbb7d0c174c"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_005.csv",
+    "bytes": 499906,
+    "sha256": "b1e7f12a0d66949e4747cd7f8c2ff06b78ed39f24d83b6ba9a76a26718d1a705"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_006.csv",
+    "bytes": 499919,
+    "sha256": "e3858105f4c25b256b87465f265ad67df0c277bd7f6d5b46dd379cef0f24b82c"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_007.csv",
+    "bytes": 499959,
+    "sha256": "b2d7c800d42bd9d9d46397bcaee791a7e531cd5fd85190c13e43fd7b42fa7d41"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_008.csv",
+    "bytes": 499983,
+    "sha256": "2b50bf037f2217a0aec0e10d7339b0c4ffbbcbbe9b86f74006d9a71316b4c23e"
+  },
+  {
+    "path": "05_統計分析/GV3_matrix_matlab/part_009.csv",
+    "bytes": 345791,
+    "sha256": "04675c1da532ed1b56d3d862eb52452098435b67e751671c1a499573757e36e3"
+  },
+  {
+    "path": "05_統計分析/GV3_relation_matlab.csv",
+    "bytes": 172884,
+    "sha256": "24289a804f3deed721050333b77b6302ad0f00bccd2a73bfc86df036c62856e5"
+  },
+  {
+    "path": "05_統計分析/GV4_ber_psnr.csv",
+    "bytes": 18207,
+    "sha256": "bf6f882a5ec4abe32aae9f00e4e977dbb6e9bb3ffb773025f5d54649bbbb41d8"
+  },
+  {
+    "path": "05_統計分析/GV4_checks_matlab.csv",
+    "bytes": 11992,
+    "sha256": "ec297d02af42bb56340afd18e2c26a3fdd1632b222eb944e6e76ba35351be083"
+  },
+  {
+    "path": "05_統計分析/GV4_decision_matlab/part_001.csv",
+    "bytes": 499899,
+    "sha256": "7de6cdd0230d7ed8b3bbfab93821ac8395981c717d2ae9ad6f9ff94663c6a7ea"
+  },
+  {
+    "path": "05_統計分析/GV4_decision_matlab/part_002.csv",
+    "bytes": 494387,
+    "sha256": "1e35abbe47199b9dd98e2b8d56900d05ab1870538beeeea31fd47df26bf25ef3"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_001.csv",
+    "bytes": 499991,
+    "sha256": "28f393d06f3d0bc6266693d940ec568788c125dee34dc9a2ee2c6fff2d8c832a"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_002.csv",
+    "bytes": 499874,
+    "sha256": "ea51ee3db5598f57995d3ede81092e25921e0732c76091e923d6f5ef2758fcc0"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_003.csv",
+    "bytes": 499848,
+    "sha256": "69433c27b2181e583bd2a6e5a0f8845bdf27b70e88960a69f72856f91f13e8ee"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_004.csv",
+    "bytes": 499824,
+    "sha256": "06a741fcaf44e768fa3c748420a91157b334822a8b9023966d3af98a95ee245c"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_005.csv",
+    "bytes": 499984,
+    "sha256": "98fd36b914c35208c26a1a6a52ae466b29462996e0371877d5d67eb304d73772"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_006.csv",
+    "bytes": 499813,
+    "sha256": "47196f9d5234631874b3dbf655fd1ff98776be56bc3b6d882431102f98fa5096"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_007.csv",
+    "bytes": 499934,
+    "sha256": "686f16efffdf71a873ffd00396585d702d8110c9dc4be1d1d93ac2a8b8b5dd17"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_008.csv",
+    "bytes": 499959,
+    "sha256": "a58072ebdef13742217727decdf645be3250cba79bfe381e7def75a6684590ac"
+  },
+  {
+    "path": "05_統計分析/GV4_matrix_matlab/part_009.csv",
+    "bytes": 357030,
+    "sha256": "a8502aa0058f8114056017cb84af623aa48142a9a44b53d92859e3684d6221bd"
+  },
+  {
+    "path": "05_統計分析/GV4_relation_matlab.csv",
+    "bytes": 185842,
+    "sha256": "ed183829f9cd2a0a212ae7c2951d4ad619233563993e409ff15ef84c2b474b52"
+  },
+  {
+    "path": "05_統計分析/PU1_ber_psnr.csv",
+    "bytes": 17662,
+    "sha256": "0c82b965d8bbbefba45a0c0abff3928a40c59056356f40f2aa856e33814678a0"
+  },
+  {
+    "path": "05_統計分析/PU1_checks_matlab.csv",
+    "bytes": 13114,
+    "sha256": "42291321aba4a9cd729704190c21191d5359050c1d619b74b22cbacbb718035c"
+  },
+  {
+    "path": "05_統計分析/PU1_decision_matlab/part_001.csv",
+    "bytes": 499998,
+    "sha256": "509d5600469cab55b71cb66d49716e55b26158424ef4671bd1fa299ed700eb33"
+  },
+  {
+    "path": "05_統計分析/PU1_decision_matlab/part_002.csv",
+    "bytes": 499891,
+    "sha256": "5683a299d42f521710df24fab48130a3444a579cc2f2e7946ad66d7227e57c35"
+  },
+  {
+    "path": "05_統計分析/PU1_decision_matlab/part_003.csv",
+    "bytes": 49781,
+    "sha256": "e0a93a99e4d8372c577f2c94800cb12d0f470e94ed2124eb77cd4ab3d818e93e"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_001.csv",
+    "bytes": 499836,
+    "sha256": "3ebdda1c6764a9f51e7dc943eccec526091cd80290493c02333d1a509d4ffbe1"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_002.csv",
+    "bytes": 499811,
+    "sha256": "1d01764fc70519731d6db159ee6654038adf47f33e6398332d61ed257294f51b"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_003.csv",
+    "bytes": 499891,
+    "sha256": "72c58a8a02df54089f2fff66f17e099618c1b2013293e0a835dd3ab8fe39e678"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_004.csv",
+    "bytes": 499942,
+    "sha256": "091a37637a4593af6d1878d93e9796ca3b6e31557d4fc50aea7c0ec09aa04ed7"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_005.csv",
+    "bytes": 499996,
+    "sha256": "772514faa546b0252980cab42f284e9d0f8754d6b604383d93a8f409d562918a"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_006.csv",
+    "bytes": 499853,
+    "sha256": "3c28dbc253a1fbbc2979fec6bee48571af4b3078ff7660adf2f893c3e2008fe1"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_007.csv",
+    "bytes": 499804,
+    "sha256": "32d4943ca5afcce6d00893b52993fdc948922fc512386b07153cf53353cc34d8"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_008.csv",
+    "bytes": 499883,
+    "sha256": "aa9b6b657ff9519540a0c1cc70b392db85503431c4fb45470c035da30260d273"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_009.csv",
+    "bytes": 499936,
+    "sha256": "61a50828a65a1d85c22ccdaf56710b2537d37c16133b78e56a8c7ababb5a6935"
+  },
+  {
+    "path": "05_統計分析/PU1_matrix_matlab/part_010.csv",
+    "bytes": 111162,
+    "sha256": "c40980ef3c47bf0aa8e79b3bee891d241ff655138aefafbb36f255ae51c4714b"
+  },
+  {
+    "path": "05_統計分析/PU1_relation_matlab.csv",
+    "bytes": 131610,
+    "sha256": "4804fe1811d9d57cdfb50a6266fdce744143d438121e293319559c6f954fc8af"
+  },
+  {
+    "path": "05_統計分析/PU2_ber_psnr.csv",
+    "bytes": 17809,
+    "sha256": "3a5866998b3f74ed2a433b45d5dbf89b89e9615f376395e1ccfd56d36d89aecf"
+  },
+  {
+    "path": "05_統計分析/PU2_checks_matlab.csv",
+    "bytes": 12615,
+    "sha256": "d6b1e316d37ab2222a703d10e506686d8d7c7d7cabd1c3fa7d40484f05a7e00d"
+  },
+  {
+    "path": "05_統計分析/PU2_decision_matlab/part_001.csv",
+    "bytes": 499901,
+    "sha256": "f518bb0bdb4e0d79864bee5b2b7276e9dba6607d7d5e26edbb57ff4634a1bee3"
+  },
+  {
+    "path": "05_統計分析/PU2_decision_matlab/part_002.csv",
+    "bytes": 468384,
+    "sha256": "87054dbfbd08fa7d5533365c445a568ad34c895071db2fb4372c52b16f41ce56"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_001.csv",
+    "bytes": 499940,
+    "sha256": "0c7b06fcf642a6ab46273cbd535fcd15816449d7b4ac89abf6b9526b204d559f"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_002.csv",
+    "bytes": 499823,
+    "sha256": "aacaca28b00e6b0e7da700caa07c5ebaa7c7720c0767c13c0beb5aa4a62b05f2"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_003.csv",
+    "bytes": 499895,
+    "sha256": "b13ff1960f34cb8d5a7a0a76a44bbd622453fca4c659bba4e6801b68bfce7ffb"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_004.csv",
+    "bytes": 499938,
+    "sha256": "43986f70b83b3a3ab51726e9abbd881f3cfe7737a1d61df362ddda93591c96b2"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_005.csv",
+    "bytes": 499921,
+    "sha256": "c7cfb89bb65063abc8f8b38039da44f076d9ca3da2b039a4b8f484d970d00019"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_006.csv",
+    "bytes": 499855,
+    "sha256": "ee516c2036f582d4fe8f7766d2f7c1458da0b0b14e8cd2b089fd68dcf28421a2"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_007.csv",
+    "bytes": 499910,
+    "sha256": "2979fd78f430e4131192d095f5c4c661cbaafad65a32c041977056f6efb7c56a"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_008.csv",
+    "bytes": 499905,
+    "sha256": "9edfec3fd6f8451b111fe45aaa27cedab8ea781120d4f35cd43fa1642fe30239"
+  },
+  {
+    "path": "05_統計分析/PU2_matrix_matlab/part_009.csv",
+    "bytes": 285662,
+    "sha256": "e3bbc8ab36e17bdd352c21bee3347365ec2e63092c065d2e8daf06f010ed3f1f"
+  },
+  {
+    "path": "05_統計分析/PU2_relation_matlab.csv",
+    "bytes": 159924,
+    "sha256": "ab2977b82506aefeef7656d958730547f7fd33e34a183bffcc44d0c6a519b9e0"
+  },
+  {
+    "path": "05_統計分析/PU3_ber_psnr.csv",
+    "bytes": 18279,
+    "sha256": "2a32add31894b36dd34fb16ce5bf73b464a0b887533470e5d2dd300efdbdb1b5"
+  },
+  {
+    "path": "05_統計分析/PU3_checks_matlab.csv",
+    "bytes": 13108,
+    "sha256": "9858fc2ad088c94d8f88a4a8ccdbf591bf4fa7641152298e4ce2f603cf8e9051"
+  },
+  {
+    "path": "05_統計分析/PU3_decision_matlab/part_001.csv",
+    "bytes": 499869,
+    "sha256": "ddc438b97a1a2e82a1c8f5b882fe6e6053beac114207b0cd77914849fc2dcee9"
+  },
+  {
+    "path": "05_統計分析/PU3_decision_matlab/part_002.csv",
+    "bytes": 494501,
+    "sha256": "2c94a423c7948472ad5b4b1ac7d820a2cd355099a584a2a3243a25adc203f6d5"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_001.csv",
+    "bytes": 499834,
+    "sha256": "8d9073b6bbfd1710c26ecc31e6b337fed92d3230b2596582c024fd3cbcff7f33"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_002.csv",
+    "bytes": 499809,
+    "sha256": "806fe892476cc1c5505a4e2cb46bb17cef1612188a15098a78656a13b9704069"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_003.csv",
+    "bytes": 499897,
+    "sha256": "e5dbc59e994c44f8ec3b59e80fabc5402040f3b1c0dfb397fac9b0dbde760b6e"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_004.csv",
+    "bytes": 499890,
+    "sha256": "e926ba3c94d306e65b9b05ffda66b71290acd894a1fff9bc44b554209fa39361"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_005.csv",
+    "bytes": 499802,
+    "sha256": "8ba422906b8704d9f5564545823102f179a99dc83cb8fdb5661870a77ba1e07f"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_006.csv",
+    "bytes": 499913,
+    "sha256": "19aa239cc4d665ee6cb672971d92454e183042b293d8f5f8d607db017fe9d870"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_007.csv",
+    "bytes": 499935,
+    "sha256": "add4600216063cb971786a25dd6a91a5841fe67fedff4b1c9e06332bf9d4a247"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_008.csv",
+    "bytes": 499905,
+    "sha256": "b16427a2647d1ce5240ee85f857b81ae403e049799bd67dca41638014dbc4aff"
+  },
+  {
+    "path": "05_統計分析/PU3_matrix_matlab/part_009.csv",
+    "bytes": 441406,
+    "sha256": "d7d3b1f3536bd00bc8d5473fd52002a7b62f6d8fef8e80268c4a0f06c8a0adc4"
+  },
+  {
+    "path": "05_統計分析/PU3_relation_matlab.csv",
+    "bytes": 174827,
+    "sha256": "b48b392227772d039fd838628e6c444f1f78cba3040951f526a23ebe259957d9"
+  },
+  {
+    "path": "05_統計分析/PU4_ber_psnr.csv",
+    "bytes": 18245,
+    "sha256": "dcd6b7c00786be055bee518eac9747d3af2b9daf2ce3513dbead6fcc40b088a2"
+  },
+  {
+    "path": "05_統計分析/PU4_checks_matlab.csv",
+    "bytes": 13121,
+    "sha256": "28ef89a8e26c71b83d6864d60e161e0487fde554c39bc25aae90474ff9797ee5"
+  },
+  {
+    "path": "05_統計分析/PU4_decision_matlab/part_001.csv",
+    "bytes": 499839,
+    "sha256": "e8d8569af15b73c7c00fa5723fab05c866b3d82ba98cdf5c80f6d5abbcc95e19"
+  },
+  {
+    "path": "05_統計分析/PU4_decision_matlab/part_002.csv",
+    "bytes": 493595,
+    "sha256": "9a749b48c20529d7ca73361d152bab6dfd7236ffb1ea4d243192ef77613cacc5"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_001.csv",
+    "bytes": 499925,
+    "sha256": "0b392f6e0d4ca0e90f9ba1b5694b8ca80f195f9f3f4e26b83eab6bbaed85efa8"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_002.csv",
+    "bytes": 499799,
+    "sha256": "0a7b913b64dbd51786d437edbfee8d95e32bcf56ad89c9f025be142c2e48d816"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_003.csv",
+    "bytes": 499923,
+    "sha256": "7ed1374e83595269345e200eedccb0cc7f533db0d54344dd08d7369d6b635661"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_004.csv",
+    "bytes": 499986,
+    "sha256": "df397fe93f387b6dfc9ae05a8ae3231fcc063f12f9e5565cbefb582c95bffc4a"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_005.csv",
+    "bytes": 499796,
+    "sha256": "297dcf8deb61908a6023ce981127d41ee03518ee704f6bdb9ba56735cfb20f87"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_006.csv",
+    "bytes": 499921,
+    "sha256": "dcf270eb17c2d63cf925ab7e7ff2234d769374d743671d0e8375a3f603829a29"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_007.csv",
+    "bytes": 499993,
+    "sha256": "cfb2f4dd82c9a7ecb7c3457f8458e1d55c4bdfed34f35f01fe39607b6994471a"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_008.csv",
+    "bytes": 499797,
+    "sha256": "5c7e88af4380664179991d7cebaa519dc913ae19014569e7e70f01530060cae2"
+  },
+  {
+    "path": "05_統計分析/PU4_matrix_matlab/part_009.csv",
+    "bytes": 434108,
+    "sha256": "3f4918c6574249312ef48b8a64392c2314756bfa25ca8ff26ed2a719e0220af9"
+  },
+  {
+    "path": "05_統計分析/PU4_relation_matlab.csv",
+    "bytes": 186987,
+    "sha256": "cc9834d9de86db3c1abeec2558adb36569a8ef174e3d152b733c8f603bc70e04"
+  },
+  {
+    "path": "05_統計分析/PV1_ber_psnr.csv",
+    "bytes": 17626,
+    "sha256": "dc0345ff5b20cf2080f1625264f060698a491e8a81b8321b2e7445a9e2a7181a"
+  },
+  {
+    "path": "05_統計分析/PV1_checks_matlab.csv",
+    "bytes": 13132,
+    "sha256": "287495d6ceb406dfd69dc018442bfd63b6295ab3abeb77ec3385d5dc4eff0d15"
+  },
+  {
+    "path": "05_統計分析/PV1_decision_matlab/part_001.csv",
+    "bytes": 499893,
+    "sha256": "efe6e275c215b6745b6fc46d05e0a65e1f392656bfacb7173ce1496e05346c9c"
+  },
+  {
+    "path": "05_統計分析/PV1_decision_matlab/part_002.csv",
+    "bytes": 499783,
+    "sha256": "ee53e0235e4445d2a88765c762658617bfdc955632b8b775b05a06eb02ef3a21"
+  },
+  {
+    "path": "05_統計分析/PV1_decision_matlab/part_003.csv",
+    "bytes": 50202,
+    "sha256": "6db4045c1a723ab86ccf29adbb093a2dc2712f4ae0b2ef817924718869cd64f3"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_001.csv",
+    "bytes": 499928,
+    "sha256": "0870b993d26f1a70d627948f7ecb1124369bbedbba0af3cf658c43d44bd83ca9"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_002.csv",
+    "bytes": 499929,
+    "sha256": "9bcf55e5d989907dfa1474391ed527a913b756056686c86c1e59e5e05dc729e2"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_003.csv",
+    "bytes": 499994,
+    "sha256": "cf9ba11cab47321b68ba052376830b6058be53117cf44f6b49daccadbb9c09fa"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_004.csv",
+    "bytes": 499793,
+    "sha256": "1181f8049aa02d4ba2a541b84deb9a82e1d55f15d3f870a84f764eebedebe4b2"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_005.csv",
+    "bytes": 499902,
+    "sha256": "02a80cbd3f3d140956b53d5991e3ea8c6b73c37d8dc055a1889d709d1e51dd09"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_006.csv",
+    "bytes": 499999,
+    "sha256": "02d1b2cb98df9a499b2379189df66bc9a0997552344c5ba7a4e21dcfc8874ab5"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_007.csv",
+    "bytes": 499919,
+    "sha256": "b3e3a35c6612e8048cf5b42e6931d3d3387e11d709f81997ae089bf2b5c664a6"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_008.csv",
+    "bytes": 499875,
+    "sha256": "70d7489f8ea20c01d2c126bd1e1a9e6feba2ea58dc7f17cd6f1a832dfd154962"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_009.csv",
+    "bytes": 499957,
+    "sha256": "bba8805495b6d462a7f01274ce7e782bd04e427d5140a0678a6ea0908271d336"
+  },
+  {
+    "path": "05_統計分析/PV1_matrix_matlab/part_010.csv",
+    "bytes": 119446,
+    "sha256": "f3191ff2b2259e62fd868a12893cd1e7ced7de45a6f4a3af9de3b48870785037"
+  },
+  {
+    "path": "05_統計分析/PV1_relation_matlab.csv",
+    "bytes": 131922,
+    "sha256": "845bf5508fc17bbeffeefa6eb8198abce6122874aebb8f7f2e52f4aa18d6d901"
+  },
+  {
+    "path": "05_統計分析/PV2_ber_psnr.csv",
+    "bytes": 18316,
+    "sha256": "189db66ea0412c0b6b2b98a308bd5d0f5ae73311e4f4976db08fe3d31aab17ea"
+  },
+  {
+    "path": "05_統計分析/PV2_checks_matlab.csv",
+    "bytes": 13093,
+    "sha256": "7ee7caedb324ef9275bff091402946bc998f8d1b9d8b86f4be1ee212d2646b25"
+  },
+  {
+    "path": "05_統計分析/PV2_decision_matlab/part_001.csv",
+    "bytes": 499767,
+    "sha256": "a475dbd95b9e2f09f41582946663e1581d554fa0bbf2fdc7446bd9749d31d91c"
+  },
+  {
+    "path": "05_統計分析/PV2_decision_matlab/part_002.csv",
+    "bytes": 496809,
+    "sha256": "f9553fc65cfbe3c00a2a0fc4cea4604778190d73e47256441ca471dcaca13cf5"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_001.csv",
+    "bytes": 499837,
+    "sha256": "ce574dae619cda3ddcd7e98cef666ddd301fc19cca36fb6f2cc32977d84318c4"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_002.csv",
+    "bytes": 499835,
+    "sha256": "7f493e6e0c087a3e0a1b330edcf31039f46e119969102c4bba68ce4a9a80e114"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_003.csv",
+    "bytes": 499916,
+    "sha256": "3deeaf82619d48a6e5994568989663e7b79e80abe1805bcf9ec8df0082ac5742"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_004.csv",
+    "bytes": 499885,
+    "sha256": "eff43a01ae77659eeae451b7d86ac6ef959668ff8d3338e24382b52fbe5c8046"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_005.csv",
+    "bytes": 499878,
+    "sha256": "94c5d60638168d82486d702be094a23d78ee40e7fe6bcc07e90c91827d2ae168"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_006.csv",
+    "bytes": 499928,
+    "sha256": "36cef0b601e229613f7f9d4210b8fd46ad73f439ef1e70d09dbce14665161b2d"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_007.csv",
+    "bytes": 499947,
+    "sha256": "b5889092bef42e801653f43d59254b13ff8e6b41dbec6afa6dbc188071f2030f"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_008.csv",
+    "bytes": 499922,
+    "sha256": "caa1be3bcfb278dbff5e37891491ce9fcf66f8f45a78b0dcebfe38e42e71e3e0"
+  },
+  {
+    "path": "05_統計分析/PV2_matrix_matlab/part_009.csv",
+    "bytes": 407495,
+    "sha256": "b2df544fea66694f035654f01d1c006f1fc48b75155ff5c1462f2dcb6ae21287"
+  },
+  {
+    "path": "05_統計分析/PV2_relation_matlab.csv",
+    "bytes": 172002,
+    "sha256": "e0c81fbe3b64e699f906ff52d71cc91c5a832ad58c3273a67b7b04c2f4ccd2bf"
+  },
+  {
+    "path": "05_統計分析/PV3_ber_psnr.csv",
+    "bytes": 18235,
+    "sha256": "4d832264dcb34aa63f7600d548bfb0fa1b1cdea1b69ead2ba9990459174c56e9"
+  },
+  {
+    "path": "05_統計分析/PV3_checks_matlab.csv",
+    "bytes": 13122,
+    "sha256": "6af5f0b3fb575271a7cbbf33db80f7f56ce3e69eea5eab861aff8f3c0b7a6554"
+  },
+  {
+    "path": "05_統計分析/PV3_decision_matlab/part_001.csv",
+    "bytes": 499990,
+    "sha256": "e8965c3690b39567eaf927bccb0fce51fb8ce0f3b66a5fd3bde0ca0fd27c964e"
+  },
+  {
+    "path": "05_統計分析/PV3_decision_matlab/part_002.csv",
+    "bytes": 495115,
+    "sha256": "fed60cb79922635a4812c1f69b440662da22aa0f09ebb0f440ebb1a5dc655e2b"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_001.csv",
+    "bytes": 499902,
+    "sha256": "7a0d8eec84b035112f00857d01b074b1311a5474cdae302d89304a23f6d53955"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_002.csv",
+    "bytes": 499935,
+    "sha256": "2ed5d05164f7a7d6c8ad4266f6609c9fb375f08f3c1c70d9cd0191f98d4923a3"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_003.csv",
+    "bytes": 499839,
+    "sha256": "076f634417b61d121211d544c0084a050255da9df8d25ec64846fa76b0693a38"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_004.csv",
+    "bytes": 499932,
+    "sha256": "61a27ddabc2b7deca7442ffa479fcab999b3f967065ed886b7f6385ea9284668"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_005.csv",
+    "bytes": 499782,
+    "sha256": "f095fbb4a7117ce06250dc2461b8860b4687790fbf2510ea1af497f132d7c0ed"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_006.csv",
+    "bytes": 499824,
+    "sha256": "de456f70fbe9f1e9637028a4098da33b63960c1e0e61befe8c75ff5310c36e81"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_007.csv",
+    "bytes": 499908,
+    "sha256": "2131881030a3fc82ecac39d6d075666ea28ec412bcd888f9e9ccd37df38ee33a"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_008.csv",
+    "bytes": 499958,
+    "sha256": "7a92cbdb7c628e9a41b1455c515a02c1127a0bf48198312e8d88ec9f537db044"
+  },
+  {
+    "path": "05_統計分析/PV3_matrix_matlab/part_009.csv",
+    "bytes": 407026,
+    "sha256": "8a4c28d96bed46ff819147308078fe9b81f2e64397d4b21532552a074fd586d4"
+  },
+  {
+    "path": "05_統計分析/PV3_relation_matlab.csv",
+    "bytes": 173462,
+    "sha256": "b865076d4d15f131dbb8911aaeec4666b0d6bf3d7df71060d14884a19db3e877"
+  },
+  {
+    "path": "05_統計分析/PV4_ber_psnr.csv",
+    "bytes": 18222,
+    "sha256": "cd9e3d82271a2dc16ba0109f2dcca07a34422d2b59318bedf9dd40e4a65a32cd"
+  },
+  {
+    "path": "05_統計分析/PV4_checks_matlab.csv",
+    "bytes": 13115,
+    "sha256": "eefb70284a36fd41f47a3042a4f18a321e9577da6503081b94993f4d91599cca"
+  },
+  {
+    "path": "05_統計分析/PV4_decision_matlab/part_001.csv",
+    "bytes": 499795,
+    "sha256": "ea64aead17831025671d0f1ccb51c5b107ab11aa4ec0f240ce8aa7628f54beed"
+  },
+  {
+    "path": "05_統計分析/PV4_decision_matlab/part_002.csv",
+    "bytes": 495379,
+    "sha256": "75e25ae77ec9cd9cc76029a194f91a6e7b1e000145d65dbc0d901d8d72000630"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_001.csv",
+    "bytes": 499974,
+    "sha256": "7e0bab56a2ec9cf01427458e4f42b095fb2238ab5c96f7c2a584729afe417bf1"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_002.csv",
+    "bytes": 499870,
+    "sha256": "2c82314fcab809429b0c2349512676613775d6defbb1f7412db33e5051833f55"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_003.csv",
+    "bytes": 499987,
+    "sha256": "9a148dc16d4f864139a6ca23fb2ac8bbc8207672dfba214a4480420100b8c390"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_004.csv",
+    "bytes": 499855,
+    "sha256": "8e4b5c281a5f0c9d6ae9753004b8ec1a210c2882aeebca9e6c5f66720f7a749d"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_005.csv",
+    "bytes": 499797,
+    "sha256": "810818449de3f87a4aae825850f1db52c0a5cd92cab7242b70de894e0460a2a4"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_006.csv",
+    "bytes": 499897,
+    "sha256": "b732235df90de4d8e9d4deec0ca87f6aaf671571c8d296e31f39f659631d3e6a"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_007.csv",
+    "bytes": 499989,
+    "sha256": "74fb79de878fe9aeb1f6aee71ca3d56922bea432c33738ea8aeab003a93cf3c2"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_008.csv",
+    "bytes": 499857,
+    "sha256": "b0c7fa1b0300a2562e2c7ec21d3c0aa87cb0909856d343327bd05e53a0723c2c"
+  },
+  {
+    "path": "05_統計分析/PV4_matrix_matlab/part_009.csv",
+    "bytes": 405912,
+    "sha256": "408c0738b91dbed19f7d129594d5faa3ee25f00e9444cfe3bf68e5550178c662"
+  },
+  {
+    "path": "05_統計分析/PV4_relation_matlab.csv",
+    "bytes": 185593,
+    "sha256": "492c3b7075ce09c15ec160d4aa66a7777b6050a1f62305de1e8180ebc962cdf9"
+  },
+  {
+    "path": "05_統計分析/RU1_ber_psnr.csv",
+    "bytes": 17668,
+    "sha256": "9b3249373835314366d68c79aade9438e573de540a3a0b5c1b237894e0ebe9f1"
+  },
+  {
+    "path": "05_統計分析/RU1_checks_matlab.csv",
+    "bytes": 13119,
+    "sha256": "3943ba19dd0acdaf30be9cbd0264d2f1d12db06b5dcda38bd43c79be178426ec"
+  },
+  {
+    "path": "05_統計分析/RU1_decision_matlab/part_001.csv",
+    "bytes": 499947,
+    "sha256": "fc51b11ff7db365802861ae23f74af3641ceacd27170fc250f554d15321b054e"
+  },
+  {
+    "path": "05_統計分析/RU1_decision_matlab/part_002.csv",
+    "bytes": 499947,
+    "sha256": "d206c080dd5a94f517f6905b2e06b645987dcdcd1c7e6ea1c4070df602fa5db5"
+  },
+  {
+    "path": "05_統計分析/RU1_decision_matlab/part_003.csv",
+    "bytes": 49791,
+    "sha256": "2aa08ef55ecb2fb3966cefefef9d62410acc63b266b26e64c1c9e255e1970f17"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_001.csv",
+    "bytes": 499894,
+    "sha256": "5ca194dc0bf8ad7fb90b559ecaed440c09e473929e592e6d8778ec7055db36fe"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_002.csv",
+    "bytes": 499991,
+    "sha256": "708e3aea91daab3e1b780c316930d0fc16c41c2b0f26d77ae6b750796c95478c"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_003.csv",
+    "bytes": 499885,
+    "sha256": "b41e80d7ee688b8ccef23cf8432f646bb8ca346e224f3be85d943d51d5055e71"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_004.csv",
+    "bytes": 499963,
+    "sha256": "1b34cce94b72f88f417ebe62b49aff02fd20a3a32d54b9e2ae69132793c6394c"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_005.csv",
+    "bytes": 499961,
+    "sha256": "50a544a5ef6e1f506adced37a7d6290878b4f0f46ac91d8800a93e6fa44891a0"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_006.csv",
+    "bytes": 499859,
+    "sha256": "35056e5081fc52bf2189eaafde4f43d6c66115161ba43a61a18458cafd60e212"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_007.csv",
+    "bytes": 499827,
+    "sha256": "c1858a008176241fb3f0b8006382996cf1107bd1b877190f2a8a2b8ee2ab3b61"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_008.csv",
+    "bytes": 499804,
+    "sha256": "ceba47ce236af6573cf1a0c4fc70052b9119aa31084e6f5b7304733f2c8c6143"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_009.csv",
+    "bytes": 499893,
+    "sha256": "2f5888ad3d787f7bf12cd1ba7d1754ef1f34876be9b8db0765604cfaa3d83ba8"
+  },
+  {
+    "path": "05_統計分析/RU1_matrix_matlab/part_010.csv",
+    "bytes": 105776,
+    "sha256": "8b40664109b365ddc6b0c54e3ae9d393246a3a0a9caae821266af3742540cdbe"
+  },
+  {
+    "path": "05_統計分析/RU1_relation_matlab.csv",
+    "bytes": 131592,
+    "sha256": "66520bf2525f3009221ec743230534af5c0d9ff08f7d3ab764b996aa7c8c6da6"
+  },
+  {
+    "path": "05_統計分析/RU2_ber_psnr.csv",
+    "bytes": 18358,
+    "sha256": "4d738b21bcc0f426a85446fecae193990ba40b8a8827bf53299a6258d5c9518d"
+  },
+  {
+    "path": "05_統計分析/RU2_checks_matlab.csv",
+    "bytes": 13115,
+    "sha256": "2a1bccd09ed6dd0d579aee7911a5112428f686f2934a62d44de6832e9f2b361e"
+  },
+  {
+    "path": "05_統計分析/RU2_decision_matlab/part_001.csv",
+    "bytes": 499918,
+    "sha256": "5e06066b501340fce53bb745e341203d13dcbae7b43a1967e10ab803c5a6d427"
+  },
+  {
+    "path": "05_統計分析/RU2_decision_matlab/part_002.csv",
+    "bytes": 499964,
+    "sha256": "d461742714edadd47400f6d0592df5a745e2e7000979f65fe2083b5b4b0af723"
+  },
+  {
+    "path": "05_統計分析/RU2_decision_matlab/part_003.csv",
+    "bytes": 9548,
+    "sha256": "e99c455b8e03a84c90f3bd5ef5cef52f77c00de1dc2adcde3aeefeeef89a3459"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_001.csv",
+    "bytes": 499804,
+    "sha256": "e241d774ce93035e27153d088cf82eb1939d2bc1a0aae8a00931ccbeda38c8ec"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_002.csv",
+    "bytes": 499885,
+    "sha256": "734deddb13b1279f3d8f8fc6363ce1fdc19a7300886d0e5caaf06664eed99ec5"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_003.csv",
+    "bytes": 499934,
+    "sha256": "415ac4d1a166c7e429fb8d69dd1d077e72cfaae1cea43be2c80cabee372dac4f"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_004.csv",
+    "bytes": 499830,
+    "sha256": "822f044c70b42c5da272dc21fa302dcc5435b901dc68b5a03238c571d3639167"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_005.csv",
+    "bytes": 499854,
+    "sha256": "12437ee956c325ed67266cce855770f6b41952daf47604601e15455bb521b1f0"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_006.csv",
+    "bytes": 499812,
+    "sha256": "05b5123d7b7bfe593d0be580ee156fd1c655b6adcb25fb798745a8f52abbd4dd"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_007.csv",
+    "bytes": 499990,
+    "sha256": "ed446e1bf07007aeb8825bd4a106ead57284c9e5c8706971cd2711999f2d266b"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_008.csv",
+    "bytes": 499832,
+    "sha256": "ea430c671d946e40b05f0805006e4c9e9db4081fd85522a2920aadbed69c9243"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_009.csv",
+    "bytes": 499815,
+    "sha256": "88b18ab41933acc8ef30d03059256bb29c0060b38010492c71f6edcce447380b"
+  },
+  {
+    "path": "05_統計分析/RU2_matrix_matlab/part_010.csv",
+    "bytes": 34616,
+    "sha256": "47dca66450b797b5d3b881bb376e77134f37b199c77533106e0d5f7fd020260d"
+  },
+  {
+    "path": "05_統計分析/RU2_relation_matlab.csv",
+    "bytes": 174816,
+    "sha256": "4a97609cef4db5c505480f297fb171570d965a96fde73a8beb76e6c2909e4a74"
+  },
+  {
+    "path": "05_統計分析/RU3_ber_psnr.csv",
+    "bytes": 18180,
+    "sha256": "5c8dfb175d1557e74ee2d3b40f5eee497c5e2d83c148e9335a034369610d7108"
+  },
+  {
+    "path": "05_統計分析/RU3_checks_matlab.csv",
+    "bytes": 13196,
+    "sha256": "6dd4dea81896d8eaef757de600a42d134f782af49b8a2a93fcc2728ba347a8c1"
+  },
+  {
+    "path": "05_統計分析/RU3_decision_matlab/part_001.csv",
+    "bytes": 499902,
+    "sha256": "3063437fdae98e5ddb734cacfdd5172104b277d0f19a6994d7da7ab3a55b763e"
+  },
+  {
+    "path": "05_統計分析/RU3_decision_matlab/part_002.csv",
+    "bytes": 499950,
+    "sha256": "f917f68352ca8c785e896e1a34c345304b0d27d86e7e12cd7750c2507156d3cd"
+  },
+  {
+    "path": "05_統計分析/RU3_decision_matlab/part_003.csv",
+    "bytes": 6098,
+    "sha256": "b5587bc942ee5eb8f79b9bc2dd6cdccacf97981f51ae7eeb4dfef0887c74ddc5"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_001.csv",
+    "bytes": 499824,
+    "sha256": "b9a07dc0634946277a8a765f18f6e30146ba61fe4a837f359dbdf592cc4458b1"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_002.csv",
+    "bytes": 499965,
+    "sha256": "e80d9a410d82fe4a6bb2bdb3ad61012acf505a2c8a2c84b478d8d4412fdcb6d2"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_003.csv",
+    "bytes": 499992,
+    "sha256": "a64b11eae6bf65ce05e96a8b109478a62d2cf520a0ccb8b56d0c4b64acef69f7"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_004.csv",
+    "bytes": 499922,
+    "sha256": "4f822a9a9a943de8ae089983bd05ef8f51e13bd0a223c7ff724768e10816d028"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_005.csv",
+    "bytes": 499948,
+    "sha256": "efa9d1ba5f24a4b53f777604663ecd5a2cc2e3453b8c1dce93efc72987742327"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_006.csv",
+    "bytes": 499853,
+    "sha256": "d521d32a2d65fcabe9816e5074a899898f73750d22e05ecec993d6241d173f32"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_007.csv",
+    "bytes": 499973,
+    "sha256": "4c258fa136b2b77e8ac1d8acd3f00070aa7bd8aef5877d3f7abc17cfd7f02528"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_008.csv",
+    "bytes": 499988,
+    "sha256": "3c5c510ec4b5ffb2c3020c7686f7a0f8086f678633a21d9af1d0ef0e7772afbe"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_009.csv",
+    "bytes": 499893,
+    "sha256": "46bd74c29e5fca72b48e5ce79f2762d7040907765b401387099060742a208c38"
+  },
+  {
+    "path": "05_統計分析/RU3_matrix_matlab/part_010.csv",
+    "bytes": 34437,
+    "sha256": "b92948df599a3cac50f4399748a3868abd8982d81445b8557aac8cc697a2cf53"
+  },
+  {
+    "path": "05_統計分析/RU3_relation_matlab.csv",
+    "bytes": 177015,
+    "sha256": "7890d7719145ebdb1d58790c9a937d1f491c4f5a7c70d302940f55cd09f61285"
+  },
+  {
+    "path": "05_統計分析/RU4_ber_psnr.csv",
+    "bytes": 18333,
+    "sha256": "d1d5689068ea1aa519df73fb44f3d6a842d6b33ed21d814e154d5af2113c805d"
+  },
+  {
+    "path": "05_統計分析/RU4_checks_matlab.csv",
+    "bytes": 13186,
+    "sha256": "b07a461f5f1741c3b433a40579060cbdf919e14e1e6809d0f4b2491cb500f81e"
+  },
+  {
+    "path": "05_統計分析/RU4_decision_matlab/part_001.csv",
+    "bytes": 499902,
+    "sha256": "bf362c44d85360a814e45f6d663c1fe548b49b7881abcf508165e49f85b4783c"
+  },
+  {
+    "path": "05_統計分析/RU4_decision_matlab/part_002.csv",
+    "bytes": 499910,
+    "sha256": "ba640b45d795878c25d6d13e375fef57219ff97edb3baa566db881b7325f9fe7"
+  },
+  {
+    "path": "05_統計分析/RU4_decision_matlab/part_003.csv",
+    "bytes": 5692,
+    "sha256": "55c0f39c390975e25bdc79364109abcde7188eb21beac225256f388d5d47f501"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_001.csv",
+    "bytes": 499834,
+    "sha256": "5a9b4d2d909b20a1747a34afb0c58b53966857b0c065467759cc5a2c17b91f2f"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_002.csv",
+    "bytes": 499849,
+    "sha256": "9c60cf29401bb3440c070f1166f934860ae69ea98e071015f46ab0c1a7cee103"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_003.csv",
+    "bytes": 499948,
+    "sha256": "10e8977c6a9a264bdf991c344f5dbcfe227a64f466b77d25cac114a40625534d"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_004.csv",
+    "bytes": 499830,
+    "sha256": "4a10a7a520506980e02a892416f28ffe4d88b2a3429df4b5f2089b0e33e4b0d2"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_005.csv",
+    "bytes": 499967,
+    "sha256": "73035071958a573799d29478df6b3fc53f90ec3eca8a31a5bfec2fa47a054a72"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_006.csv",
+    "bytes": 499924,
+    "sha256": "5d72551f3bf4ca897b51c12c5f5d6c0a2147aa7f9660bb69763d0b8a0f7fcd24"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_007.csv",
+    "bytes": 499783,
+    "sha256": "a3da96cbed70bc598c018f15d53bfe7b5f2e827ff9bbf8e5306f49095b4dc422"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_008.csv",
+    "bytes": 499866,
+    "sha256": "ea816305498098e4da61560a5ffae61abfe185c0da4bc202dec5b3acd601937f"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_009.csv",
+    "bytes": 499837,
+    "sha256": "22bf465f0f9d5b5164a2d2c8f67f46aecb131def26c3d6318f90d16cd4786ba3"
+  },
+  {
+    "path": "05_統計分析/RU4_matrix_matlab/part_010.csv",
+    "bytes": 69261,
+    "sha256": "ec5c2381247fa96fdeb80151c258d3a2c73157f2bd9b0567e85aee6f27862e96"
+  },
+  {
+    "path": "05_統計分析/RU4_relation_matlab.csv",
+    "bytes": 188718,
+    "sha256": "9f0fb523fbb95a665cff595a2599f74dc86ba8c3b4332cedacadcc561cd1c963"
+  },
+  {
+    "path": "05_統計分析/RV1_ber_psnr.csv",
+    "bytes": 17650,
+    "sha256": "ac1d6653785b1c4ccb6e8ce6c02fcada041bf9270c3ec7a89af4d0d6a0ade0a5"
+  },
+  {
+    "path": "05_統計分析/RV1_checks_matlab.csv",
+    "bytes": 13130,
+    "sha256": "deea7c7ddad3c0313bc6d1c459813dab515adec9f5deb31d7d41abeeacb80b10"
+  },
+  {
+    "path": "05_統計分析/RV1_decision_matlab/part_001.csv",
+    "bytes": 499914,
+    "sha256": "6b14ed834fac284b25ce671f125f14e38df7a2dbe7fb461de236f38e9f853866"
+  },
+  {
+    "path": "05_統計分析/RV1_decision_matlab/part_002.csv",
+    "bytes": 499795,
+    "sha256": "659be3b0070683ad9eca6fb9ee11143aef9457591b31073952c1c54cbd6f17d0"
+  },
+  {
+    "path": "05_統計分析/RV1_decision_matlab/part_003.csv",
+    "bytes": 50203,
+    "sha256": "ff395710c4144c9c846c3ef79d4a9641ba8856c6bf1f3e2d35c2eef1cbe3b3ac"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_001.csv",
+    "bytes": 499891,
+    "sha256": "ac1a4516fc2633611103f4be1249326aeb4f2d5ac09bb5b6f8153fa60eb00d08"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_002.csv",
+    "bytes": 499815,
+    "sha256": "ae1243a92199c02d7188c98a78a6cb8e23f9659757aa503e8fdcf2b8f84e8fe6"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_003.csv",
+    "bytes": 499908,
+    "sha256": "4fbc04bf7b3ef425a10528e2f38eb54814173409aa3404f28e8609d197cf6026"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_004.csv",
+    "bytes": 499939,
+    "sha256": "46d530c69c4fe47f708fccdbfeed8799a32b4e091ebd05de74f8c5bf7e315c73"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_005.csv",
+    "bytes": 499901,
+    "sha256": "d4bd2749711dd4c8c4b56ef2e4c8b8cb4fadd03d29b9b2719c74d2015ff3df3a"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_006.csv",
+    "bytes": 499799,
+    "sha256": "42a3f7492f0266d51bc65df395665aa07f5f605cad2e4693a472d62724dfe915"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_007.csv",
+    "bytes": 499804,
+    "sha256": "79bffbbcbda5aff43ddbfaced849fc595a71620d44c74f0b3228272e417d8f70"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_008.csv",
+    "bytes": 499815,
+    "sha256": "178b712baaa1768578fd156ac02607a978cd23efdf5d526e524674164d329637"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_009.csv",
+    "bytes": 499860,
+    "sha256": "7aaa9560084379054d0a18c9e127d69dcd9b6a16271b196fcb6cc7d27b58ff7a"
+  },
+  {
+    "path": "05_統計分析/RV1_matrix_matlab/part_010.csv",
+    "bytes": 114733,
+    "sha256": "1bcef64324e2a2a1c3d94cc2e3a6117671e52899446f8f6748af1a2844e88656"
+  },
+  {
+    "path": "05_統計分析/RV1_relation_matlab.csv",
+    "bytes": 131912,
+    "sha256": "f76229d71b95bf7c3e71852e538aa4ced405a988234d6827af3d17daf6bd4d9d"
+  },
+  {
+    "path": "05_統計分析/RV2_ber_psnr.csv",
+    "bytes": 18126,
+    "sha256": "63bf87e84bd21c65d6e52af4aa5a51958ba2d541ed41a83185b0a52d2afc7c5d"
+  },
+  {
+    "path": "05_統計分析/RV2_checks_matlab.csv",
+    "bytes": 13065,
+    "sha256": "eae6d9593ed00f1a533d9eb5efa8d7aafa4cd50798b2c843d9b22700d929ed66"
+  },
+  {
+    "path": "05_統計分析/RV2_decision_matlab/part_001.csv",
+    "bytes": 499905,
+    "sha256": "3fed58c6d1b2fb17c8d25a8d206cc499cf3bc8f46f8beb0a9b02d668a33a72c0"
+  },
+  {
+    "path": "05_統計分析/RV2_decision_matlab/part_002.csv",
+    "bytes": 499951,
+    "sha256": "3765c73f45f1d29614151542b3a98580f915df2ab9614b7154798351cc92195b"
+  },
+  {
+    "path": "05_統計分析/RV2_decision_matlab/part_003.csv",
+    "bytes": 15528,
+    "sha256": "9855f8b508b8eab803d244b6b56b44b4b686c5bbc460f49b246f507e1f7ef38d"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_001.csv",
+    "bytes": 499808,
+    "sha256": "3ab5bae10244245d4b248f79a11b9157ad621d70071916a469196d46324da31e"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_002.csv",
+    "bytes": 499838,
+    "sha256": "9b5bf6f698692f7efbcd10d721a95b8f460cf9fa7d8b6ed22101b916e8695702"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_003.csv",
+    "bytes": 499962,
+    "sha256": "7699787c6350c7060c554212caa3b88c8baae89ebacb15dc74c0061c0426118d"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_004.csv",
+    "bytes": 499914,
+    "sha256": "e2e87f27c56b4d0a63861c4e6d308bc87a90a6da6ff4240acb711942b7d6d882"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_005.csv",
+    "bytes": 499968,
+    "sha256": "87f48a8eea4508b498fa74b6255270975f668cd95b2d4d30e1561a785c9ba213"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_006.csv",
+    "bytes": 499863,
+    "sha256": "7716c58ef53a88692bf733b1ace6e83e7f101818ed1e144049420f032cce3576"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_007.csv",
+    "bytes": 499907,
+    "sha256": "b8a55caf7a7531b2d6c07ca159e30cdbc20e85d55606f877d9fbfc1b3b3829c4"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_008.csv",
+    "bytes": 499967,
+    "sha256": "2b8928169a8381c2c0f35c361d2002a1e382b53f882fa6d20d5a07a2bc2763c6"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_009.csv",
+    "bytes": 499929,
+    "sha256": "cd4a1e248a306be7904fa65f274a73d9c7819b50531db8b19e68f9c2f9207461"
+  },
+  {
+    "path": "05_統計分析/RV2_matrix_matlab/part_010.csv",
+    "bytes": 147970,
+    "sha256": "b15a447569b12a96ebdfe66ee9ef21f298a255e6dfb4b0053f5818cc5a717592"
+  },
+  {
+    "path": "05_統計分析/RV2_relation_matlab.csv",
+    "bytes": 176524,
+    "sha256": "529d06cfc5ba3aaddb575574585bfaccba6b1dccd8a7829844770d875fa36ed1"
+  },
+  {
+    "path": "05_統計分析/RV3_ber_psnr.csv",
+    "bytes": 18341,
+    "sha256": "ce854adf123621494c8fc76751eb8ce5f796499e1d58054eb53eb5bcf482d7fd"
+  },
+  {
+    "path": "05_統計分析/RV3_checks_matlab.csv",
+    "bytes": 13190,
+    "sha256": "af4041236717961f1280258c3bcb75fd1982beece775eeb8c111f63ebcbe13cf"
+  },
+  {
+    "path": "05_統計分析/RV3_decision_matlab/part_001.csv",
+    "bytes": 499981,
+    "sha256": "d3cff8d3cd09c96c8d7f66c33bc57e4ab7b0ec7ea7febbe57ae2b78af48d3b24"
+  },
+  {
+    "path": "05_統計分析/RV3_decision_matlab/part_002.csv",
+    "bytes": 499960,
+    "sha256": "aa85a868c13ab4851ae5583bf4d0a2fa1a163cc5c41b3f2e501ee360e0f00024"
+  },
+  {
+    "path": "05_統計分析/RV3_decision_matlab/part_003.csv",
+    "bytes": 4727,
+    "sha256": "59e5191105da3ea64a14fe83573e161131505e169ee2c0469387e96b663927f6"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_001.csv",
+    "bytes": 499944,
+    "sha256": "3e6978ae83b619a7f2c78cea5bdc78a2193cd35d7e9c46c43f41e69c964e14f2"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_002.csv",
+    "bytes": 499966,
+    "sha256": "645cb95e45a507e9c404dc2e825ccf4eb2a45785746b4347b0034fdaf3efea0e"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_003.csv",
+    "bytes": 499887,
+    "sha256": "6f5b35b064534bec03e265f0c2a48f176a8866d073c5fdef8affa7abc471ab96"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_004.csv",
+    "bytes": 499961,
+    "sha256": "b47c74644825222bf71e180a872bc8a7e0ce13edfb7675ece04c0fd78e9e994a"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_005.csv",
+    "bytes": 499868,
+    "sha256": "476908b68dcedf106e6d329f27352cafc764e4f7398133dace5dc9bdf0451e29"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_006.csv",
+    "bytes": 499885,
+    "sha256": "d19947befe11a89304b94c425990d1a11277cb6caa58bc1ac872abe6748a3697"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_007.csv",
+    "bytes": 499905,
+    "sha256": "8fa8c7da05563f27689874cd019f8f8c3502ad82ebe4e96626e4c95d9367055c"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_008.csv",
+    "bytes": 499904,
+    "sha256": "b05eeda0a0184b25ab730477f5b1631f661a514a1d5989d321af3c079e9b59d4"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_009.csv",
+    "bytes": 499975,
+    "sha256": "edf7e4a56ef1f58e3e03ca5f987240d8f7860e97223aa40034c8b229f6f1150b"
+  },
+  {
+    "path": "05_統計分析/RV3_matrix_matlab/part_010.csv",
+    "bytes": 58541,
+    "sha256": "17c78593b1cc8122b612fb43a9c597351755d7dd56e9a76fa81215f420fd4eb3"
+  },
+  {
+    "path": "05_統計分析/RV3_relation_matlab.csv",
+    "bytes": 176195,
+    "sha256": "4ec93a213e8d6f02c2eafb4ac09997df28ce4bc4fe22e0a30de9a8bea730e92f"
+  },
+  {
+    "path": "05_統計分析/RV4_ber_psnr.csv",
+    "bytes": 18335,
+    "sha256": "9f9b4df3e85058e9df30cb76052e31e456950c1c9e4c59b31a7cb1a90addfce9"
+  },
+  {
+    "path": "05_統計分析/RV4_checks_matlab.csv",
+    "bytes": 13196,
+    "sha256": "68f0254cff3996ed34b998f006b3ed94cef30d4fa413c55fe4c1db82f5ecf0e6"
+  },
+  {
+    "path": "05_統計分析/RV4_decision_matlab/part_001.csv",
+    "bytes": 499846,
+    "sha256": "99873f03f5985b09ad130d05ada60b7468f6d78a34c66a5545fa8494a421e344"
+  },
+  {
+    "path": "05_統計分析/RV4_decision_matlab/part_002.csv",
+    "bytes": 499942,
+    "sha256": "64d3b8657a555834b97f71b67a8231419aee458a4c29029af8ac0b60154ab867"
+  },
+  {
+    "path": "05_統計分析/RV4_decision_matlab/part_003.csv",
+    "bytes": 5410,
+    "sha256": "1ea5715e9e83d97089abb2df6f360a14e8011f4696b7968e1c9ca284d4ebd69e"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_001.csv",
+    "bytes": 499910,
+    "sha256": "d93844aad533f4bbe92a94820dc00a0fb6660fb5665ca7457211ab7f34e4fe3c"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_002.csv",
+    "bytes": 499937,
+    "sha256": "0a9ba7b08f9a42b49601c3b0a404638d2cde3cd55d262f271e4529639d8c4342"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_003.csv",
+    "bytes": 499789,
+    "sha256": "9f79a6d9fed5af47a5d1adb98a3452220cdf97a7fcd02267ca177846d944466d"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_004.csv",
+    "bytes": 499973,
+    "sha256": "58e5236854a6122de54085ec2d696cc275b5bf578f2f1c58b12ecc67a1412b92"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_005.csv",
+    "bytes": 499887,
+    "sha256": "99ca22d64075f9aed712ac2269db24e87e73642b7ad8f023001a3d809b15fdb6"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_006.csv",
+    "bytes": 499985,
+    "sha256": "64329757bac7b9549d6c52939de7d33d80a350005988d1430cd758de139da082"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_007.csv",
+    "bytes": 499978,
+    "sha256": "0a103782809ad8a1c1ca5bceca75a0259bed54c3bd65e716c8cc17187418cb6f"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_008.csv",
+    "bytes": 499844,
+    "sha256": "8e46218334031bde3abf7202c1b74f95b2eea6b4316176c32ea9502ebf74806a"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_009.csv",
+    "bytes": 499841,
+    "sha256": "fd7830709b8cb32c10d0c3d2f4f7478cd4539c4ddd4981d14580eaaf767faa7f"
+  },
+  {
+    "path": "05_統計分析/RV4_matrix_matlab/part_010.csv",
+    "bytes": 59635,
+    "sha256": "3795edc709799d1eef4020baed7ef860c8e8be480605da47eb74e284fbc2e98b"
+  },
+  {
+    "path": "05_統計分析/RV4_relation_matlab.csv",
+    "bytes": 187743,
+    "sha256": "1293816db1d1cbf543ed3052a24042af1951d0b1e59ef050e1d827c059a532b0"
+  },
+  {
+    "path": "05_統計分析/same_target_loss_matlab.csv",
+    "bytes": 6426,
+    "sha256": "077371fcfbfc56df0bbee42fbe582f4a8b7f573467bf6970b855e589bef7a3f2"
+  },
+  {
+    "path": "05_統計分析/same_target_reduction_matlab.csv",
+    "bytes": 2011,
+    "sha256": "d3b469649582c3272c7ff82387c7f04ce7c483e21c6be0cb4964ead05131e539"
+  },
+  {
+    "path": "05_統計分析/SU1_ber_psnr.csv",
+    "bytes": 17708,
+    "sha256": "53ec970a2b75cbfe7aac176a80af508878036c69a6be63e1adb9be89496d3980"
+  },
+  {
+    "path": "05_統計分析/SU1_checks_matlab.csv",
+    "bytes": 13107,
+    "sha256": "197ce6cea6b91d5f0a921f3d0d57ed8545621283ccc83147d07f08a17db6bff4"
+  },
+  {
+    "path": "05_統計分析/SU1_decision_matlab/part_001.csv",
+    "bytes": 499990,
+    "sha256": "1f96e3251e17bcdb3c000a2ed76b999f9eeac744bc8def308ebd5384b9897822"
+  },
+  {
+    "path": "05_統計分析/SU1_decision_matlab/part_002.csv",
+    "bytes": 499958,
+    "sha256": "0694c2aece0fcd151c6da772dfa3d56d0d6ff22038dd8e5abc65c8ed6c69ea73"
+  },
+  {
+    "path": "05_統計分析/SU1_decision_matlab/part_003.csv",
+    "bytes": 49810,
+    "sha256": "60023eb7e292116413ed36e1a2ac4edb295b6574f5e6a711aab615196559a73e"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_001.csv",
+    "bytes": 499927,
+    "sha256": "35c24e2de73e3adcff47a9454708424fdb938cfbe9c1803a113ed771ed5cdb4c"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_002.csv",
+    "bytes": 499792,
+    "sha256": "22dd7de3c4b651f199c2677cc45ebf13d4584b2d96c4670392601559c6e38683"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_003.csv",
+    "bytes": 499988,
+    "sha256": "19f945802d6857cd84ab26562f0205e7651630a2d4e3ee6c1c1c0963f8ee6975"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_004.csv",
+    "bytes": 499779,
+    "sha256": "18c2eeba5a66ad2c03b3f792151b2ee5b12873e5cb2d50a035638cd8fd0f3366"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_005.csv",
+    "bytes": 499844,
+    "sha256": "4030d5bf24281a3b43ee8777571acb2b86ce2601f0d7b10a3fe264f7b68cd145"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_006.csv",
+    "bytes": 499906,
+    "sha256": "3d04d3a5edc467ef33869a6c5c57012252fd59a9d340db9cfe2d9f190728f782"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_007.csv",
+    "bytes": 499978,
+    "sha256": "4c2c60ff4a74f2b7ee2664d560cdc03fe260ad9bf98e425dc4404473bcf5fb71"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_008.csv",
+    "bytes": 499909,
+    "sha256": "658fa2cb7ead57cf5a6427c3f29dc7f4575d773a0333a3884973976771e1f3c4"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_009.csv",
+    "bytes": 499942,
+    "sha256": "1ba96a1143321bea1318916e6490851db4511174a97a3c994e9e6fe5dc482aa0"
+  },
+  {
+    "path": "05_統計分析/SU1_matrix_matlab/part_010.csv",
+    "bytes": 104819,
+    "sha256": "a7bcb014d82fc3b3be14f0f9a66a760140124e77bc578e06a16e76a6ba054ce4"
+  },
+  {
+    "path": "05_統計分析/SU1_relation_matlab.csv",
+    "bytes": 131670,
+    "sha256": "89ff8e1ff1ed8e16109c3aa4b4a670e6f3e00f5ac130d3483e38ad4177df36db"
+  },
+  {
+    "path": "05_統計分析/SU2_ber_psnr.csv",
+    "bytes": 18369,
+    "sha256": "ecfa538a6a7d078e73cbadc75563133d49cbe281acb60e6de254369fd52f5f23"
+  },
+  {
+    "path": "05_統計分析/SU2_checks_matlab.csv",
+    "bytes": 12885,
+    "sha256": "09c3642572be90eb669dfafd1b9463a91ae12a19ea5fb4c744e8ffa732d343eb"
+  },
+  {
+    "path": "05_統計分析/SU2_decision_matlab/part_001.csv",
+    "bytes": 499889,
+    "sha256": "0c9e854d16907fffbb1e5c3e951dce1fbc2428cc155cacb5aa635eb918fb564d"
+  },
+  {
+    "path": "05_統計分析/SU2_decision_matlab/part_002.csv",
+    "bytes": 495897,
+    "sha256": "87ad100fc54d5d0cc35b0029b1a302501d05b6d22db3d4c3d97289c9d0a6e565"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_001.csv",
+    "bytes": 499904,
+    "sha256": "014e2c85244a0d1ef680c7a619f7848672b3d74e8c1291230bc1e7fcfda50608"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_002.csv",
+    "bytes": 499882,
+    "sha256": "1d854e91922b7ff78a7d9b048d3fe32d35969532ba63aa9bfb5be61cf7cda11b"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_003.csv",
+    "bytes": 499979,
+    "sha256": "5662a3d963b691fd2911f8da2f6c16171cfc064b9353533600c255e9d33fa49c"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_004.csv",
+    "bytes": 499937,
+    "sha256": "12ea6e23cf5382d3341b75e5644ec04b6e353d95a80c8287b51af0dfa9cd85c3"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_005.csv",
+    "bytes": 499816,
+    "sha256": "56e7bbba62efdaa7d9c4a3c8ddfc47ce84efffa653fdc6ea264117a7a7834ec7"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_006.csv",
+    "bytes": 499930,
+    "sha256": "f1efd55f8acf110c4702eca5595a2222ecba32dc1878fa9b2f17f443fcc936eb"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_007.csv",
+    "bytes": 499904,
+    "sha256": "d4012826bb944cf9ed92a782a8d9ade2f330062b2cbaede5d0e6614b695336bc"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_008.csv",
+    "bytes": 499884,
+    "sha256": "b53a238b83fd71af3cf86ab6d1d1cda5fe7785fc653620b5c88927e1d31735cf"
+  },
+  {
+    "path": "05_統計分析/SU2_matrix_matlab/part_009.csv",
+    "bytes": 369633,
+    "sha256": "cc5e79275e55f043a3bbcfe8067087a05558ab79d2c9e0916e9c207b68110ee9"
+  },
+  {
+    "path": "05_統計分析/SU2_relation_matlab.csv",
+    "bytes": 172433,
+    "sha256": "3512d7f30640fc40ff636e6f73311d893408033d048658027d0d3199716e4bb4"
+  },
+  {
+    "path": "05_統計分析/SU3_ber_psnr.csv",
+    "bytes": 18269,
+    "sha256": "28f6f687604c41630a46ed9282d0fd5985f8d02148d2fb22ffa3d31310e76abe"
+  },
+  {
+    "path": "05_統計分析/SU3_checks_matlab.csv",
+    "bytes": 12197,
+    "sha256": "290a825af5040428ce81c2ea5e091432cd76c2fd616795bc56ae0b1549e6bea8"
+  },
+  {
+    "path": "05_統計分析/SU3_decision_matlab/part_001.csv",
+    "bytes": 499952,
+    "sha256": "af1ab058c7f9412d0d9da4293a96921671e89c820067322d983fc0aa2a288491"
+  },
+  {
+    "path": "05_統計分析/SU3_decision_matlab/part_002.csv",
+    "bytes": 488456,
+    "sha256": "a74154581453fc45d6b2df82e1c6bc09f73b89f98db047c8e517da5aa60beb5f"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_001.csv",
+    "bytes": 499983,
+    "sha256": "bf93fcaa759005f12aa4a70919f2e462fda05306485c2d157b98354e8a47d732"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_002.csv",
+    "bytes": 499973,
+    "sha256": "6c389cd50cb1c3c6e658ab95bff719e5eacac455961c57543fa543d0d673db96"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_003.csv",
+    "bytes": 499868,
+    "sha256": "49e4687a55d663466ff6873c64c1c2b83ea9d2fb9ae187daddbb5c08598f2779"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_004.csv",
+    "bytes": 499917,
+    "sha256": "29c3dc02db829bcf47acc25258cd1d35dd2c3dd11cfec34c11ce489ae859b33c"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_005.csv",
+    "bytes": 499998,
+    "sha256": "2b98683c6589906a768dcdef6265f2f8454a0efb70a77e698f7a07340d0aed0f"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_006.csv",
+    "bytes": 499954,
+    "sha256": "c519f1b823e6fa19f87e82e9722e47cdbd39035771fc9cdd957a3b05ad3c26af"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_007.csv",
+    "bytes": 499932,
+    "sha256": "a419ee229abe2691a3d0000270a87da3aa025be96fb469ae6ad819cdeac6a6c5"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_008.csv",
+    "bytes": 499911,
+    "sha256": "00567ee3f57256ce28a2415ad6b50abfce1eec8d28473ddc166dbd7d4201cc95"
+  },
+  {
+    "path": "05_統計分析/SU3_matrix_matlab/part_009.csv",
+    "bytes": 368377,
+    "sha256": "f1038672849d0d7b2f2398ab4c721142aa0e642a8a8e6f021816e18a7266aa21"
+  },
+  {
+    "path": "05_統計分析/SU3_relation_matlab.csv",
+    "bytes": 173164,
+    "sha256": "fbfa77d6972bd615ca8371dcd21eec76f4e5b5de69a1eae43f3b68ba856edd25"
+  },
+  {
+    "path": "05_統計分析/SU4_ber_psnr.csv",
+    "bytes": 18281,
+    "sha256": "31dd0d8768130429ab886a00f29cbfff3e7b79c2f1a0f8c03e01374259a98a93"
+  },
+  {
+    "path": "05_統計分析/SU4_checks_matlab.csv",
+    "bytes": 13116,
+    "sha256": "1007209ca1fa264d4f2b23767f4542d85b7c4bf0402a0e109adb004930d51a23"
+  },
+  {
+    "path": "05_統計分析/SU4_decision_matlab/part_001.csv",
+    "bytes": 499793,
+    "sha256": "451584908734d8a03ebe93f8cde1109ee5e27d28df85abbea08eced3c81c32a2"
+  },
+  {
+    "path": "05_統計分析/SU4_decision_matlab/part_002.csv",
+    "bytes": 484827,
+    "sha256": "3d146fdf96217f197133eb990dd833762e382b4e3d859a1ec55ecfdaeca80346"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_001.csv",
+    "bytes": 499901,
+    "sha256": "34f559f8b2694cd1095b299a5e7d64d08759a6925a58dfb893814253d051e873"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_002.csv",
+    "bytes": 499845,
+    "sha256": "fb2cc3c9b1d83f18bd81502b5041b0a32db3d90097df32057003dd18a8d13227"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_003.csv",
+    "bytes": 499980,
+    "sha256": "79678822964aadb1ba3f4284e14fd685ce67409301a3e7426a02d7681f08b8cf"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_004.csv",
+    "bytes": 499818,
+    "sha256": "e6c494331c0e0cb0ca4f81a41e0a59dd0bfb93f681c81eb90150cc6a18e38e0a"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_005.csv",
+    "bytes": 499957,
+    "sha256": "f54fc77eae8803eeeae4aaedf54ab8f80a039202afde50acd20b6e1454fa5ddc"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_006.csv",
+    "bytes": 499835,
+    "sha256": "9238d2ca5d3560606a86a09dbd7c5bbff11f62fab75628972edb06a9d8e956a9"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_007.csv",
+    "bytes": 499951,
+    "sha256": "7c593cec96a17865a8deb2bc2cf74e3a5990d229b2959ec0cc92e9cbb60355bc"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_008.csv",
+    "bytes": 499936,
+    "sha256": "8e27bb8edf821278588e4385c3c6ebad9cc2bcca77084cfcf6e4ab836b66b44c"
+  },
+  {
+    "path": "05_統計分析/SU4_matrix_matlab/part_009.csv",
+    "bytes": 361555,
+    "sha256": "66b6e54bd72bad22e90524736d80e4f6b1b65c1213de03e9e85763c25bfa603b"
+  },
+  {
+    "path": "05_統計分析/SU4_relation_matlab.csv",
+    "bytes": 185288,
+    "sha256": "50810923830481c65f0a7bb95c8edd68cab3ac48bbcb0799a06ff73ecae3e399"
+  },
+  {
+    "path": "05_統計分析/SV1_ber_psnr.csv",
+    "bytes": 17701,
+    "sha256": "bf26a70f81479eb9db18f4d7bc76b081aff5af004895e688cc279ac7a8514466"
+  },
+  {
+    "path": "05_統計分析/SV1_checks_matlab.csv",
+    "bytes": 13098,
+    "sha256": "1b014dd5e7ed588dbf3102b694a7555c386190665182fbd4ba16976b9f5ec5df"
+  },
+  {
+    "path": "05_統計分析/SV1_decision_matlab/part_001.csv",
+    "bytes": 499963,
+    "sha256": "9a990bff9d634d02f68aee35a0687c421148ad4734f92d62b90a779953c96e89"
+  },
+  {
+    "path": "05_統計分析/SV1_decision_matlab/part_002.csv",
+    "bytes": 499825,
+    "sha256": "f2c6df927cc38ccce40f61010cfdbb519e90d8a0e2a9aaf50793f39db7aeac5d"
+  },
+  {
+    "path": "05_統計分析/SV1_decision_matlab/part_003.csv",
+    "bytes": 50066,
+    "sha256": "5f5383c2a6e47fcb759132f67d3ea5f96de10c2347a01fd91cbf13c613271d84"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_001.csv",
+    "bytes": 499878,
+    "sha256": "8c15da53631fd18937fb11a53db7641fbb4b4f661020dade88d4785fa4eb1c29"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_002.csv",
+    "bytes": 499842,
+    "sha256": "139bb6bcd94a766611df247601854c69c76f910ad622c57d1c9b2da0d40bd64f"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_003.csv",
+    "bytes": 499818,
+    "sha256": "4630c0b2b8bb0f304f8d2c105e52816de25fe665a49b9c7530e5f7dc36ddd806"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_004.csv",
+    "bytes": 499893,
+    "sha256": "bd4e6b2b3d31a0088f83275de3d1ce04762d7dd768b7a6f4e73e15888225851a"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_005.csv",
+    "bytes": 499909,
+    "sha256": "1378d79ac83935e1d675f4fb7daf1fa60b202605570757c62b16cc1e5755445f"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_006.csv",
+    "bytes": 499944,
+    "sha256": "2b3f13bf2c9d1e16d29b11992053cec40d78e98cf4e4e3469ed9fcc15d20bed4"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_007.csv",
+    "bytes": 499973,
+    "sha256": "cd86686533100b60af1e0a4598535f1850eb6174f186277b2d5317f0339b1ea4"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_008.csv",
+    "bytes": 499923,
+    "sha256": "ab84960008df81cd70890e9fc6ab3dd7c95c29812b69a9cbd7c52f30f0583222"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_009.csv",
+    "bytes": 499986,
+    "sha256": "fa4c6b64d745884d201d788f780f804b57cf3d378ff8e4b5642823dd3b3cd814"
+  },
+  {
+    "path": "05_統計分析/SV1_matrix_matlab/part_010.csv",
+    "bytes": 112506,
+    "sha256": "5cf626f030e33779bb860fcf982a66ea8f8804eddce5295d8e5c493bdf216b33"
+  },
+  {
+    "path": "05_統計分析/SV1_relation_matlab.csv",
+    "bytes": 131906,
+    "sha256": "8ee2f86f1dfb68aad42375e3d077035656e94dedc256d81f76c7f8ff6522535f"
+  },
+  {
+    "path": "05_統計分析/SV2_ber_psnr.csv",
+    "bytes": 18326,
+    "sha256": "33f824085e660e720ff7960e8c45860248fcdc738a9cca4279f07c12a11b8b53"
+  },
+  {
+    "path": "05_統計分析/SV2_checks_matlab.csv",
+    "bytes": 12988,
+    "sha256": "e25dca337ef7a09aabd575c3affcb53fd777f919b04e3879085e72c7ebec8830"
+  },
+  {
+    "path": "05_統計分析/SV2_decision_matlab/part_001.csv",
+    "bytes": 499957,
+    "sha256": "b1f0e1bddb1c9e62e91d163fc3aae781397104b7b86eab28232c9ae1a501ba0a"
+  },
+  {
+    "path": "05_統計分析/SV2_decision_matlab/part_002.csv",
+    "bytes": 496144,
+    "sha256": "f084ecb64e99416dc86fed54f49e858ea693997b8db486c12d9da3bc581b3aee"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_001.csv",
+    "bytes": 499970,
+    "sha256": "ed3d511f6c89acd3eb04878ef0ed8338f876e43a237624d808439bd3f0cd4323"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_002.csv",
+    "bytes": 499909,
+    "sha256": "e31ba411572076a2e5f0fb308225d3bc8ea8d4cc4f39788705b7f6eade2ce154"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_003.csv",
+    "bytes": 499993,
+    "sha256": "b7bd52a4d6d97d4fd6c97a98dec14fb39abaedc008eca863f290b756b05c563b"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_004.csv",
+    "bytes": 499888,
+    "sha256": "685c23e9b8b8bc9b27eaed3d31e1a9c0f86a6d760a80e32bf704f2f551cd3980"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_005.csv",
+    "bytes": 499871,
+    "sha256": "991fb59244404106beffbe4d0b5873d4b921ca6daad84c0dd55ec39250be7009"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_006.csv",
+    "bytes": 499844,
+    "sha256": "591eaf0746c6e1ddf318504ca1ea7497672f7951dd1543c270e29ad9d304df13"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_007.csv",
+    "bytes": 499804,
+    "sha256": "ed00ba21d3892f7257d863c5b5b1bfbda3fb3124c7ad50882537e930c5e920bd"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_008.csv",
+    "bytes": 499907,
+    "sha256": "6ee61dd4484fb4f9bab69cd35bd4721a31413e27b19daa6b98ad88cd8eb786d5"
+  },
+  {
+    "path": "05_統計分析/SV2_matrix_matlab/part_009.csv",
+    "bytes": 370044,
+    "sha256": "c5742a75b1a20501d919d6564760174e8ad0c442943e6d095c824ef49c5de233"
+  },
+  {
+    "path": "05_統計分析/SV2_relation_matlab.csv",
+    "bytes": 171989,
+    "sha256": "ff5395e89296c0376c842ca94d1444f2746dac770259d5ae7894863edbe56413"
+  },
+  {
+    "path": "05_統計分析/SV3_ber_psnr.csv",
+    "bytes": 18248,
+    "sha256": "402cb446c281b541266cf3a0bce1c4bcb533bc1a67b8fb5e63aa0f20b05bfadd"
+  },
+  {
+    "path": "05_統計分析/SV3_checks_matlab.csv",
+    "bytes": 13057,
+    "sha256": "0fe5792d8067d583884f8bbfaa749f53820b69a00a79e12336bc2a2b2e47f69f"
+  },
+  {
+    "path": "05_統計分析/SV3_decision_matlab/part_001.csv",
+    "bytes": 499829,
+    "sha256": "b6b06786f2166729af07a30508f6afbf3338b9bffb09411d015b61e3bfea46ea"
+  },
+  {
+    "path": "05_統計分析/SV3_decision_matlab/part_002.csv",
+    "bytes": 489560,
+    "sha256": "4d289f49b56abd6fe8d7172f4b3011a289506cdccc345b3826c169c84e293354"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_001.csv",
+    "bytes": 499910,
+    "sha256": "cdab7cec453b60270bd78c20686b7444c794e8bafbea616935e4cdaf395d1457"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_002.csv",
+    "bytes": 499866,
+    "sha256": "0aee6d75de0d67007a985f3236fcd30837336489ff1af886b7ca4192bd1fccb8"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_003.csv",
+    "bytes": 499903,
+    "sha256": "9f661704c71c10c371b5f83d93a843140e8090e364bb6c81348114faa35bda2c"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_004.csv",
+    "bytes": 499992,
+    "sha256": "40eebb811620d7b6961e5e2fce5665f960a2852661c4a04b780d3a5b18fff0f6"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_005.csv",
+    "bytes": 499975,
+    "sha256": "f1d019479a5a690bf6c42b61052aae69839262a87a14f62970a2675e325aab51"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_006.csv",
+    "bytes": 499863,
+    "sha256": "fe71c976047438684e2031fc425c94f7854e3382b7b3b546adaeb153fff7f806"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_007.csv",
+    "bytes": 499923,
+    "sha256": "9b940f2622162936b6a2b9edb23632922d3b475a6725c53b7a315a7999298338"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_008.csv",
+    "bytes": 499936,
+    "sha256": "7bd89a2bdac9dbd30b3370127cfa2887fabcbc1d4f3d9df0dc7e10e2efd4a0df"
+  },
+  {
+    "path": "05_統計分析/SV3_matrix_matlab/part_009.csv",
+    "bytes": 365329,
+    "sha256": "a7a65567ca7bdc837e1e317e2d1954cbd751347ed8473b76ef6095f9dac05f0c"
+  },
+  {
+    "path": "05_統計分析/SV3_relation_matlab.csv",
+    "bytes": 173638,
+    "sha256": "0f025791c9b8e5ceb6274d2c085474fff75005c9004541eddea37609bc424e54"
+  },
+  {
+    "path": "05_統計分析/SV4_ber_psnr.csv",
+    "bytes": 18253,
+    "sha256": "9165cd45c510ebbe094fdade74653acc7f497c55402481db0901b3a42c418b77"
+  },
+  {
+    "path": "05_統計分析/SV4_checks_matlab.csv",
+    "bytes": 13116,
+    "sha256": "d11becd224b910014bba125064df19588fc23eb58a7e8867ab172ab3f5979bbf"
+  },
+  {
+    "path": "05_統計分析/SV4_decision_matlab/part_001.csv",
+    "bytes": 499921,
+    "sha256": "0e414bdd9ba6bea9e90ac7acdd16021c5fe13affe22812e719eb074a073afe61"
+  },
+  {
+    "path": "05_統計分析/SV4_decision_matlab/part_002.csv",
+    "bytes": 487009,
+    "sha256": "2a3840eba40f8b3736ae19c2cf1da87a392e327c511a8c05a2c3b46e99f16f9b"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_001.csv",
+    "bytes": 499823,
+    "sha256": "4272a1bdb0c5ddb81384bd2f4702d74ac6ad83057af34f679242c73d2140312f"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_002.csv",
+    "bytes": 499798,
+    "sha256": "09493efe34f18bf871469fe06373946d295125c58f205eb61ce50f4792670629"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_003.csv",
+    "bytes": 499883,
+    "sha256": "eba1205cfab1984d85530681864e0e2f0efd657e5a666b2b15530142c7eb90c9"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_004.csv",
+    "bytes": 499893,
+    "sha256": "1321da668a146fd7958f6d190535a4cc4e2e6a1c82acdbccc2cb8951aa93db68"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_005.csv",
+    "bytes": 499964,
+    "sha256": "c24226c45ac01c392c6abe2d393cc1e209cf5b013d44376aaa573b2d1cb2449a"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_006.csv",
+    "bytes": 499903,
+    "sha256": "1f0228f6877f60f83e11c9227847804e7909dfa9fa27236a3044414e47c70c1e"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_007.csv",
+    "bytes": 499903,
+    "sha256": "4cc09d3bd2cd5b1aa7505fab7637eb8c5e68ddf2eccbabc4d91d0d9215a9c74f"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_008.csv",
+    "bytes": 499983,
+    "sha256": "f4b46c46dc5b1d62e6d7d1b74b04df186d1b6d7e71f6bb51988b01c7521004dd"
+  },
+  {
+    "path": "05_統計分析/SV4_matrix_matlab/part_009.csv",
+    "bytes": 361192,
+    "sha256": "8ea9f7852d7e289a3213a7667f3974cab7c29adfa497deecdcdb38088e814933"
+  },
+  {
+    "path": "05_統計分析/SV4_relation_matlab.csv",
+    "bytes": 185205,
+    "sha256": "ea0bb51a6a5b655ce6c8f9450cc6e758a713afa15c489642d20b82adb24015a1"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig01/part_001.csv",
+    "bytes": 499850,
+    "sha256": "9ecc05c2461ce183d4cebbdf5bbfdbf0652775db38f8fa096ec82f49e5b6a5ea"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig01/part_002.csv",
+    "bytes": 127422,
+    "sha256": "3536b35445246c53a5c24f8c5a2b50189b97f993fdeda12259fa4ea01aa46ba4"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig01.svg",
+    "bytes": 233564,
+    "sha256": "15a99b1eda80a536c4abb90f8c6cfc0303d27917d38b8d139aa31daf8e937553"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig02/part_001.csv",
+    "bytes": 499850,
+    "sha256": "9ecc05c2461ce183d4cebbdf5bbfdbf0652775db38f8fa096ec82f49e5b6a5ea"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig02/part_002.csv",
+    "bytes": 127422,
+    "sha256": "3536b35445246c53a5c24f8c5a2b50189b97f993fdeda12259fa4ea01aa46ba4"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig02.svg",
+    "bytes": 231582,
+    "sha256": "6e118855ede202f56f4f47aa28586a16eb6454ff397e8a89bb690155768f4760"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig03.csv",
+    "bytes": 4682,
+    "sha256": "834fd4f36958e70a614c5e07d205954327f08c3b1ac9412162824eb5a09cefb5"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig03.svg",
+    "bytes": 182235,
+    "sha256": "3ec9beba5ab514ba0d7dba949018ecc53fb7a2e208d677fd4c9c2c2b58533433"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig04.csv",
+    "bytes": 5229,
+    "sha256": "3901bbc72f64686172e1b55a65c3bc25a60264a13914312500ea72ae59dee5ec"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig04.svg",
+    "bytes": 101661,
+    "sha256": "f9bee59156cc236ee60e29509955cd6994dcc45bef820bafe404232ceb9b78a5"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig05.csv",
+    "bytes": 6531,
+    "sha256": "b85e2430e61005055008391a297329d601a3a20c487524e352fcfb3802f28a16"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig05.svg",
+    "bytes": 101903,
+    "sha256": "3c02cd434f0a9ceff71c8cbf04bc2914885127e45637c240f363e4c21250e996"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig06.csv",
+    "bytes": 18516,
+    "sha256": "82603a0bbd54127d6dc6fbe11d19b8ee68a59914b21864cff0483f7f2d542166"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig06.svg",
+    "bytes": 611247,
+    "sha256": "773ed99a0d1a006b8f75187983a6f2254de13dfc9e210e1a15b93cf983512427"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig07.csv",
+    "bytes": 3295,
+    "sha256": "ce5195f8ca43d64a890f173eca030f4024fed289a9c6db211dcbf8a563b51331"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig07.svg",
+    "bytes": 746986,
+    "sha256": "9365d5ec4d3445e319d19a6af9ad35e4995461c33be48575db52bc0a74d408aa"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig08.csv",
+    "bytes": 2065,
+    "sha256": "f2308dbcf17a207fad7b4d29adf9c0d7443e3c771b094b1bdaf0de82245cd0aa"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig08.svg",
+    "bytes": 95379,
+    "sha256": "40328380ffbf89ee8d88d94afedde92aa43fc96a7350acef581716c9cecad942"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig09.csv",
+    "bytes": 2131,
+    "sha256": "7a9506f7a93286470a78340d1dd35bfdaa2358108727835da4a8c2a05748941d"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig09.svg",
+    "bytes": 531547,
+    "sha256": "022d823392b99e33240a3a826201df858cbf81b6f029d7b62129f8615610963c"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig10.csv",
+    "bytes": 2375,
+    "sha256": "e39f6ff260fda229df2686a4750df007ea03fae93f4b727d3c699bd03bc1374a"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig10.svg",
+    "bytes": 532034,
+    "sha256": "f16d889235677f91b2b9b861d17d54ccc0e60689a4551e736c34469c40e93e3c"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig11.csv",
+    "bytes": 8036,
+    "sha256": "899b3750e6f6a1b7974008c88095f6034359b7c5fa03f99c49cc54ec4493258f"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig11.svg",
+    "bytes": 135794,
+    "sha256": "409ff284a04e7e2cdf8c663a4f3f8ce61254d0bc2baa928ca1bbbc486ef07ea8"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig12.csv",
+    "bytes": 30528,
+    "sha256": "78eb17ef16b96e633a2b776e5c2719bc72e2989a5e10379f5df3b581b04a98ec"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig12.svg",
+    "bytes": 683398,
+    "sha256": "01d17cb5a2dd33284865b86df2bca180a022d401f16d9b55900967fe0c2c5fc7"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig13.csv",
+    "bytes": 7560,
+    "sha256": "0f7354881eb65d5752760a48397235b4513b92d76216f6e92c025dd676b91dcf"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig13.svg",
+    "bytes": 654001,
+    "sha256": "c3d05d00114f2f15181bc891cd995a296ca812779becfec51bf175bb1d4ff8cc"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig14.csv",
+    "bytes": 1938,
+    "sha256": "e5f2edb2390ffac3d7dab57009c55e80cedf29b88b996f15c3c542a6b056e32f"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig14.svg",
+    "bytes": 80514,
+    "sha256": "08f50158ed2143f93ea6fe81a163d371719c565127716f3ef4ec4e469e7795f6"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig15.csv",
+    "bytes": 12758,
+    "sha256": "636088afc1f2c422ecf8e6bdd99d9110b9cbc65cda61fc064de45308a0400ea5"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig15.svg",
+    "bytes": 138349,
+    "sha256": "0ec10a2c28294a225fba37d1d1a86a1d669dbbc0988edf933b261810eae418cd"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig16/part_001.csv",
+    "bytes": 499840,
+    "sha256": "37321d66096c8df41cf7e5a9a65db152239f617b9f130d7db11d179f46c2cf33"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig16/part_002.csv",
+    "bytes": 103941,
+    "sha256": "1b33cec4d68a2296bc7cac56ff66465615768669a314d1b714a52238dfab8e60"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig16.svg",
+    "bytes": 235877,
+    "sha256": "1674615397970e1d905700869a9c0cad7c50b57ee1a119dd02efda2582efd075"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig17/part_001.csv",
+    "bytes": 499882,
+    "sha256": "6ae7cc9b46384554835987f544c20157b4333647398581296530351bfc64e576"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig17/part_002.csv",
+    "bytes": 139652,
+    "sha256": "3cdc13e1849b6538100a01e78c3cf5d2df1813eec5f28c3b3cc21ceb2f17b56b"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig17.svg",
+    "bytes": 244113,
+    "sha256": "2caf0f4f544f01cbb5d2fc92319b9d6ad9e33e84d6d40c08f508fce39c6df7ef"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig18/part_001.csv",
+    "bytes": 499880,
+    "sha256": "0c99fb2029699e49b37c062b35704442a63ddf8b8a7c586534c5c1f8af38a2e9"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig18/part_002.csv",
+    "bytes": 140765,
+    "sha256": "ee821452cfbcbcf168ab010d94999ee3cf7dc2b6d44694a8afd382f080a34652"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig18.svg",
+    "bytes": 244202,
+    "sha256": "4b93fe3fc9224b1d913c2b81abdc5beabaa70e083144077262518006a4a9ff03"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig19/part_001.csv",
+    "bytes": 499991,
+    "sha256": "c0e7a0c14b4324a114d2ffe1df5516259792cdb18ebc18c4edca9527777a2084"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig19/part_002.csv",
+    "bytes": 313748,
+    "sha256": "c9061d6f29cafb7bcf2e0b9a7a23645e1dea92b56c1869173dcfc08dc64261d0"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig19.svg",
+    "bytes": 236044,
+    "sha256": "8363a03d048cf4836984c04b3caf4ac567367fbeb5d6857fb3a673ae09f054a7"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig20/part_001.csv",
+    "bytes": 499959,
+    "sha256": "2bc1a5d51d2a0ec089c41886ea6e495e1307aec8812824ff5bea8ea334700e7c"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig20/part_002.csv",
+    "bytes": 499805,
+    "sha256": "4390d81da088f8c7a8164f32e24b0acd50e1f722de1696af7cde626f6024e779"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig20/part_003.csv",
+    "bytes": 227600,
+    "sha256": "261a9c7af2c51f4439534daceefd6af0ee84b717cb090052561df39aa6a97b3a"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig20.svg",
+    "bytes": 2040933,
+    "sha256": "cb67c03719f7050272a560b0cda74f8fc3c328b0ee758080424ed70b5d29989e"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig21.csv",
+    "bytes": 286261,
+    "sha256": "1c119ccab1ab5ee9421a018d7b49f39924fccba9ef89fdefea97f223efd3de50"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig21.svg",
+    "bytes": 243943,
+    "sha256": "ccab89ea119633105434823604e2024fe20c993c0a21164851e5f7ccd423a48f"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig22/part_001.csv",
+    "bytes": 499850,
+    "sha256": "9ecc05c2461ce183d4cebbdf5bbfdbf0652775db38f8fa096ec82f49e5b6a5ea"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig22/part_002.csv",
+    "bytes": 127422,
+    "sha256": "3536b35445246c53a5c24f8c5a2b50189b97f993fdeda12259fa4ea01aa46ba4"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig22.svg",
+    "bytes": 250101,
+    "sha256": "dd873bf237f75f271dbbc27be575aaeb7713e4857d96edd39e5a9609977b5675"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig23.csv",
+    "bytes": 191420,
+    "sha256": "d89d9fa7e082504835dea2a1c1a58f1257d11bbfc4a169d5f5467b1f219a0b58"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig23.svg",
+    "bytes": 704107,
+    "sha256": "9894ce964667e5243600625cdef2bc62ce8a004a33e620677ca37ddde3a76dad"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig24.csv",
+    "bytes": 164896,
+    "sha256": "4cbc1e9d27c88305a44e09806ab6a41a2e3b09f74592d17904599e726116fe55"
+  },
+  {
+    "path": "06_MATLAB圖表/Fig24.svg",
+    "bytes": 191119,
+    "sha256": "8f723af22701c26f0d9ea1c4ed001ec98c60bbc20e4fdb429069d0f9d1fd2be5"
+  },
+  {
+    "path": "07_研究報告/cross_platform_flagged_blocks.csv",
+    "bytes": 3091,
+    "sha256": "c3fe51d52e6a409e895316c72d1b8056884f091faa909b80a9d4342e13117f77"
+  },
+  {
+    "path": "07_研究報告/embedding_diagnostics.csv",
+    "bytes": 1443,
+    "sha256": "a1755fc8c8248d5f9fed19035b13631f2932a72eea03c1baa4abec07b6d27413"
+  },
+  {
+    "path": "07_研究報告/Figure_Index_zh-TW.md",
+    "bytes": 2471,
+    "sha256": "6c042f02ce46e293a1f54363314c39b19d410befee86a9466e0faaca6bde09cd"
+  },
+  {
+    "path": "07_研究報告/gap_angle_correlation_by_method.csv",
+    "bytes": 2024,
+    "sha256": "b2860d191df6b9be48e407a21462c8869700bab0952b373b238a0e4e2e7dc49b"
+  },
+  {
+    "path": "07_研究報告/method_summary.csv",
+    "bytes": 6848,
+    "sha256": "6ba44d7a670bb0afc1724491ee4db01aa6ae0ed25957c63cb34bd804057ae3ac"
+  },
+  {
+    "path": "07_研究報告/phase01_orientation_comparison.csv",
+    "bytes": 283,
+    "sha256": "bfcfa43fc0ab473028079b9606f8b4f426338310ebcc640e4a2db2c2094b6203"
+  },
+  {
+    "path": "07_研究報告/Phase03_Report_zh-TW.md",
+    "bytes": 7304,
+    "sha256": "50c0fec8c5fc6f256fc2a31d848beb5f523ee2d388afefb871df211c81fb745b"
+  },
+  {
+    "path": "07_研究報告/qf_data_index/part_001.csv",
+    "bytes": 499820,
+    "sha256": "60c20d2db713801984e77c909ff647cc72d02b5af95d96593362adde46c1585b"
+  },
+  {
+    "path": "07_研究報告/qf_data_index/part_002.csv",
+    "bytes": 173392,
+    "sha256": "122e180ff3dfbe19af63f203cb2814d446f221432523723ba5dfd0cb71c82728"
+  },
+  {
+    "path": "07_研究報告/rank_and_recovery_selected_conditions.csv",
+    "bytes": 41256,
+    "sha256": "948ff14c0d1076b6aa10deaf8a960110670adce04b2e92fe3e2fcfd2c0040a2c"
+  },
+  {
+    "path": "07_研究報告/unattacked_frobenius_by_transition.csv",
+    "bytes": 1812,
+    "sha256": "6e4de86dc486651f40725475c41722db4af9d4c8f70394e11e73c304f304e411"
+  },
+  {
+    "path": "LOCAL_HDF5_INDEX.json",
+    "bytes": 78929,
+    "sha256": "546bd7b454e18897c9b63a26959ff06c0885c36c7a63c2d4436bd0a77c7b6ba2"
+  },
+  {
+    "path": "SPLIT_INDEX.json",
+    "bytes": 140008,
+    "sha256": "3747cd146ecb6e0b19cd24801f586efad7a473b9eceb008ae66122317bb45f2a"
+  }
+]
