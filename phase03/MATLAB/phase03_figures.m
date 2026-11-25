@@ -30,12 +30,11 @@ A=vertcat(tables{:,2}); A=A(A.scope=="All",:);
 E=A(A.comparison=="embedding",:);
 Q=vertcat(tables{:,3}); Q=Q(Q.scope=="All",:);
 R=vertcat(tables{:,4}); R=R(R.scope=="All",:);
-M=readtable(fullfile(runDir,'01_數學驗證','stress_gate','matlab_cases.csv'),'TextType','string');
-fromImage=M(startsWith(M.category,"platelet"),:);
-fromImage.vector=fromImage.side+string(fromImage.j+1);
+paired=readtable(fullfile(stats,'same_target_loss_matlab.csv'),'TextType','string');
+reductions=readtable(fullfile(stats,'same_target_reduction_matlab.csv'),'TextType','string');
 titles=["Final 512-bit BER","PSNR relative to original","Frozen angular step and PNG PSNR", ...
     "PNG block BER","Theoretical embedding loss","Theory, reconstruction and realized loss", ...
-    "Common target angle on platelet blocks","P distortion reduction vs. R and G", ...
+    "Common target angles at frozen P settings","P distortion reduction vs. R and G", ...
     "P primal–dual gap","P solver time","P orthogonality error","Singular value displacement in B", ...
     "B direction after a fresh SVD","G center reselection and failure","PNG identifiability by spectral class", ...
     "JPEG-only squared Frobenius perturbation","JPEG-only left projective rotation", ...
@@ -87,22 +86,23 @@ for id=ids
                     grouped(ax,x,labels,"comparison",["A_to_B","B_to_B0","A_to_B0"],"Mean squared Frobenius norm");
                 end
             case 7
-                x=fromImage(fromImage.vector==vec,:);
-                values=x{:,{'D_S','D_G','D_R','D_P'}};
-                markers=["o","+","^","s"];
+                x=paired(paired.vector==vec & paired.scope=="G_feasible",:);
                 for j=1:4
-                    plot(ax,1:height(x),values(:,j),markers(j),'Color',palette(j,:),'MarkerSize',2.8);
+                    v=x(x.method==methods(j),:);
+                    errorbar(ax,j,v.median,v.median-v.p10,v.p90-v.median,'o','Color',palette(j,:), ...
+                        'MarkerFaceColor',palette(j,:),'MarkerSize',3.8,'LineWidth',1);
                 end
-                xlabel(ax,'Paired platelet test'); ylabel(ax,'Normalized squared loss');
+                xlim(ax,[.5 4.5]); xticks(ax,1:4); xticklabels(ax,methods);
+                ylabel(ax,'Normalized squared loss');
             case 8
-                x=fromImage(fromImage.vector==vec,:);
-                x.vs_G=nan(height(x),1); x.vs_R=x.vs_G;
-                eligibleG=x.D_G>1e-12; eligibleR=x.D_R>1e-12;
-                x.vs_G(eligibleG)=1-x.D_P(eligibleG)./x.D_G(eligibleG);
-                x.vs_R(eligibleR)=1-x.D_P(eligibleR)./x.D_R(eligibleR);
-                plot(ax,1:height(x),100*x.vs_G,'o','Color',palette(2,:),'MarkerSize',3);
-                plot(ax,1:height(x),100*x.vs_R,'+','Color',palette(3,:),'MarkerSize',3);
-                xlabel(ax,'Paired platelet test'); ylabel(ax,'Loss reduction (%)');
+                x=reductions(reductions.vector==vec,:);
+                for j=2:3
+                    v=x(x.baseline==methods(j),:);
+                    errorbar(ax,j-1,v.median,v.median-v.p10,v.p90-v.median,'o','Color',palette(j,:),...
+                        'MarkerFaceColor',palette(j,:),'MarkerSize',3.8,'LineWidth',1);
+                end
+                xlim(ax,[.5 2.5]); xticks(ax,1:2); xticklabels(ax,["vs. G","vs. R"]);
+                ylabel(ax,'Loss reduction (%)');
             case {9,10,11,13}
                 keys=["certificate_gap","solve_seconds_per_block_batch_average","orthogonality","B_angle_target_error_success"];
                 idx=find([9,10,11,13]==id);
@@ -164,7 +164,10 @@ for id=ids
                 x=tB(tB.classification=="formal",["method","qf","ber_pct","classification"]);
                 for p=unique(prior.method).'
                     s=prior(prior.method==p,:);
-                    plot(ax,s.qf,s.ber_pct,'Color',[.68 .68 .68],'LineWidth',.55);
+                    shade=[.77 .77 .77]; width=.55; lineStyle="-";
+                    if p=="G0", shade=[.36 .36 .36]; lineStyle="--"; width=1; end
+                    if p=="S1", shade=[.12 .12 .12]; width=1; end
+                    plot(ax,s.qf,s.ber_pct,'Color',shade,'LineWidth',width,'LineStyle',lineStyle);
                 end
                 curves(ax,x,"ber_pct",labels,palette,styles,"JPEG quality factor","Final BER (%)");
                 x=[prior;x];
@@ -179,15 +182,19 @@ for id=ids
         case {6,12}
             details="Grouped bars show the metrics in each panel legend. S, G, R and P appear on the horizontal axes.";
         case 7
-            details="S blue circle, G orange plus, R green triangle, P purple square. Infeasible G values are missing.";
+            details="All four methods use the same feasible blocks. Points show medians and bars span P10 to P90.";
         case 8
-            details="Orange circles compare with G, green plus signs with R. Baseline loss must exceed 10^{-12}.";
+            details="Median and P10 to P90. Baseline loss exceeds 10^{-12} and 100 times the certificate width.";
         case 14
             details="Reselection and failure are measured over all 38,088 blocks for each G method.";
         case {15,22}
             details="S blue, G orange, R green, P purple. Point clouds include every calibration status.";
+        case 17
+            details="Panels name the embedded vector. Drift is measured on U. S blue, G orange, R green, P purple.";
+        case 18
+            details="Panels name the embedded vector. Drift is measured on V. S blue, G orange, R green, P purple.";
         case 24
-            details="Grey curves are the eight Phase 02 methods. Coloured curves show Phase 03 groups meeting the PNG thresholds.";
+            details="Phase 02 uses black for S1 and dashed grey for G0. Coloured curves show Phase 03 formal groups.";
     end
     xlabel(tl,details,'FontName','Times New Roman','FontSize',8);
     path=fullfile(figDir,compose("Fig%02d",id));

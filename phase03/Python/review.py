@@ -192,10 +192,23 @@ def overview(run,phase02,phase01_root=None):
     rho.to_csv(report/"gap_angle_correlation_by_method.csv")
     rank=relation[(relation.scope=="All")&(relation.rank_class>0)&(relation.qf.isin([0,10,50,90]))].copy()
     rank.to_csv(report/"rank_and_recovery_selected_conditions.csv",index=False)
+    metrics=[]
+    for method in f.method:
+        table=pd.read_csv(run/STATS/f"{method}_decision_matlab.csv")
+        table=table[(table.scope=="All") & table.qf.eq(80)]
+        metrics.append(table)
+    if metrics:
+        d80=pd.concat(metrics)
+        d80=d80.pivot(index="method",columns="metric",values="mean")
+    else:
+        d80=pd.DataFrame()
     paired=math_csv[math_csv.category.str.startswith("platelet")]
     matched=paired[paired.D_G.notna()]
-    ran=paired.D_R>1e-12
-    reduction=(1-paired.loc[ran,"D_P"]/paired.loc[ran,"D_R"]).median()
+    full_pairs=pd.read_csv(run/STATS/"same_target_loss_matlab.csv")
+    full_reduction=pd.read_csv(run/STATS/"same_target_reduction_matlab.csv")
+    p_rows=full_pairs[(full_pairs.method=="P") & (full_pairs.scope=="all_P_targets")]
+    count_pairs=int(p_rows["count"].sum())
+    assert count_pairs==8*38088
     f_comp="沒有符合正式校準門檻的第三階段組別。"
     if len(f):
         lead=f.iloc[0]
@@ -212,10 +225,20 @@ def overview(run,phase02,phase01_root=None):
         "指定反例的未分支對偶上界為 22。行列式正分支的可行及對偶目標皆為 21.5，對應平方 Frobenius 失真 17。","",
         f"凍結後從 P 的八組抽取 {len(sample)} 個實際角度目標，再由 MATLAB 獨立重算四分支。"
         f"與 Python 的正規化分支跡目標最大差為 {sample.branch_value_difference.max():.3g}。","",
-        f"實際影像數學案例共 {len(paired)} 個相同目標角度的配對，其中 {len(matched)} 個具有可行 G 平面。"
-        f"在 R 正規化平方失真大於 10⁻¹² 的 {ran.sum()} 個配對，P 相對 R 的失真改善中位數為 {reduction:.3%}。"
+        f"血小板數學案例共 {len(paired)} 個配對，其中 {len(matched)} 個具有可行 G 平面。"
+        f"本文另以八組凍結 P 目標，逐一比較 {count_pairs:,} 個區塊的 S、G、R、P 理論失真。"
+        "G 只比較原目標可行的區塊。相對改善量以基準正規化平方失真同時大於 10⁻¹² 與 P 失真證書寬度 100 倍的區塊計算。"
+        "這個比值門檻將分母限制在足以區分計算誤差的位置。另保存僅採絕對門檻的平均值、極小值與樣本數，以及全部逐塊失真。"
         "P 保持因子正交與奇異值，重根子空間內用重新 SVD 找到的個別方向仍受選基影響。"
         "S 的單欄操作之後會重新分解 B。","",
+        "| 方向 | G 同中心可行區塊數 | P 相對 G 的失真改善中位數 | P 相對 R 的失真改善中位數 |",
+        "|---|---:|---:|---:|",
+    ]
+    rvec=full_reduction.pivot(index="vector",columns="baseline",values="median")
+    gvec=full_pairs[(full_pairs.method=="G") & (full_pairs.scope=="G_feasible")].set_index("vector")
+    for vec in ("U1","U2","U3","U4","V1","V2","V3","V4"):
+        lines.append(f"| {vec} | {gvec.loc[vec,'count']:,} | {rvec.loc[vec,'G']:.3f}% | {rvec.loc[vec,'R']:.3f}% |")
+    lines+=["",
         "## 影像與校準","",
         f"每組均經凍結與完整 100 個品質條件驗收。正式校準 {len(f)} 組，探索性校準 {len(e)} 組。{f_comp}","",
         "| 方法 | 校準 | 步長（度） | PNG PSNR（dB） | PNG 錯誤/512 | QF 1～100 平均 BER | 零 BER 的 QF 數 |",
@@ -224,6 +247,22 @@ def overview(run,phase02,phase01_root=None):
     for r in methods.itertuples():
         lines.append(f"| {r.method} | {'正式' if r.classification=='formal' else '探索'} | "
                      f"{r.q_deg:.6g} | {r.png_psnr:.6f} | {r.png_final_errors} | {r.mean_ber:.4%} | {r.zero_qf} |")
+    if len(f):
+        lines+=["","正式校準各組在代表性品質因子的位元錯誤數如下。每個條件的分母為 512。","",
+                "| 方法 | QF 1 | QF 10 | QF 20 | QF 50 | QF 80 | QF 100 |",
+                "|---|---:|---:|---:|---:|---:|---:|"]
+        for method in f.method:
+            ber=pd.read_csv(run/STATS/f"{method}_ber_psnr.csv").set_index("qf")
+            values=ber.loc[[1,10,20,50,80,100],"final_errors"].astype(int)
+            lines.append(f"| {method} | "+" | ".join(str(x) for x in values)+" |")
+        lines.append("")
+        lead=f.iloc[0]; wide=f.loc[f.q_rad.idxmax()]
+        if lead.method!=wide.method:
+            lines.append(f"正式組中量化步長最大的 {wide.method} 使用 {wide.q_deg:.4f} 度，"
+                         f"全 QF 平均 BER 為 {wide.mean_ber:.3%}。"
+                         f"最低平均 BER 的 {lead.method} 使用 {lead.q_deg:.4f} 度。"
+                         "這兩組同時變動旋轉方法及奇異向量索引，兩個樣本的差異描述整體嵌入和提取流程。")
+            lines.append("")
     lines+=["","## 自然擾動與可用性",""]
     if phase01_root is not None:
         natural=pd.read_csv(phase01_root/"05_統計分析"/"component_rankings_for_report.csv")
@@ -257,6 +296,17 @@ def overview(run,phase02,phase01_root=None):
             f"關係表保留 Y、U、V 與合併通道的逐條件 Pearson 相關及光譜分類。"
             f"各方法 100 個 QF 的合併通道 Pearson 相關中位數介於 {rho['median'].min():.4f} 和 {rho['median'].max():.4f}。"
             "秩類別的分母、區塊 BER 與方向偏移均在同一表保留，零筆類別的統計以缺值標示。","",
+    ]
+    if len(d80):
+        lines.extend(["QF 80 的正規化偏移、判決裕度與區塊 BER 可以和前表的最終位元錯誤數對照。"
+                      "偏移和裕度在有合法嵌入目標的區塊上計算。區塊 BER 的分母為 38,088。","",
+                      "| 方法 | 平均絕對中心偏移 / q | 平均裕度（rad） | 區塊 BER |",
+                      "|---|---:|---:|---:|"])
+        for row in f.itertuples():
+            x=d80.loc[row.method]
+            lines.append(f"| {row.method} | {x.abs_offset/row.q_rad:.5f} | {x.target_margin:.5g} | {x.block_error:.4%} |")
+        lines.append("")
+    lines+= [
             f"Python 與 MATLAB 逐區塊判決相差 {methods.cross_platform_bit_disagreements.sum():,} 次，"
             f"其中 {methods.unexplained_disagreements.sum():,} 次未由精確重根分類或數值近界解釋。"
             "正式盲式 BER 以研究設定所指定的 Python 提取流程為準。","",
