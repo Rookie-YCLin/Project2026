@@ -38,7 +38,9 @@ def main(args):
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         while labels or inflight:
             ready=[l for l in LABELS if l in labels and (args.run/STATS/(l+"_ber_psnr.csv")).is_file()]
-            for label in ready[:max(0,args.workers-len(inflight))]:
+            jpeg_finished=all((args.run/STATS/(l+"_ber_psnr.csv")).is_file() for l in args.labels)
+            limit=args.workers if jpeg_finished else min(args.workers,args.overlap_workers)
+            for label in ready[:max(0,limit-len(inflight))]:
                 labels.remove(label)
                 inflight[pool.submit(analyze,args.matlab,args.run,label)]=label
             if inflight:
@@ -74,5 +76,6 @@ if __name__=="__main__":
     p.add_argument("--phase02",type=Path)
     p.add_argument("--labels",nargs="+",choices=LABELS,default=LABELS)
     p.add_argument("--workers",type=int,default=2)
+    p.add_argument("--overlap-workers",type=int,default=3)
     p.add_argument("--wait-for-jpeg",action="store_true")
     main(p.parse_args())

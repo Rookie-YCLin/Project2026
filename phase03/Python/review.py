@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import shutil
+from zipfile import ZIP_DEFLATED, ZipFile
 
 import h5py
 import numpy as np
@@ -17,6 +18,32 @@ GATE="01_數學驗證"
 FIGURES="06_MATLAB圖表"
 REPORT="07_研究報告"
 PUBLISH="08_獨立審查"
+FIGURE_CATALOG=(
+    "全部方法的最終 512-bit BER",
+    "全部方法相對原圖的 PSNR",
+    "凍結角度步長與未受攻擊 PNG PSNR",
+    "未受攻擊 PNG 區塊 BER",
+    "理論嵌入平均平方 Frobenius 失真",
+    "A→B、B→B₀、A→B₀ 三種失真",
+    "同一目標角度的 S、G、R、P 配對平方失真",
+    "P 相對 G 與 R 的配對失真改善",
+    "P 的原始與對偶最佳值差",
+    "P 的每區塊批次平均求解時間",
+    "名義旋轉因子的正交性殘差",
+    "理論矩陣 B 的奇異值有號變化",
+    "重新 SVD 後已嵌入區塊的目標方向絕對偏移",
+    "G 的中心重選與無法嵌入比例",
+    "PNG 判決正確率與五類光譜可辨識性",
+    "B₀→C(Q) 的平均平方 Frobenius 擾動",
+    "B₀→C(Q) 的左奇異向量角度擾動",
+    "B₀→C(Q) 的右奇異向量角度擾動",
+    "方向 QIM 的平均正規化絕對偏移",
+    "方向 QIM 的目標判決裕度與區塊正確率",
+    "B₀ 的局部最近間距與 JPEG 角度擾動之 Pearson 相關",
+    "區塊 BER 與最終 512-bit BER",
+    "QF 1～30 的最終 512-bit BER",
+    "第二階段正式方法與第三階段正式校準方法的最終 BER",
+)
 
 
 def read_json(path):
@@ -137,6 +164,16 @@ def overview(run,phase02,phase01_root=None):
     report.mkdir(exist_ok=True)
     methods.to_csv(report/"method_summary.csv",index=False)
     index.to_csv(report/"qf_data_index.csv",index=False)
+    figure_index=[
+        "# 第三階段 MATLAB 圖表索引","",
+        f"本機執行資料夾的 `{FIGURES}` 內有每張圖的 FIG、PNG、SVG、PDF 和製圖 CSV。"
+        "圖號可傳給 `phase03_figures(runDir, phase02Dir, ID)` 重新產生。",
+        "曲線保留每個 QF 的原始量值。配對矩陣失真使用相同目標角度，正式 BER 比較採符合 PNG 校準門檻的組別。","",
+        "| 圖號 | 內容 | 製圖 CSV |","|---|---|---|",
+    ]
+    for i,name in enumerate(FIGURE_CATALOG,1):
+        figure_index.append(f"| Fig{i:02d} | {name} | `{FIGURES}/Fig{i:02d}.csv` |")
+    (report/"Figure_Index_zh-TW.md").write_text("\n".join(figure_index)+"\n",encoding="utf-8")
     f=methods[methods.classification=="formal"].sort_values("mean_ber")
     e=methods[methods.classification=="exploratory"]
     ref=pd.read_csv(phase02/"07_統計分析"/"all_methods_ber_psnr.csv")
@@ -259,7 +296,8 @@ def package(run,output):
         for name in ("candidates.csv","selection.json"):
             shutil.copy2(run/CALIB/label/name,target/name)
     json_file(output/"SPLIT_INDEX.json",items)
-    raw=[p for p in run.rglob("*") if p.is_file() and PUBLISH not in p.relative_to(run).parts]
+    raw=[p for p in run.rglob("*") if p.is_file() and PUBLISH not in p.relative_to(run).parts
+         and p.name!="review_collection.log"]
     records=file_index(raw,run)
     index=run/PUBLISH
     index.mkdir(exist_ok=True)
@@ -268,6 +306,16 @@ def package(run,output):
     json_file(output/"LOCAL_HDF5_INDEX.json",large)
     retained=list(output.rglob("*"))
     json_file(output/"PUBLISHED_FILES.json",file_index((p for p in retained if p.is_file()),output))
+    archive=index/"Phase03_Review_Package.zip"
+    pending=archive.with_suffix(".pending")
+    with ZipFile(pending,"x",compression=ZIP_DEFLATED,compresslevel=4) as z:
+        for p in sorted(output.rglob("*")):
+            if p.is_file():
+                z.write(p,arcname=p.relative_to(output).as_posix())
+    with ZipFile(pending,"r") as z:
+        assert z.testzip() is None
+    pending.replace(archive)
+    json_file(index/"review_archive.json",dict(path=archive.name,bytes=archive.stat().st_size,sha256=phase01.sha(archive)))
 
 
 if __name__=="__main__":

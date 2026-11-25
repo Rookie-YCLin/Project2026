@@ -27,7 +27,8 @@ python phase03/Python/check_batch.py $stress
 
 python phase03/Python/image_experiment.py $run $source $upstream --workers 6
 python phase03/Python/jpeg_experiment.py $run $source $upstream --workers 5
-python phase03/Python/matlab_runner.py $run $matlab --phase02 $phase02 --workers 2
+& $matlab -wait -batch "addpath('$phase/phase03/MATLAB'); phase03_verify_frozen_p('$run')"
+python phase03/Python/matlab_runner.py $run $matlab --phase02 $phase02 --workers 6 --overlap-workers 3
 python phase03/Python/review.py $run $phase02 --phase01 $phase01 --publish-to $review
 ```
 
