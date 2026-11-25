@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "case_count": 1625,
+  "elapsed_seconds": 40.1031467,
+  "matlab": "26.2.0.3433840 (R2026b) Update 1",
+  "maxima": {
+    "orthogonality": 3.4367634720675847E-15,
+    "projection": 4.4408920985006262E-16,
+    "angle": 8.8817841970012523E-16,
+    "determinant": 2.886579864025407E-15,
+    "sigma": 3.8857805861880479E-15,
+    "primal_dual_gap": 6.8901939709320459E-11,
+    "frobenius": 1.8665078438492342E-15
+  },
+  "example": {
+    "ordinary_dual": 22,
+    "det_positive_primal": 21.5,
+    "det_positive_dual": 21.500000000000448,
+    "lambda_sample": -17.000000000000085,
+    "squared_loss": 17
+  }
+}

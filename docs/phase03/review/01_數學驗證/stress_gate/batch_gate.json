@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "fixtures": 1625,
+  "max_branch_error": 2.603413211811342e-10,
+  "max_global_primal_dual_gap": 1.9779241958394968e-10,
+  "seconds": 2.5821602000505663
+}

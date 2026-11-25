@@ -1,0 +1,17 @@
+{
+  "label": "RV2",
+  "round": 0,
+  "q_rad": 0.344412939006062,
+  "q_degrees": 19.733407814743998,
+  "psnr": 20.278592284222672,
+  "errors": 0,
+  "block_errors": 11980,
+  "failed_blocks": 0,
+  "seconds_embed_png": 1.173988599999575,
+  "seconds_blind": 1.6441947999992408,
+  "png_sha256": "e04ddc85632c4a42efae610ae2d5c668b35cc27959ff98f37b1dc71273ee6a90",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 27,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

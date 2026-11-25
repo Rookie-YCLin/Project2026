@@ -1,0 +1,17 @@
+{
+  "label": "SV2",
+  "round": 2,
+  "q_rad": 0.32278179224277503,
+  "q_degrees": 18.494034399179583,
+  "psnr": 40.69499226857055,
+  "errors": 0,
+  "block_errors": 11924,
+  "failed_blocks": 0,
+  "seconds_embed_png": 0.733875200006878,
+  "seconds_blind": 0.8314092999789864,
+  "png_sha256": "91604181e91732ff8effcea65db064615b294c35cfe17fca778b01ec51ad2572",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 27,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

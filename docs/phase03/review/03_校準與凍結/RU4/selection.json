@@ -1,0 +1,17 @@
+{
+  "label": "RU4",
+  "round": 2,
+  "q_rad": 0.03590336023230724,
+  "q_degrees": 2.057111011649044,
+  "psnr": 40.11375285986532,
+  "errors": 54,
+  "block_errors": 16298,
+  "failed_blocks": 0,
+  "seconds_embed_png": 1.0948916000197642,
+  "seconds_blind": 1.5085669000109192,
+  "png_sha256": "02d8698a0a8a4220c1cbe0c700405c1f0531387aaff53f68349269f325b668cb",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 27,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

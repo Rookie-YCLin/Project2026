@@ -1,0 +1,9 @@
+Shared math cases 1625 Counter({'platelet_near_rank_stress': 456, 'platelet': 160, 'full_rank': 112, 'positive_repeat': 112, 'near_repeat': 112, 'rank_0': 112, 'rank_1': 112, 'rank_2': 112, 'rank_3': 112, 'parallel': 112, 'perpendicular': 112, 'O4_duality_gap': 1})
+Python 200 failures 0
+Python 400 failures 0
+Python 600 failures 0
+Python 800 failures 0
+Python 1000 failures 0
+Python 1200 failures 0
+Python 1400 failures 0
+Python 1600 failures 0

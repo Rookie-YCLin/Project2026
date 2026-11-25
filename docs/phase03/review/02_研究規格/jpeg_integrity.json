@@ -1,0 +1,8 @@
+{
+  "methods": 32,
+  "qf_per_method": 100,
+  "blocks_per_condition": 38088,
+  "verified_jpeg_sha256": 3200,
+  "hdf5_complete_groups": 3200,
+  "sampling": "4:4:4"
+}

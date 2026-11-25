@@ -35,7 +35,7 @@ reductions=readtable(fullfile(stats,'same_target_reduction_matlab.csv'),'TextTyp
 titles=["Final 512-bit BER","PSNR relative to original","Frozen angular step and PNG PSNR", ...
     "PNG block BER","Theoretical embedding loss","Theory, reconstruction and realized loss", ...
     "Common target angles at frozen P settings","P distortion reduction vs. R and G", ...
-    "P primal–dual gap","P solver time","P orthogonality error","Singular value displacement in B", ...
+    "P primal–dual gap","P solver time","Orthogonality residual by method","Singular value displacement in B", ...
     "B direction after a fresh SVD","G center reselection and failure","PNG identifiability by spectral class", ...
     "JPEG-only squared Frobenius perturbation","JPEG-only left projective rotation", ...
     "JPEG-only right projective rotation","Normalized absolute QIM offset","Margin and block correctness", ...
@@ -83,7 +83,7 @@ for id=ids
                     x=x(x.comparison=="A_to_B",:);
                     bars(ax,x,"mean",labels,palette,"Mean squared Frobenius norm");
                 else
-                    grouped(ax,x,labels,"comparison",["A_to_B","B_to_B0","A_to_B0"],"Mean squared Frobenius norm");
+                    keyBars=grouped(ax,x,labels,"comparison",["A_to_B","B_to_B0","A_to_B0"],"Mean squared Frobenius norm");
                 end
             case 7
                 x=paired(paired.vector==vec & paired.scope=="G_feasible",:);
@@ -103,15 +103,28 @@ for id=ids
                 end
                 xlim(ax,[.5 2.5]); xticks(ax,1:2); xticklabels(ax,["vs. G","vs. R"]);
                 ylabel(ax,'Loss reduction (%)');
-            case {9,10,11,13}
-                keys=["certificate_gap","solve_seconds_per_block_batch_average","orthogonality","B_angle_target_error_success"];
-                idx=find([9,10,11,13]==id);
-                y=["Scaled trace gap","Time per block (s)","Orthogonality residual","Mean direction error (rad)"];
+            case {9,10,13}
+                keys=["certificate_gap","solve_seconds_per_block_batch_average","B_angle_target_error_success"];
+                idx=find([9,10,13]==id);
+                y=["Scaled trace gap","Time per block (s)","Mean direction error (rad)"];
                 x=tE(tE.metric==keys(idx),:);
                 bars(ax,x,"mean",labels,palette,y(idx));
+            case 11
+                x=tE(tE.metric=="orthogonality",:);
+                for j=1:4
+                    row=x(x.method==labels(j),:);
+                    fill=palette(j,:);
+                    if row.classification=="exploratory", fill='none'; end
+                    plot(ax,j,row.mean,'o','Color',palette(j,:),'MarkerFaceColor',fill,'MarkerSize',5);
+                end
+                ax.YScale='log';
+                ylim(ax,[1e-18 1]);
+                yticks(ax,10.^(-18:6:0));
+                xlim(ax,[.5 4.5]); xticks(ax,1:4); xticklabels(ax,methods);
+                ylabel(ax,'Mean orthogonality residual');
             case 12
                 x=tA(tA.qf==0 & tA.comparison=="A_to_B" & startsWith(tA.metric,"delta_sigma_"),:);
-                grouped(ax,x,labels,"metric","delta_sigma_"+(1:4),"Mean signed singular value change");
+                keyBars=grouped(ax,x,labels,"metric","delta_sigma_"+(1:4),"Mean signed singular value change");
             case 14
                 x=tE(startsWith(tE.method,"G") & ismember(tE.metric,["reselected","embed_failure"]),:);
                 x.percent=100*x.mean;
@@ -179,8 +192,12 @@ for id=ids
     switch id
         case 3
             details="Bars show step size, diamonds show PNG PSNR. Outlined bars indicate exploratory calibration.";
-        case {6,12}
-            details="Grouped bars show the metrics in each panel legend. S, G, R and P appear on the horizontal axes.";
+        case 6
+            legendLabels=["A → B","B → B₀","A → B₀"];
+        case 11
+            details="The vertical axis is logarithmic. Hollow markers indicate exploratory calibration.";
+        case 12
+            legendLabels=["Δσ₁","Δσ₂","Δσ₃","Δσ₄"];
         case 7
             details="All four methods use the same feasible blocks. Points show medians and bars span P10 to P90.";
         case 8
@@ -196,7 +213,12 @@ for id=ids
         case 24
             details="Phase 02 uses black for S1 and dashed grey for G0. Coloured curves show Phase 03 formal groups.";
     end
-    xlabel(tl,details,'FontName','Times New Roman','FontSize',8);
+    if ismember(id,[6 12])
+        key=legend(keyBars,legendLabels,'Orientation','horizontal','FontName','Times New Roman','FontSize',9);
+        key.Layout.Tile='south';
+    else
+        xlabel(tl,details,'FontName','Times New Roman','FontSize',8);
+    end
     path=fullfile(figDir,compose("Fig%02d",id));
     writetable(vertcat(evidence{:}),path+".csv");
     savefig(f,path+".fig");
@@ -243,13 +265,12 @@ end
 xticks(ax,1:4); xticklabels(ax,extractBetween(labels,1,1)); xlim(ax,[.45 4.55]); ylabel(ax,label);
 end
 
-function grouped(ax,x,labels,key,groups,label)
+function handles=grouped(ax,x,labels,key,groups,label)
 [found,idx]=ismember(x.(key),groups);
 assert(all(found));
 rows=methodIndex(x.method,labels);
 v=nan(numel(labels),numel(groups));
 v(sub2ind(size(v),rows,idx))=x.mean;
-bar(ax,v);
+handles=bar(ax,v);
 xticks(ax,1:4); xticklabels(ax,extractBetween(labels,1,1)); ylabel(ax,label);
-legend(ax,replace(groups,"_"," "),'Location','best','FontSize',6);
 end

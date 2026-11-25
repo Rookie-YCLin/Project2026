@@ -1,0 +1,2212 @@
+[
+  {
+    "path": "04_影像與矩陣/common.h5",
+    "bytes": 12647390,
+    "sha256": "faf53dfcd8b875eab0546381e6c6dcce5bb331a9884690eccb231e1f178a0b0a"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/attacks.h5",
+    "bytes": 971937028,
+    "sha256": "74f3d9f94538ec286fcef7f65da34dcb850fcd3181baf2fc49fb2e40b376f2d1"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/embedding.h5",
+    "bytes": 26029418,
+    "sha256": "cc75b00247ecf33fe3e898a7952b19f32c92420143e88fb5c8502faed2410732"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/geometry_audit.h5",
+    "bytes": 255543,
+    "sha256": "9a1446e552e0b38ef01beb7ab478a68876934d48145dd0ff303df738ac3741ea"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part00.h5",
+    "bytes": 17559249,
+    "sha256": "d5a80110a5208542c87ae899a51f35a950ec5cca432454f25d39927b53fb94f3"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part01.h5",
+    "bytes": 141534755,
+    "sha256": "4e8c7e1e299a1f1552f438f2c6d3bbfbd5543b0cfdfdae58dc4ea30b18e0760c"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part02.h5",
+    "bytes": 146612786,
+    "sha256": "651d84d2acc56b166ffb9c78fefc181851de5a2aee50ab0b91fa98b29f42a6f7"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part03.h5",
+    "bytes": 151849370,
+    "sha256": "7057a64f22f021cc09e352cbd359b821064cd81b5c3f5a7dbe53cea23de975ac"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part04.h5",
+    "bytes": 153685957,
+    "sha256": "1ed60d47b37d76bc1f526db4316b0918bac5cb98410a49527895f61cac3de74b"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part05.h5",
+    "bytes": 156335251,
+    "sha256": "62f014083d206083842461024d4362c38b43772bff4dfc36e328ff94bb95c9ca"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part06.h5",
+    "bytes": 157651671,
+    "sha256": "55102ee5c8950db8a7c9fa327d6f01a45b69a7ed217223ad3da5562d9e70cdf1"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part07.h5",
+    "bytes": 158349450,
+    "sha256": "ca441626f099c6fc0526214fef91572e6c8e305b03ff56074719b50309bfd5e5"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part08.h5",
+    "bytes": 158968096,
+    "sha256": "3d6840471f9a70c2e3ffa24bea805eba42df5556a0b55f1eb56144fd1a29886a"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part09.h5",
+    "bytes": 160128367,
+    "sha256": "234833bb252ec04b044dc11d32827e32a958a36df68a6b4aced5b3efd4ed6aea"
+  },
+  {
+    "path": "04_影像與矩陣/GU1/matlab_checks/part10.h5",
+    "bytes": 158806151,
+    "sha256": "13c0deb639b7117186b4459f13ff944e30d646c7b97280385a28649f7ea8ca4b"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/attacks.h5",
+    "bytes": 867930059,
+    "sha256": "90b1170365589e8ebf83eb48c4b60394f0bcf969e64d2ca027b31c2bf73ea8bb"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/embedding.h5",
+    "bytes": 24793085,
+    "sha256": "f1ea3f7aa3ec2e743d449b03fca7040ea3d5e267bf534a00da4a16af1a0981eb"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/geometry_audit.h5",
+    "bytes": 247255,
+    "sha256": "216591db08984a79140f349c79e8711ae66f3360452aac43d1c65069c483e407"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part00.h5",
+    "bytes": 14884885,
+    "sha256": "b926037261ee469158c871aaf8d80deb295dcf297b2867ce5ada9a781d5bd851"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part01.h5",
+    "bytes": 136212100,
+    "sha256": "c36cbd83bb2775d86d33d549904135c9cd0172710c293c07b606dd1d9536756f"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part02.h5",
+    "bytes": 138998528,
+    "sha256": "a535442c494ef21a893589d61d4545219ba886671516cf7ecec28829bb3ccdaa"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part03.h5",
+    "bytes": 140037962,
+    "sha256": "59bd20644c3f9ceaa8c70557ad0566cef65840530a230c259bb2fb02ae3566a6"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part04.h5",
+    "bytes": 141099926,
+    "sha256": "dd57344cf294c3465c03d45fa9e809d6b26603622300f25f8e29caa7bc5f4600"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part05.h5",
+    "bytes": 141925995,
+    "sha256": "2425c386b0c8c5670b64a6794a89c77c202b768c739d72a1bd540236ac413930"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part06.h5",
+    "bytes": 144537506,
+    "sha256": "b590b79eb59f68f99f0db59134af198aaadfa04fd2211d14ec77294b7fb6a39a"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part07.h5",
+    "bytes": 148444844,
+    "sha256": "68fe6f635a3764a3f067e033c9027fc23713316af964ec4cc2b754fe5d62343c"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part08.h5",
+    "bytes": 144772669,
+    "sha256": "14074ef05bd5f6b29f99bbf39a5f7075da1e5c7c56c8b06a7cf7eef665769679"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part09.h5",
+    "bytes": 144872898,
+    "sha256": "71fb724334d45f00b8af4837558c61f87a9d7305cb514203a07295f1ec9f6d60"
+  },
+  {
+    "path": "04_影像與矩陣/GU2/matlab_checks/part10.h5",
+    "bytes": 141681779,
+    "sha256": "fc37e14e840e3b1e933f2722b8b6e57f99bd3e9f93eeccb2b079d8980c811ce9"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/attacks.h5",
+    "bytes": 860709888,
+    "sha256": "7e16af61faa89ab230ae4db5b3551fa782eb360a027c7c09fb6c4a2db4880aba"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/embedding.h5",
+    "bytes": 24321014,
+    "sha256": "f528f3ef7040dc82cdda3e77aaf166a7ffdc1a0d74d394f06ec41fd4afe4ed5d"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/geometry_audit.h5",
+    "bytes": 194563,
+    "sha256": "999e6deb889f0bf513f4721c2a8d8f487c9519c858a0984307f1d9bf95da8324"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part00.h5",
+    "bytes": 9544743,
+    "sha256": "f99ed7c1188e11e26b4c49db0358d0d87b27c04f33447f47530ebaf88f20794d"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part01.h5",
+    "bytes": 134122011,
+    "sha256": "b612f767463d088b1b15188a96b41527debe5f9f33f02a3efa948234f329142d"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part02.h5",
+    "bytes": 136724970,
+    "sha256": "110b61828c99f8e44c449de436a7681e2bd91f1d24ca1d936795782eb0c4aa0a"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part03.h5",
+    "bytes": 137698806,
+    "sha256": "5fd593532d8a567a4358cc73d2c44321ab62cde651620366bd607536d34532b1"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part04.h5",
+    "bytes": 138711058,
+    "sha256": "d006f10992d41b735cb55ca35f7aa2bec3e7e3ffd8d4073b64dde2f6e4d4a823"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part05.h5",
+    "bytes": 139222775,
+    "sha256": "f61329feac11d5a388acbc1111942c6fdda5b8acad2e36f640226b34f0d9d231"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part06.h5",
+    "bytes": 141743984,
+    "sha256": "3847e035dc8a4550f255e66298c7868fc0211541f04005a6516956aeb450854e"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part07.h5",
+    "bytes": 145773047,
+    "sha256": "f2a346314d52159af9a39a988f21625922ae7bdc633923fffb697edd4bade7f0"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part08.h5",
+    "bytes": 140895605,
+    "sha256": "be4da7e1264389ebae9c7b679fde887a53847d8865a95f9d9ab8380958181f75"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part09.h5",
+    "bytes": 141182811,
+    "sha256": "b5c68e7d0f8468d8d72057b34c6b03e99e1cdce18316f681552420b7d7620977"
+  },
+  {
+    "path": "04_影像與矩陣/GU3/matlab_checks/part10.h5",
+    "bytes": 135872852,
+    "sha256": "3f6f94e4fef8a87cc7e6511c853a93fe8efa74f8a1584ef633c459003afa8aee"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/attacks.h5",
+    "bytes": 863576351,
+    "sha256": "484fa45f6ba3abb67e4919133db3caf11fb645a2f6923febe74b12df34d226e8"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/embedding.h5",
+    "bytes": 24745947,
+    "sha256": "26c6cc0651b86ebb3678953a7ac03b4cf5a821ba03e7699d40c303632ed2dc7c"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/geometry_audit.h5",
+    "bytes": 252755,
+    "sha256": "7db59a131bdd758453216889aa24d38dce9cdfb4bb4423341b4e299795ba2590"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part00.h5",
+    "bytes": 14669784,
+    "sha256": "685d5ac26a59b5e063f2ca96d210b50656c4b52f33d3c4465b862a7568c720a3"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part01.h5",
+    "bytes": 135297849,
+    "sha256": "4602760cfa87b24bda245a25d13c5f5cec39a2a06b8c4e2324c8b9a7f4799a54"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part02.h5",
+    "bytes": 138262245,
+    "sha256": "48be0d7710da9384ef38f0b81306c1e5b50a5f99182fb9468a4dc93b76e50c86"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part03.h5",
+    "bytes": 139356704,
+    "sha256": "b2e9d60bea93056eaaafa6cc477d878c0ffc1a41a8ca10fd4b164e70e1c1b515"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part04.h5",
+    "bytes": 140419468,
+    "sha256": "2f7a7a237dc12d135e40976b6826846bd5e107ccbb529c34609e3008ec3a6cdc"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part05.h5",
+    "bytes": 141082845,
+    "sha256": "534f8e455b47e487e4a369f69dbcdcc116404fbd0d8e611d5bc3479977cbba5c"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part06.h5",
+    "bytes": 143877596,
+    "sha256": "ecf028deaa1dab8c6790b4d2bea81fa1595854fd6914bdb83e807c1bbbe80310"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part07.h5",
+    "bytes": 148262426,
+    "sha256": "a2753f88d757d748ceeda50eb7498bd6ff6be7735363165cd2f7431addb42184"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part08.h5",
+    "bytes": 144162212,
+    "sha256": "c6008549f253e22f0ea34ca7811eedb95034614b0ef01327c6100950bc44ea5c"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part09.h5",
+    "bytes": 144224253,
+    "sha256": "0aace4fe3e2251535110034675458033c9e50e6da35ea2e20be346dc93b21c1d"
+  },
+  {
+    "path": "04_影像與矩陣/GU4/matlab_checks/part10.h5",
+    "bytes": 140318591,
+    "sha256": "44cbdfb301f5fae76d7fc83cc88e3959b6745fff8e8875ff3210b2139b1d81b9"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/attacks.h5",
+    "bytes": 970916380,
+    "sha256": "a1829fe9ac3cdc85a9d4e42b235e87ab3d9c037b95359a2bf9028471158e077e"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/embedding.h5",
+    "bytes": 25982909,
+    "sha256": "96a91ba56e96b29fb7eecc7d0c7689b5d5beff3d993ddaab20857221fed558bc"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/geometry_audit.h5",
+    "bytes": 259392,
+    "sha256": "2cd0b03c268973f183b284af3f5d9edde727d13ea4e6194a2edf9bcac0626747"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part00.h5",
+    "bytes": 17609817,
+    "sha256": "31c4eb579116ad62c1009b005d7454097d4c3096156b35d84703280d104e2f4b"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part01.h5",
+    "bytes": 141538709,
+    "sha256": "99c83f261219419a547cba37056e6e788a30bce5736a7c4590d711b2ca72c29b"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part02.h5",
+    "bytes": 146627555,
+    "sha256": "2d357fc4b78dab0c4c48b39268c20a2aa9fcf0efba3d7e16fb6ea7238a5a5015"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part03.h5",
+    "bytes": 151727245,
+    "sha256": "7bba8f87957190bac51ef5d1ab91cd34a5da3f3a3f682c3459d68f67478ebe53"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part04.h5",
+    "bytes": 153666679,
+    "sha256": "7c496675c2405808e8f96d000f26cf9806fd47b7673aa1fbd796b3d0af6f7938"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part05.h5",
+    "bytes": 156358236,
+    "sha256": "db7bc70626188b651c46723233fa2df7358e9f816c6cb886e74db5daec27afbb"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part06.h5",
+    "bytes": 157639270,
+    "sha256": "bbbfdba23684ea6cb0a297429ae8e3c64da6ae4c4a3490e042ecebf478eb5f7d"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part07.h5",
+    "bytes": 158278940,
+    "sha256": "778c9b858e0f767fad0924a8f3024bd41d34d3bf6619696fdc80080cb149b962"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part08.h5",
+    "bytes": 158971957,
+    "sha256": "38d451de5793ded3deba1cc269e80206bf5417bcca1920701d217d9a89dc2831"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part09.h5",
+    "bytes": 160126382,
+    "sha256": "59f943378ee82957087c2bc62a2d5ff0b36e36a8f33319998c4d08c01bdfd929"
+  },
+  {
+    "path": "04_影像與矩陣/GV1/matlab_checks/part10.h5",
+    "bytes": 158718994,
+    "sha256": "69409866e3a471fed5c1da1dabb4abd994ff9318f1c8a134eab0d370c6a5acf8"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/attacks.h5",
+    "bytes": 867561566,
+    "sha256": "2d8ee4d73488e2eecb8a5ef37c9b459ef96b67a104f4f56f29519f309e8402df"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/embedding.h5",
+    "bytes": 24826005,
+    "sha256": "c1f1151b88aee6ff93e0b0c38dfbaa0ef7e86777f6453dddcdf415322a1d379a"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/geometry_audit.h5",
+    "bytes": 255907,
+    "sha256": "428e9685b2a86c8006c8b4b096a332d93ec2ca109c6e5cc97cffa11a5593bf79"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part00.h5",
+    "bytes": 15515232,
+    "sha256": "cda863daecdfba48b90fd59816a2cdeb0f0a1b1de3312ce5d46fc9e7a9d2c740"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part01.h5",
+    "bytes": 136170063,
+    "sha256": "94a7176b92b9035fa243bfb81513b44942e64c9631da6e0b234bc06c05e265b9"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part02.h5",
+    "bytes": 139037888,
+    "sha256": "4f4064a439b0eb27b8457c259eaf824fd12fa81450799b38a31cd74d8be073bf"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part03.h5",
+    "bytes": 140103458,
+    "sha256": "f34474e87ba5a2f900061785a4fa6bf40d47a84c004b1ed496bbd0cb7bbae020"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part04.h5",
+    "bytes": 141148489,
+    "sha256": "a5a91d48681d2f4d949210b9d4c6e5ac5c45ca24ca87ac19bfcacc39ec57b17f"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part05.h5",
+    "bytes": 142126867,
+    "sha256": "0bfe07d91899a7307714b6a0e631cdb8c97653714d1bd0d94c46a6b0cd7286b1"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part06.h5",
+    "bytes": 144734725,
+    "sha256": "4164fd3b73cef722f526be66fd7b2f9162055f67fda95d5dfb9c5a0fc06eb03a"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part07.h5",
+    "bytes": 148564093,
+    "sha256": "941a043a566206b0f8b32444e0b7ee7c551446136a282012abbd8441b5082b98"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part08.h5",
+    "bytes": 145445429,
+    "sha256": "2039cf1dfb94d872553c7b75feb14f0955f04154412b9f277141ffd0cc9a59cc"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part09.h5",
+    "bytes": 145516081,
+    "sha256": "74fda4fe6a61600bb7c23016643c61b2c36fce0db9f8ced9fb6cd7973cf80a2e"
+  },
+  {
+    "path": "04_影像與矩陣/GV2/matlab_checks/part10.h5",
+    "bytes": 142825360,
+    "sha256": "150ffbe536e3b81d0ebabdfb10d405d150f80753e61c82e06cd8c3158b41147c"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/attacks.h5",
+    "bytes": 860166245,
+    "sha256": "3e6f83a4c7dc911d6353b9d89ba35732cd06a80e68be581a19cb15c8d3a7f7ef"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/embedding.h5",
+    "bytes": 24314359,
+    "sha256": "5d8ac18c2cfcab9f5fa10881a3a3d7e46b36dfce23271baffa50b9e27b757fc1"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/geometry_audit.h5",
+    "bytes": 198281,
+    "sha256": "5a7aa70e69b69aeda53f1ac9b44c45746d2d92d8d021196581c95a73abbeb163"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part00.h5",
+    "bytes": 9200556,
+    "sha256": "3b439234efef956ae2d6922281b53f3e4895195c2f85e4dc5b1e098d0e803119"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part01.h5",
+    "bytes": 133882074,
+    "sha256": "9156a55d9c00ea3735518038583631345ae567b8cad5d2cf9b4c541817250cc9"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part02.h5",
+    "bytes": 136480127,
+    "sha256": "7675b5453bb29f478e613d10088a47ee30305ac72428d3633386fb79e7f51ed9"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part03.h5",
+    "bytes": 137479830,
+    "sha256": "80ecd7a2e3a5f09a6fad002b3b1e0e5ea1bc276ba3ddc44473b843f79de0bb51"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part04.h5",
+    "bytes": 138542821,
+    "sha256": "e1e2b1fed7e865a929b4b1b2dacd18e547a977842158245302ae7314255e0cca"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part05.h5",
+    "bytes": 139104898,
+    "sha256": "dae39dc2b606106a92d76fee769e870c1d6a1eb88c684bc7b5087e947d695028"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part06.h5",
+    "bytes": 141680318,
+    "sha256": "c5860d6f03cf985b94a0c7bd9c35d71e6ce9b4f4ca592fbaf1a7ef8b6c5dd8d2"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part07.h5",
+    "bytes": 145771790,
+    "sha256": "633926c75581fbf2ea3afa3729b5450d5cec73455ecd194389430d24a3a5c9b2"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part08.h5",
+    "bytes": 140720070,
+    "sha256": "d8fd5fdc1226cac61084bf10d4e2500de6ee191ec823fc05c4909d7b7f4301dd"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part09.h5",
+    "bytes": 141089476,
+    "sha256": "f99992d6bdc2c21a7aed1aaffcfa3d873d810366aa5e87cfaf641031dcc69d3f"
+  },
+  {
+    "path": "04_影像與矩陣/GV3/matlab_checks/part10.h5",
+    "bytes": 135346149,
+    "sha256": "ac961fd21f4179302b7c402a080aac81527e8220a25cb8f6d26bcf7aaf3e5a92"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/attacks.h5",
+    "bytes": 863662571,
+    "sha256": "ae0684c291529f55cfe8dbbf844f903ff2c1aacb13a0cd03c7277c4a19457258"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/embedding.h5",
+    "bytes": 24747865,
+    "sha256": "b34d93c43f840c8f903023499318c971f2ec910b207411e040cb864248b90190"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/geometry_audit.h5",
+    "bytes": 249841,
+    "sha256": "4121110d3d509dd7b71a44d7bcb8dade5f2eb4042a1215be6220ea5bac0cc931"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part00.h5",
+    "bytes": 14442603,
+    "sha256": "273004a246ead9a644124f3853e66573268da863fe6d99dafb917c2e9358d5ef"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part01.h5",
+    "bytes": 134953937,
+    "sha256": "9fd91660c05471e073b3707486c5d8c6754a0d907744af1e7d76832c4fb4a7df"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part02.h5",
+    "bytes": 137952829,
+    "sha256": "a35e7b49012e8350f5d95b17b5411739a2118449f00d056da1184e4a534613ac"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part03.h5",
+    "bytes": 139073758,
+    "sha256": "b38b8e394c85fbd83aad498eb9306dcdfadc671715ce58b07c40502978cda60c"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part04.h5",
+    "bytes": 140123686,
+    "sha256": "0c5e303cf6bdd7af1555a6a8321f79138b0cbdd9128560f249a156170f64b381"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part05.h5",
+    "bytes": 140768250,
+    "sha256": "799ced15f130b2f8aa7c8da7bb685e4387887d8944f4bee5283b18cab9dc55fd"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part06.h5",
+    "bytes": 143581251,
+    "sha256": "a5176e9a06e015aa6bf2ec60561a9a0fcfc3d0623b6f3436c69c0538a764ff5c"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part07.h5",
+    "bytes": 148079626,
+    "sha256": "9e163cd92828a63c5ef468bc63bbc5a7476282e4ec7b6c8d8c4853adc6be6990"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part08.h5",
+    "bytes": 143956269,
+    "sha256": "ed319a9be5cd33430c93d663d0687af148a1afd1f06dbe5aa41eada201990968"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part09.h5",
+    "bytes": 144040129,
+    "sha256": "5fb57558ac3b09d871a4626b7e3d3ef5ec57191428a7aaadd3deb96caf598750"
+  },
+  {
+    "path": "04_影像與矩陣/GV4/matlab_checks/part10.h5",
+    "bytes": 140172923,
+    "sha256": "dbbc74e41ef8e5b30fafba5437cc453e50800700bc3601a0e493531b88ac4bc2"
+  },
+  {
+    "path": "04_影像與矩陣/matched_targets.h5",
+    "bytes": 14362799,
+    "sha256": "9a68b86cc92a7051372b6a49241a6009146944c3e52fb7d58d782cd5e8f06c6f"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/attacks.h5",
+    "bytes": 997756813,
+    "sha256": "0c44eb691980b3eef362404237765bea138f103c7bd200d5083d895aba99376e"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/embedding.h5",
+    "bytes": 29577723,
+    "sha256": "fc51b2ae852d6a32c6b2d4f2dcc152b2ebacc1ae418d4f9fc978495166187aca"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part00.h5",
+    "bytes": 18511044,
+    "sha256": "6010496b33e95d5411a2fb0cea935a16bcb0393bd606d77b4d8e0fca4f510cf6"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part01.h5",
+    "bytes": 141750274,
+    "sha256": "90d96b68cb6445f98d7d2dd3c21ec9345cb595a18d9da4340d905a5c53d81563"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part02.h5",
+    "bytes": 144824608,
+    "sha256": "755d31983d5601e41eca1971f7f4e2fdcac50a5c38b12d774009314f99a35b0d"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part03.h5",
+    "bytes": 149605446,
+    "sha256": "ae65a70792f6655c9b34e3368afc4c761ff07547b0b4bc7417d4b0fdd44a9360"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part04.h5",
+    "bytes": 153818038,
+    "sha256": "6a4596e764b327943c5f70e56c7aabde08e885895dda6f7f7bc33261388c3f98"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part05.h5",
+    "bytes": 156543738,
+    "sha256": "7daa86029c20c9d61062e0e4e8b1cbff262b63ab940ab8995a90b9722e2d5328"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part06.h5",
+    "bytes": 157992022,
+    "sha256": "90d47382c78e2cd353444e3cdbbf097c22c502ffd465e0b9eefd53039c7d3e8f"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part07.h5",
+    "bytes": 159666827,
+    "sha256": "3f7d4b419ca404a4100e59d7b07947013e6e58ea8ae1d7cc2239600e380a458a"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part08.h5",
+    "bytes": 160450841,
+    "sha256": "83d0a6f3782ea674218293d95aa4f201ae13d83dcc185ea523f06fa9f7544d22"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part09.h5",
+    "bytes": 160985683,
+    "sha256": "9dfc4c3c6af6d95bcafb3ec8b683c7a63832ef89a2cd11da2e930e17d783f87c"
+  },
+  {
+    "path": "04_影像與矩陣/PU1/matlab_checks/part10.h5",
+    "bytes": 161512112,
+    "sha256": "b208b4618c631212b7223e2dceebf968cf44decc58b562a6c949aacbf3cbd7ca"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/attacks.h5",
+    "bytes": 871230581,
+    "sha256": "b1412f0ff66165d87142bdea7b81b5ec834c2a66ae0e6f9ac1cb5571efba8bcf"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/embedding.h5",
+    "bytes": 28671329,
+    "sha256": "c952ed4ee5e3338da095d3128febcf05a973d48a55fd1ef3599adfd5d58ce60e"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part00.h5",
+    "bytes": 16152796,
+    "sha256": "ea51ee10977fc4790a23909d29a77337da08262f7fb5ad5aa2ab67fca55e7597"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part01.h5",
+    "bytes": 137996271,
+    "sha256": "7b51be51fdf50087dd96500884e93e98c3a2425a4cd88f5d6655d684b4d7fb58"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part02.h5",
+    "bytes": 140925972,
+    "sha256": "18079d99fed62bd9a4fe7505a6c1a7c9ce21bcbe46adfa7cf48975aeed57574c"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part03.h5",
+    "bytes": 142019250,
+    "sha256": "fd1988de8e232bddb439675b430058b6f9325d95967276da977d957d26f6bdab"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part04.h5",
+    "bytes": 143221833,
+    "sha256": "771ad3ec8eb58df7df3c1f3734876751d6d6370ad967d80dbc1ad4068f6c2292"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part05.h5",
+    "bytes": 143857791,
+    "sha256": "bd7bed1af9f4f74fd3d5a7a31b31e1053d6d36fac1f873930decc79f0f70eaf3"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part06.h5",
+    "bytes": 146829450,
+    "sha256": "4fc01b78206bf26b6459caaf7a316d90edf62619c55ad46d081edce3351e440b"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part07.h5",
+    "bytes": 151043864,
+    "sha256": "0aefb1cebe3df8804fc21313d1a99ddbcf55c61c868eb662c6f218657273aeff"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part08.h5",
+    "bytes": 146885573,
+    "sha256": "0d39f7d48e8cf98a5b0ad007b2d4eb7b4d3fbb20597c8f24ea5c1581d60783eb"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part09.h5",
+    "bytes": 147011671,
+    "sha256": "9802cb0ac654673505b4d30a44aecc53adab75e09a525dadb161b6963ca35c9c"
+  },
+  {
+    "path": "04_影像與矩陣/PU2/matlab_checks/part10.h5",
+    "bytes": 142803185,
+    "sha256": "7f40d4dcd135ea3e0ae7966545b2e074d2be4fc8b2c9be45d509d194cf997b06"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/attacks.h5",
+    "bytes": 914295026,
+    "sha256": "006800b44e9d50fc2a44f2d4139a39d277da78a110cb4b45d010ad9263b9d3bf"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/embedding.h5",
+    "bytes": 28945835,
+    "sha256": "f6469471207907fe14d24c457dc279a3d13d9326a74f78dbac1a67b151841901"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part00.h5",
+    "bytes": 16751440,
+    "sha256": "ba42e525426c727aa636ad6808763a1f918488bd04ef11076ff4d1a8ccfb2e6b"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part01.h5",
+    "bytes": 138116365,
+    "sha256": "c1eea0ba7fe1fd5ec59330fd4b8c5287e17371d72eef7fde7d5f39d6bbd37303"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part02.h5",
+    "bytes": 142135539,
+    "sha256": "332293be6c654f38f370723d8fc81b805f68dbfdc7c378a6cb3d61945444348c"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part03.h5",
+    "bytes": 144170287,
+    "sha256": "01b79a56191c8d3fa84d0e834ed8921e2a8565b64994987468ce64e8eeceab73"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part04.h5",
+    "bytes": 145374143,
+    "sha256": "587908385173ec588e30ae56312cac684a6d9cf3bb39c458355bd15a7b4422c5"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part05.h5",
+    "bytes": 146035828,
+    "sha256": "92a58eb32cb04e7028ff7b299466fb8888d1ef02ac6d15a51ff611b51657efd4"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part06.h5",
+    "bytes": 148501568,
+    "sha256": "578ab373122b41a23c21dbce0c3aee2761388252836796625d50816e293f832c"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part07.h5",
+    "bytes": 152281783,
+    "sha256": "98560b9555558acf8430d8639b2ace23f7358563b8fc08a5239ffe41ed118859"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part08.h5",
+    "bytes": 148855145,
+    "sha256": "266a78e6aaa0345613a27f4b4d8ead1e336d0dc6bf8f9998571adccf5a2d1c12"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part09.h5",
+    "bytes": 148957551,
+    "sha256": "194b61e60a8d7b513f1bbf3eb24e74ff777572bee7a10ce757beb15880ba820b"
+  },
+  {
+    "path": "04_影像與矩陣/PU3/matlab_checks/part10.h5",
+    "bytes": 145432742,
+    "sha256": "1dd416d6da3f358d0a4489d2436e53609fcd5b21b89c29e6acf6d1e8b2225750"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/attacks.h5",
+    "bytes": 901671090,
+    "sha256": "4f8e0d4ec42f5c19119d6b745584b5d43ca4bae9a0efe3a0570da461b6878bbe"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/embedding.h5",
+    "bytes": 28843407,
+    "sha256": "c9bc051940e4b613916eb727766a96f123ba70a8ab1d9bde1b360eb22ae2efdb"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part00.h5",
+    "bytes": 16580299,
+    "sha256": "967bfec3dd1aa0520805a3c03fadddfc1b1ec01df9577bcfddb7813568666434"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part01.h5",
+    "bytes": 137638548,
+    "sha256": "c42f401a9a9b0eec2a79caabc60c78cb4088a692b8121aee9e85279e5919a57f"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part02.h5",
+    "bytes": 141356550,
+    "sha256": "fc4313b5a50412ab2ba0ac2910477fcf1f45f493bfff6437308746f5ec49c225"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part03.h5",
+    "bytes": 143209931,
+    "sha256": "9ea9b89d7ecb6b9132ff1a97ec6b344ecf78b056d2d7a34573ce362ec769f710"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part04.h5",
+    "bytes": 144417712,
+    "sha256": "d62bf50a9f7ca7ae457a917f7146ba875c3084de1002cfd7385dd23b13aa709a"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part05.h5",
+    "bytes": 145063655,
+    "sha256": "d4e4e154ed0be807abe0564e1f2c8e736839aa2fe916cf266d944995a414e5bb"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part06.h5",
+    "bytes": 147642654,
+    "sha256": "f0bf5827f41939bef61b0e50f9c88468f00ec40dd1ab0b7831c0187d8f239a77"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part07.h5",
+    "bytes": 151660377,
+    "sha256": "c809dc48cd431d91724a85a93ab8db8f18732fab6d3e41a1f083595d1fbe8062"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part08.h5",
+    "bytes": 148180085,
+    "sha256": "2bf4382701e1324337ff5833fc8c884ea180ffe0c2a7941e435c62185c855eab"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part09.h5",
+    "bytes": 148355395,
+    "sha256": "e61f681fca85a23f36489f09e25c380b3c4eae802a3e02677125d647797ac6c2"
+  },
+  {
+    "path": "04_影像與矩陣/PU4/matlab_checks/part10.h5",
+    "bytes": 144739889,
+    "sha256": "b4bba121b6ba59b8ded2d98ce40a3bf56a2624b724fb9fb4014482e50445b0ab"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/attacks.h5",
+    "bytes": 997231940,
+    "sha256": "54b17fd0cf1a03520f11a04761f9f2d5996cabc0960017791b1ecf09aa80a6f3"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/embedding.h5",
+    "bytes": 29543315,
+    "sha256": "3f62eb8e91096bebf6bbe1d61134bfb0538449ad964e78e8a8503e5b9172f0b5"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part00.h5",
+    "bytes": 18571576,
+    "sha256": "757b719180813d850a2c9a5f73b366f44191be87723f1fc7cdf083986ddb69ce"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part01.h5",
+    "bytes": 141903831,
+    "sha256": "7c9eff8dee882e382edec63c66f9080d83ea9ee51085a0eb6a1a225898d8f344"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part02.h5",
+    "bytes": 144952317,
+    "sha256": "3b3f0bad65d5962133467904c66b1d5b412f0764133b1385584c712f27833808"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part03.h5",
+    "bytes": 149695223,
+    "sha256": "a80e0ae0c5dd7f71288fa7ac0cc0da1052c0e1c914d341d07b148ec79389a22c"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part04.h5",
+    "bytes": 154031881,
+    "sha256": "21e513f896a80734cf62ca188fd6841ca8589b45925a5adc001667f6f08151ad"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part05.h5",
+    "bytes": 156650821,
+    "sha256": "78796c2d76f5af70d38291753666642cf330eb5a1bfda74d9459de28c029a141"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part06.h5",
+    "bytes": 157942324,
+    "sha256": "f83e8638f9cba202c77a55ba878fade7dfc034cd97936a8525d30e60d622726f"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part07.h5",
+    "bytes": 159714990,
+    "sha256": "80215f50dfd7cc027e235b91ae3c7df0664aaada49ecb4908191a3272c9b4a48"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part08.h5",
+    "bytes": 160471319,
+    "sha256": "28dc80511a91ad986f7c812abe5bcc321c058f349a325f4cca13349e6bd72f42"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part09.h5",
+    "bytes": 161094679,
+    "sha256": "f47e2d854d36b7e59871a5af23560064e5d601de72671641e4862911168ef122"
+  },
+  {
+    "path": "04_影像與矩陣/PV1/matlab_checks/part10.h5",
+    "bytes": 161558183,
+    "sha256": "e635f43629970f372ab0564f61ae416dd278fce70e0ecb2a087d25caa2fe60e6"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/attacks.h5",
+    "bytes": 869202977,
+    "sha256": "a0ddcdc3d80ad7616adb96d08ff860af0f15a3a3d07b3748daaefc8909066bcc"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/embedding.h5",
+    "bytes": 28610942,
+    "sha256": "1fc66be89f57a447be05742040c645901cd1aba5027d252ac8e004a2871ad9b1"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part00.h5",
+    "bytes": 16038654,
+    "sha256": "6f7a031ae6923c299b03f0b7a0647f6b0f39e26647cfc129f5f4d188729b20e7"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part01.h5",
+    "bytes": 137995886,
+    "sha256": "38f663d5981386475e25fd8edc84da3c8ac4db7e3f71d1ffe57a48ed58dbf09a"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part02.h5",
+    "bytes": 140823482,
+    "sha256": "aeb4d9e04feeae3f3806a3ac3aa27f0481e0840258dcbd9084234f31f5b7ed4d"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part03.h5",
+    "bytes": 141905206,
+    "sha256": "9a52be24320f3acad347e95897ec5f69efd21e538d3a7cdbe679647ea7e56452"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part04.h5",
+    "bytes": 143125120,
+    "sha256": "e3037d600a3552bf26494422b981332bcec20c44ce0e7419131d9f0c90c8d337"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part05.h5",
+    "bytes": 143743818,
+    "sha256": "5b6d6822a9544fdeb678afea6f6f956676eab96d02dde7a7ad878478304716a5"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part06.h5",
+    "bytes": 146696878,
+    "sha256": "6e64f977e15121796d254be2eec4efe55d5483f8c2c04abde5dd5ff5a93080df"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part07.h5",
+    "bytes": 151011083,
+    "sha256": "09a3be343461e6cc7370d3c46ccc7ffdafe7a7d0f0236406e38e8bb6e0f2862a"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part08.h5",
+    "bytes": 146802407,
+    "sha256": "7899180eac46e7b6ecf3beeb21d618916d72ec789ab0f62a9a5bf841b4c81e85"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part09.h5",
+    "bytes": 146977219,
+    "sha256": "1b91bfc3355d365ab8c82a1c10bf09dd54400cade9e5b6ff7542139328038a20"
+  },
+  {
+    "path": "04_影像與矩陣/PV2/matlab_checks/part10.h5",
+    "bytes": 142690977,
+    "sha256": "0058b11c3ad85541462662b9e40a3dedc5f6746e5a918bad381d8fa3eacd6c2c"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/attacks.h5",
+    "bytes": 864265007,
+    "sha256": "84ae27cbe98a154eeb18d8aaee94042d911e20e173e4171a4e539a54b1b53c33"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/embedding.h5",
+    "bytes": 28570998,
+    "sha256": "b9a807a1f62681375ea3973e658c59cdf824a23a657137ea7d1fad963dd8d951"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part00.h5",
+    "bytes": 16512058,
+    "sha256": "b94417f1d737d5425ff02afffbc23021bfa70b7a8b1a8b6422dca0997381b796"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part01.h5",
+    "bytes": 137087271,
+    "sha256": "424f9b2d9180e3ec724a5db4d241cc6b22abb9daeffc52e7b4e7514866f9786a"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part02.h5",
+    "bytes": 140113351,
+    "sha256": "c6906d3397059d214e3909758659582f5a6eae0fe23dec0576fa202509273a7d"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part03.h5",
+    "bytes": 141234478,
+    "sha256": "934cb8779c37a36bc58da269404a46cd076fa23c0adad73ac13a636808ad0e96"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part04.h5",
+    "bytes": 142368276,
+    "sha256": "04ec922a429b7e760a0560d8814ecfaea33e4975d64d6041bc5229c6321319f5"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part05.h5",
+    "bytes": 143175063,
+    "sha256": "bef18c1c2417a1b9567627790c7487e657cd2fe7f2bd4d8cbdfb3be20017320a"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part06.h5",
+    "bytes": 146127925,
+    "sha256": "80cf7e3b799bd6a9284dbe8f08338b19b0f6909afbd21f0201e6952856d95644"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part07.h5",
+    "bytes": 150554197,
+    "sha256": "4522e7e566f0fcdf602497496af58d1899925d1394e99200d8d456fb324051aa"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part08.h5",
+    "bytes": 147054700,
+    "sha256": "792d229a82c467afbc478a0bbb06e967bdb33149eada8a2db6f38c079bbbbd77"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part09.h5",
+    "bytes": 147077708,
+    "sha256": "05a0634e7c2b329da13f59251c1807ec7d64edac08a80de5e37398d3d2f304a3"
+  },
+  {
+    "path": "04_影像與矩陣/PV3/matlab_checks/part10.h5",
+    "bytes": 143583209,
+    "sha256": "128e2fda417154a17d02980fbd4510d7dc464eb828a18c5e83792c9e4508e993"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/attacks.h5",
+    "bytes": 863803283,
+    "sha256": "175ec8f1e074c6025c5b42a7b1f9b2e7709910749f3e15f5282b1973b7920f35"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/embedding.h5",
+    "bytes": 28566658,
+    "sha256": "d57579bde6b7871f2cdca0458ce879a81ee34d64324e4f783c6be5c72d8064fb"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part00.h5",
+    "bytes": 16398665,
+    "sha256": "865fea0a11be0f8fb6d9a274c79c05975031851dca6f92f7a12178ed88024674"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part01.h5",
+    "bytes": 136585760,
+    "sha256": "7235c030997ad9b9526cc47dce7987f9954281a4d54491f68254720b15834eaa"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part02.h5",
+    "bytes": 139689608,
+    "sha256": "a51f6aba07df40a47b0423e373288f8a8f13689896a3334eff607438f6f6fd58"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part03.h5",
+    "bytes": 140859375,
+    "sha256": "1e5ec06fd9216c40b45b36547ea66c922d11b1d4297180f7f7808d1496a5ccdd"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part04.h5",
+    "bytes": 142005430,
+    "sha256": "dd7800837982dc47444a823a66b19d8105b1d2cbe52aca0984dfa271961f0ac3"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part05.h5",
+    "bytes": 142795189,
+    "sha256": "db76545da29fc50d9ae07a42c5ebd9ac138c601267b5157cefcbffdaae4fcaaf"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part06.h5",
+    "bytes": 145697656,
+    "sha256": "d17a3520878813edf6dba71ac72358deae9ce6e695e51573e6b9fe8ae5f39dcf"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part07.h5",
+    "bytes": 150300769,
+    "sha256": "7d57a493d45a51e1f9cbf7c922df18cd072cbfa4d8836e405ae1452f179b052a"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part08.h5",
+    "bytes": 146822135,
+    "sha256": "1c09278778fa97d599a992b876b9e07098b6b813788d15b331b87d3142a4bec7"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part09.h5",
+    "bytes": 146870447,
+    "sha256": "e6c90756c5211d678c0fe137a048b6ac8ca9216cf8caee1d8d3b1e8207c83322"
+  },
+  {
+    "path": "04_影像與矩陣/PV4/matlab_checks/part10.h5",
+    "bytes": 143320407,
+    "sha256": "6ebfe0c0cf5ed7fbab94d8a1ea863f3f7b5bf7c802b3fe6d0c2e109a5ce1a101"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/attacks.h5",
+    "bytes": 997752891,
+    "sha256": "d63be44ecadad294604a33205d915447450ebd600f177e3caee1add687130215"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/embedding.h5",
+    "bytes": 26482322,
+    "sha256": "2cf3936858acaf3120363841712a6a05d15e3b05ba504dac2d1f0e5fa552416e"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/geometry_audit.h5",
+    "bytes": 251945,
+    "sha256": "4589bae6846555a77b6ba6b15a5cae545c456dcc5b555425076a0b1c4938a1c4"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part00.h5",
+    "bytes": 17673248,
+    "sha256": "ace12d61c1ba6117c5d5de66de177c84a0cdde0134850c896906199a4eb6a448"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part01.h5",
+    "bytes": 141741730,
+    "sha256": "926a5194e8d5bd40c4485129bfe16213069f9678aeba6410f0342f920abed1e3"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part02.h5",
+    "bytes": 144813497,
+    "sha256": "844e23a00d7bde98a165da70e7bdb7144e8b969220cfc4885ca84ba78b09abb4"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part03.h5",
+    "bytes": 149598770,
+    "sha256": "3933e975a86eefae2e908919ad5c2c26ea3fd7ba3625c60d14ec324f8ace9585"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part04.h5",
+    "bytes": 153811095,
+    "sha256": "6a419db698dcbe30769aa6d007f34e17644901999fc12886031190a5753fa6e4"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part05.h5",
+    "bytes": 156543204,
+    "sha256": "ea65f9b0a522cc765810348a398d9df45de2af069ddfa2d2e02785d26cc5a82f"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part06.h5",
+    "bytes": 157994402,
+    "sha256": "f9f0a6b71f817ace4f291f3aba064fb59c5cf5f3a95d0a026b198fdff67e362d"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part07.h5",
+    "bytes": 159668135,
+    "sha256": "8d3a3861a046c1e4bb5a225c57d68df541b8c348824a14a65e667d0b5321b543"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part08.h5",
+    "bytes": 160451730,
+    "sha256": "4197106e015a848fb9f1b14314205ae50b96d8d0907beec8f9b918c0830beb0c"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part09.h5",
+    "bytes": 160989337,
+    "sha256": "27d687ac7507a9d56f5f03aecc372d996e26cf714579f823d7d09efca30af8de"
+  },
+  {
+    "path": "04_影像與矩陣/RU1/matlab_checks/part10.h5",
+    "bytes": 161513358,
+    "sha256": "ebfaad9220cffa380702db988ba995df7b25efbcc14da60c1607e1fa4efbe79b"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/attacks.h5",
+    "bytes": 955246135,
+    "sha256": "38ecfe16d3f941e47dc61ccafde844b6a78b4c431db1162809b0d3328b77f7bc"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/embedding.h5",
+    "bytes": 26453302,
+    "sha256": "d9d0dc15820366c42bddc8d248941468b2a73fa46c604216586ff056a1d509b0"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/geometry_audit.h5",
+    "bytes": 251758,
+    "sha256": "94e2d0990cc1b2bf37531ff71b9b5fdae4eb44f592e9d8418c9e2c57354f3326"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part00.h5",
+    "bytes": 17818176,
+    "sha256": "6ad7935b2fc34970eb877524b2fca91968889dfa5f741d000b7b9cc73c42ab9b"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part01.h5",
+    "bytes": 143583142,
+    "sha256": "853fa215e26b4830156f05f2ac454323a181a73010c2d21f7b59e778cdc4ec42"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part02.h5",
+    "bytes": 147696925,
+    "sha256": "d2646d784f92bb208b2e24eb3cbde4919cb413154db9452ed9b1284018647a44"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part03.h5",
+    "bytes": 152212892,
+    "sha256": "14ac88d9e9668ee6467cb4f7b1f33af6a1df15975f63fe61d8670810ee120317"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part04.h5",
+    "bytes": 153443458,
+    "sha256": "1aa182096700e8a504c2a0f56cd0a68cdc3ddee19cdcce75bcbbb96c48758224"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part05.h5",
+    "bytes": 155021668,
+    "sha256": "f6bd9e4ab133f1a01a213e60e913ec4567ab092eb72b5fc9b05da7322ebaa686"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part06.h5",
+    "bytes": 156253552,
+    "sha256": "c4a8b6ce058836191bac83f065e72ee9ba2f864ec1823c580504cc45e525a6f2"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part07.h5",
+    "bytes": 157509716,
+    "sha256": "7871c737eb11a7f06292f1bf5c3f68134c9b999f67395bc5f872d0a32a60836a"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part08.h5",
+    "bytes": 157819861,
+    "sha256": "5df83b5a9adc7ecdced54d05e0e277b8a177ee5656dcdab496ddd815065693ab"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part09.h5",
+    "bytes": 158355048,
+    "sha256": "a67e3ce99e29b9f3cbe4b16b8f8c5b4ba4832304aed965e3e94c8e6b8cc9e2c6"
+  },
+  {
+    "path": "04_影像與矩陣/RU2/matlab_checks/part10.h5",
+    "bytes": 157544805,
+    "sha256": "5564f2dd5bd32000662e072b2d620db18afee86519c2e033e2e6ccd570287926"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/attacks.h5",
+    "bytes": 957666347,
+    "sha256": "1316cabb0e1810189d9f73b3f66b833ed851b0b60bcf1f4623902a21e1788d01"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/embedding.h5",
+    "bytes": 26327667,
+    "sha256": "6ba6bd928b7048a076fbe065e5994fa21743ad46b5f352fc4382ba30c2c24fd7"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/geometry_audit.h5",
+    "bytes": 252076,
+    "sha256": "25e2a8e00e118ece3002d141257d6a7df43214aa7f92b4bd40dcbbd14a229a5a"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part00.h5",
+    "bytes": 17723943,
+    "sha256": "be2bf8baa2449d35550df8131cb60ad8ee2c8b7f1ab62a0c6025194e203338b0"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part01.h5",
+    "bytes": 142718492,
+    "sha256": "7a4d524a8144dd31a869b67530f0704017f79854deb1dd08238c1973688f52e2"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part02.h5",
+    "bytes": 146675943,
+    "sha256": "a5908b43e6ffbb70b0d172c36e16b00acd5deb9c36d96d366baf8af25bd03c77"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part03.h5",
+    "bytes": 151001270,
+    "sha256": "d2f51f8b0635e4d70c5079224248021780ae3375953416a9158ac285daa6fd37"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part04.h5",
+    "bytes": 152382040,
+    "sha256": "b013cc112f36441c3b0b6ce546d3f66cb6cbb4106d38f87aa44355bb60ec7851"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part05.h5",
+    "bytes": 154151059,
+    "sha256": "a8d30a696c972289c6a3db8b6eb8ab92366809e19cad1976bd3c9fca798476dd"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part06.h5",
+    "bytes": 155594339,
+    "sha256": "c531672f38d270819ec425e20a2c33272253b67791bdc083670b85edcae4ace0"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part07.h5",
+    "bytes": 157174085,
+    "sha256": "98014a18e743de9827221a4857deedd8e5efeb26758e4c4e6fe9f216200ccbbc"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part08.h5",
+    "bytes": 157581530,
+    "sha256": "2202b7aeeee0871e3e3d66ef31d7a6b9ee69050461485ad86734e7e42f7204ca"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part09.h5",
+    "bytes": 158008359,
+    "sha256": "a2210f99be6a29bb66606403f8cfe974016ae5f48483b1b2cf4e5c9137ab49e0"
+  },
+  {
+    "path": "04_影像與矩陣/RU3/matlab_checks/part10.h5",
+    "bytes": 157000672,
+    "sha256": "50d7205b57156aae22eb6b08b8f55b84f21bc4d2d3694a32462b9afd5f161d21"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/attacks.h5",
+    "bytes": 966146211,
+    "sha256": "0d7f3cd1ddb4681fba76be6c7dcbea91b75575ea3c9fc1468aaf2b55c35495e8"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/embedding.h5",
+    "bytes": 26875078,
+    "sha256": "3f2e367af6e1cdaaf6083c1b3d20f967d7e441e10809da10bb137e2f118eff28"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/geometry_audit.h5",
+    "bytes": 250885,
+    "sha256": "9584f77beab54f2356bc20d037b80927d9fd2a272710b0bf6a6330bf405eb30f"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part00.h5",
+    "bytes": 18160848,
+    "sha256": "5578113737d99da4df9d09cfe52d4cf97292e5193fcf5845537616dfb5e8c9d6"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part01.h5",
+    "bytes": 144684498,
+    "sha256": "c705103f44a167af3ec3eefdb21ac6d0d5cb12cc28c567ed6323596476247c49"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part02.h5",
+    "bytes": 149499394,
+    "sha256": "04993c86bdcc445ce3f801cdea728014f85d542c65632c182cd83e06ed0e3532"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part03.h5",
+    "bytes": 153347621,
+    "sha256": "256058d1793ad34f23218abc921998932b2214f5cbe4feda8245232f26427710"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part04.h5",
+    "bytes": 154661979,
+    "sha256": "0df8c83bdc0f4c7284a062660d67af88dc798cd80c86df56d35773af12e9721a"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part05.h5",
+    "bytes": 156851656,
+    "sha256": "738fd2deef97fd59e14bbae80229b4eae9c1b24d5bad5e74c15a9076599be5c3"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part06.h5",
+    "bytes": 158971935,
+    "sha256": "ccaa97e49baa71b8ac356b5e14803ff752faf54e8ac7c34508582a3e0e7e75a7"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part07.h5",
+    "bytes": 159776513,
+    "sha256": "8cf5d5bff85ff42659f965f4eb1753a45ad3425d7d6fe23f7f48946a53b0b116"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part08.h5",
+    "bytes": 160559334,
+    "sha256": "49e54b7d981ba6109bba12dfc792ae814d02648ff73de505eb9a0da0e9bbd402"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part09.h5",
+    "bytes": 162594118,
+    "sha256": "883cb42af7ea9d00652e07e9047cf4fa961592cd33aff12e1afab2bfe908634c"
+  },
+  {
+    "path": "04_影像與矩陣/RU4/matlab_checks/part10.h5",
+    "bytes": 161045772,
+    "sha256": "5cf94c5909216c681ffc05669a58720dfb4e1c577b1b34b06ca2becb33256e3d"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/attacks.h5",
+    "bytes": 997214662,
+    "sha256": "fb519e92decc35173089f29dd53c267f6821dbffad5d23697a6b9f12e127f6b0"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/embedding.h5",
+    "bytes": 26445651,
+    "sha256": "3c1bc37a82976e2ed9cb66fa726039f507361aec062482ded81617aa2b6740a3"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/geometry_audit.h5",
+    "bytes": 251493,
+    "sha256": "2a3b39d281a2d7b04f3c4a4a405b71c3874d0876bd974e946067a273967d6839"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part00.h5",
+    "bytes": 17731829,
+    "sha256": "345e12f47fed26dd7c7e9b430806869862fbd8cbfa796098f08b8b0b6624555b"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part01.h5",
+    "bytes": 141890536,
+    "sha256": "49c26055f0e4e002602df321e9ec394fd348b2672dfbc6479cfebbc532ff3518"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part02.h5",
+    "bytes": 144939271,
+    "sha256": "974278ff2e85026ffd7c64a5fdbb80a8e299f7b6ec64d338edc9f0b6daa67d97"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part03.h5",
+    "bytes": 149683321,
+    "sha256": "55024de0385e12314286a32a6849106fe929696deb0f40370d86d76b8bfc75fc"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part04.h5",
+    "bytes": 154026942,
+    "sha256": "dedf9ed89aaf616571623122693e8fac45d58d614afa690cf118054265e68275"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part05.h5",
+    "bytes": 156647719,
+    "sha256": "7fe2c9d02cc98eadc27760a089568c9b3519d9bdb93130a192e9f6bc09671306"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part06.h5",
+    "bytes": 157942251,
+    "sha256": "dac01041f83b3c984a4abf544b5b30cfb26222e9e964ef2b0964865f7c8b9cfa"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part07.h5",
+    "bytes": 159716772,
+    "sha256": "f83245fe6e73c60ada5c760d9e5eed8e304fabad28956cff2c6ce7a10377ad4c"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part08.h5",
+    "bytes": 160469640,
+    "sha256": "3827b034ec9f1f9095135633ddd401204cd49f4832ba5498a3dd56f5152e87d0"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part09.h5",
+    "bytes": 161092332,
+    "sha256": "b19c269fa45220f4408d21984f96393706d702512a67e66e423fc08bd026b6c4"
+  },
+  {
+    "path": "04_影像與矩陣/RV1/matlab_checks/part10.h5",
+    "bytes": 161558399,
+    "sha256": "ead966a72c6f3d89dc6540a7099e6fc7fa2793b05077701042bd05bce5f2bd08"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/attacks.h5",
+    "bytes": 1185776446,
+    "sha256": "9ac68811e34f1c31e5257eb4b16b0ece3c92370fcef42c5b0cecce58ed5b5488"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/embedding.h5",
+    "bytes": 26963184,
+    "sha256": "4da28a24239f3dfffd2553e1fead4dfbcf14f8f739cb2d704665343050fd5b8e"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/geometry_audit.h5",
+    "bytes": 251666,
+    "sha256": "028458daffb73ededd9dd9d5ba7287b9a599bc4d840dec4b25bd882a7054656e"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part00.h5",
+    "bytes": 18779396,
+    "sha256": "1be1d8097db160c95a8c98c4e9100c3a061f7e416d1ce1c6ea9afe678f7d12f4"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part01.h5",
+    "bytes": 157932165,
+    "sha256": "234d12824b1922d9e4db92f786175b1e8fe8775f5556e1ca182aed90a37fb75e"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part02.h5",
+    "bytes": 164102499,
+    "sha256": "47ad6979363b936af3c992918d84f3ff5a5ce384b97a3fc08d39024649ce8459"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part03.h5",
+    "bytes": 166932996,
+    "sha256": "70bb170749a4bd6572c651712863517457c3f15ec80aa54aeae3fc38f61bf1ed"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part04.h5",
+    "bytes": 168129992,
+    "sha256": "ab95c56acdf0d0dcc36ea91ad9380f98c6fc97335a6492fc62819cc84b47fe11"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part05.h5",
+    "bytes": 168757305,
+    "sha256": "54f1d1d917f51c3fa354720516dc3abfe8e68c120714f2c98c6f65b2193128fd"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part06.h5",
+    "bytes": 169175401,
+    "sha256": "8b05622ebbc2ce8c8e17a6a15b8b0aba943de5d43ec299e66fa7aa54bbadd7f8"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part07.h5",
+    "bytes": 169599066,
+    "sha256": "cb7fe93c698989739e794bd18e9d5ecef17cf16a39c75fd409a99a0c2b502181"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part08.h5",
+    "bytes": 169672272,
+    "sha256": "0db665dd9edc33fdb40234fef0db22daa69496933b3086dbaf2f65f5b2f02b98"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part09.h5",
+    "bytes": 169815150,
+    "sha256": "2c7f52d86b6302aa0c4235bf83dfc9d85e75b984280b30154d4b9198e9c3bbe6"
+  },
+  {
+    "path": "04_影像與矩陣/RV2/matlab_checks/part10.h5",
+    "bytes": 168854943,
+    "sha256": "d3e525dd37bf5498a6856b4f54e1ad449041bcb889a10da27cf5694411c0ac4c"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/attacks.h5",
+    "bytes": 966973868,
+    "sha256": "c830224dc414bd2d99bdafde07a84bb0506daa60f8ec143c62f006efd9117372"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/embedding.h5",
+    "bytes": 26768392,
+    "sha256": "da37a726036021cb3d71f23c7aa0668f9d0235bebc9bf87281581ad3133bb7ac"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/geometry_audit.h5",
+    "bytes": 251296,
+    "sha256": "0522fac8513d018551d9b245f906982b452808fa26b5b8bcf721826571458935"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part00.h5",
+    "bytes": 18149616,
+    "sha256": "fed26316b3a8cbffed407fa01495fb148c659eb36db08d91608a72e54a3600f5"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part01.h5",
+    "bytes": 144633728,
+    "sha256": "271421aff1a1fdbec46f4b8eb70173e34cd31c42c4e8cbeb1ff58524e9e05b50"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part02.h5",
+    "bytes": 149262459,
+    "sha256": "1a12bb58dea0e9396044b8258b1a3a8f1b8d360a0590b9af484f4ff9c85e82ee"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part03.h5",
+    "bytes": 153222232,
+    "sha256": "8cf95d01a96d876850f0993b504642f9190e0a37cbb40197e3566429be476e02"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part04.h5",
+    "bytes": 154815072,
+    "sha256": "874dffca3f12d78bea5b6df6b641fc59a16ab99f42181012292d48e0cec49ef8"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part05.h5",
+    "bytes": 156829475,
+    "sha256": "3c87d74758e316e0f329f6de429fddd0850ce58b6778bc8ae92c82792bc9e9f9"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part06.h5",
+    "bytes": 158854287,
+    "sha256": "383863faa63026d1d20cc35a2a5d17ff7397bb92f3280da7b4bb549079287fc5"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part07.h5",
+    "bytes": 159558986,
+    "sha256": "e1639186d771b1a0a17196eaac081ca350b1e40f159dbeb2fd9fa5cd11fd6852"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part08.h5",
+    "bytes": 160423021,
+    "sha256": "dbdfe000723fc3503609b7ee2439a42b81a8509b68d026e78508c293c187e43c"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part09.h5",
+    "bytes": 162263348,
+    "sha256": "b985e2c75779f637074840994c5887d3a3dbc15d234f93399d926a830b7741f9"
+  },
+  {
+    "path": "04_影像與矩陣/RV3/matlab_checks/part10.h5",
+    "bytes": 160740973,
+    "sha256": "1b8a241ee80e270c43e6a27213f5f725f4657c1fde5216b82c3239c0de27b60e"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/attacks.h5",
+    "bytes": 964615104,
+    "sha256": "6990cde6fbb66b924579f26aa6623f66311b286dde09e64b957761618c3a9631"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/embedding.h5",
+    "bytes": 26770348,
+    "sha256": "a1a03e03d8d930385aeb4b0b507082be72fc704b627899a7ee68df5e3591664a"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/geometry_audit.h5",
+    "bytes": 250462,
+    "sha256": "83533c5d3b149e3e9de3e502737952f4a6d2c5264cef8421405f6f49484d5118"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part00.h5",
+    "bytes": 17938261,
+    "sha256": "9eeb29c660bad356e75e68e3b11b4e9c6f7fc04e98c3af0e2b4943e49ef4c18a"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part01.h5",
+    "bytes": 144427051,
+    "sha256": "4a48bd2d9a6e973f024df785a66899dc4ffea419cf3667c735da97b89a2e6ee9"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part02.h5",
+    "bytes": 149109810,
+    "sha256": "f599d714889ecffb4b0f36b7dbfaa745cc7dcde2fb3451cf1ec7cb7c01bf3a80"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part03.h5",
+    "bytes": 152958542,
+    "sha256": "0b921b0e50f436fd39d11ef020569ef2def95696d040aaeda4db55237cc4e2c5"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part04.h5",
+    "bytes": 154504010,
+    "sha256": "a73c6c386125f14a49cdae7ec789b86ca2038ccf99c9b2f789ee5f448f585e54"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part05.h5",
+    "bytes": 156480592,
+    "sha256": "1d298a78da244bb020b6cc135b8bb89c4d528873190293a603582015c36f5f65"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part06.h5",
+    "bytes": 158645145,
+    "sha256": "2bd97ca28d42259f50e3a8b62d9cc86060e808408bd7ec0c70d3d58f5e60e6b7"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part07.h5",
+    "bytes": 159463954,
+    "sha256": "e1bcfce74ed0359ca25c9cc3fd06453fad33ffae64a220d20edbbac407b3ac52"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part08.h5",
+    "bytes": 160266262,
+    "sha256": "580424ab017d47e485b609c79cddd88741b8d9900583a19b3e27d4292145fa3a"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part09.h5",
+    "bytes": 162297836,
+    "sha256": "602d057bc7617fda390505d8c12af6e01ada7d1dee0efba1370f78426ec42ef4"
+  },
+  {
+    "path": "04_影像與矩陣/RV4/matlab_checks/part10.h5",
+    "bytes": 160689626,
+    "sha256": "13b20db11cbe9bcc2655fcf149c8ec5b733dae9143687683debb239c68ac7a2b"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/attacks.h5",
+    "bytes": 997717761,
+    "sha256": "37d3acb557605cb00c60e0b789eaa883ee7afb516c5c3f8703190dcea6531565"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/embedding.h5",
+    "bytes": 26546195,
+    "sha256": "1981fc673bcedea60aeec92b18add6fe1c0854c439615c09614d3ade5dd3a379"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/geometry_audit.h5",
+    "bytes": 246389,
+    "sha256": "06d4515e02fea7f3740fd88df894d8e5eeac33fb91a72ff8aae4242f30019a33"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part00.h5",
+    "bytes": 18425508,
+    "sha256": "51011c89c2ce7809cce5372285a0b69ab282c38cea92ada63292bf60cf53050e"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part01.h5",
+    "bytes": 141806520,
+    "sha256": "d1399f7bc754dba30beb085b6db9ab7fa12ba51e61eb36c15e5b771590006c9e"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part02.h5",
+    "bytes": 144849544,
+    "sha256": "910039f35b74bc6fc8c2f00ba4e61c7d445ac85ad5c5bbde890e5254dcff301a"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part03.h5",
+    "bytes": 149590847,
+    "sha256": "d6042c36dabf03facf19eade1c2817bbafb45cde62717491ed193a7c4fd5d6cc"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part04.h5",
+    "bytes": 153779236,
+    "sha256": "d2320a14f04f87a2f0a4c6ff87cb02b78515c44b16e3eb465c66e33f80e2be37"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part05.h5",
+    "bytes": 156511130,
+    "sha256": "f4b0ad220e0060e5848e2b0cc40b494ce96b9e13e77cd108975681d8acb9d24e"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part06.h5",
+    "bytes": 157943432,
+    "sha256": "d1af65820ad5e05541895d07cf14e4883e50133ad0b20ce3e6e6f0772e12fbf5"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part07.h5",
+    "bytes": 159609808,
+    "sha256": "c143f9f778c459d78291c34d0e7222248e5c3126603de168ab0c00a68d129724"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part08.h5",
+    "bytes": 160405862,
+    "sha256": "2ab44b4739bbd4ffff6fd31993856d761265ae3d7bc1e1f17a9999dd70b39802"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part09.h5",
+    "bytes": 160929844,
+    "sha256": "477a9eff92a52bdfcf9ed72335504fd0eed74589d3b3e4f139d4ad0d3345c663"
+  },
+  {
+    "path": "04_影像與矩陣/SU1/matlab_checks/part10.h5",
+    "bytes": 161460381,
+    "sha256": "fbbccba10cc37d854958564d5874c8d6dab5b791010e6f8e1bb7f70dcf787c37"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/attacks.h5",
+    "bytes": 865214863,
+    "sha256": "dcc6eae97a0ebf1f49017aec0aafc61d15d5597d53bcdd91e7b07656122071aa"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/embedding.h5",
+    "bytes": 24960784,
+    "sha256": "ae0c198b132f7fea25021ef7124e026c715d2e3c46ea729c0c025c29dd8b93d7"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/geometry_audit.h5",
+    "bytes": 249743,
+    "sha256": "577ac3d00a5309a01aea115528549c3194f2404209b1ffdd18a52a0dc32c046b"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part00.h5",
+    "bytes": 16065755,
+    "sha256": "61eb7298a794608cbc4e319937acadd1dddc699e98299deccf0e50e95599263b"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part01.h5",
+    "bytes": 136141491,
+    "sha256": "ca7b6ed24c4d2c3cdb48ac7da94f9b1f8c2c0c6dd6767752af4a808d917d1bef"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part02.h5",
+    "bytes": 138999220,
+    "sha256": "0ef7ec7f481f2df7c7195b4b95a4d184bd15661f29896762a650ce00c1eaccbd"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part03.h5",
+    "bytes": 140116496,
+    "sha256": "40f5147939eaadd8d89d76236aa0fd934286e02b9549e9ddd725656284e5946e"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part04.h5",
+    "bytes": 141341437,
+    "sha256": "f863b856348134031459ca23330424b0a8e523b1104a913075f70a121763073f"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part05.h5",
+    "bytes": 142071135,
+    "sha256": "6fc3815ea74470f6b3ea8a4994616a71175935033e4c1e251606f67f1fc7a6b9"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part06.h5",
+    "bytes": 145162716,
+    "sha256": "cf62e2e49b1401cbc7972e7a3ca5a8e702b187afef7e53f2e507742cb8d1588b"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part07.h5",
+    "bytes": 149463699,
+    "sha256": "7e1f111ebbb22ec57df339f34b6be543333e0eb6225e46216ce95c8539e004df"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part08.h5",
+    "bytes": 145367294,
+    "sha256": "eaff92735430d1c06265ee70569df7cc32d67f2dcb8e8d38041d4e04bb1c3421"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part09.h5",
+    "bytes": 145386375,
+    "sha256": "23887ca4b90bd49616f2d1ac330ef6b2756cfa26fea4d1763ce385bde56f9384"
+  },
+  {
+    "path": "04_影像與矩陣/SU2/matlab_checks/part10.h5",
+    "bytes": 141436822,
+    "sha256": "ad4d639ac4f0b85eb3ebf1b0fbd6bc3800e6fcbf00e92c5f19d7c1781448a939"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/attacks.h5",
+    "bytes": 861730372,
+    "sha256": "08a6023bcd8b4d719c10243ee1df469daea6c04ee8653a2aa3d28aceb2644cef"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/embedding.h5",
+    "bytes": 24865790,
+    "sha256": "0332608da5197414b10cb1af0ac441c685d52b83a4f6a3b6e075a7458cc6fdfd"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/geometry_audit.h5",
+    "bytes": 248380,
+    "sha256": "0e99e544a032b066cc5fbb111df4a103c89242c3b5501c8a9cc641245449e749"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part00.h5",
+    "bytes": 15856893,
+    "sha256": "bf2ed700bd80e5243250d2be2db88dfe4ea8f974228e7020f5024e15dfc73d8b"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part01.h5",
+    "bytes": 135048021,
+    "sha256": "9ffe9c1032e5bed658f7c9e46d7bbb70d945307bf1718899c94a6b4606c0a03e"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part02.h5",
+    "bytes": 137995045,
+    "sha256": "c6ab6040dea6008dc511a55bb87ec3f618f06b827f69c8de30b827fc9ce12bc0"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part03.h5",
+    "bytes": 139099645,
+    "sha256": "65b62c577c12bd2659805d85678f7b631289831460339e6b050f77003d2d27a4"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part04.h5",
+    "bytes": 140225705,
+    "sha256": "f09485ae497a816f65482e514bfb78a915930c16fc27e37455a6f78e42c5bba8"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part05.h5",
+    "bytes": 140976130,
+    "sha256": "26e4a3da75a4d9d1b457371e1491117e17d284ad4d95a5cc2b350d659a49ede2"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part06.h5",
+    "bytes": 143840483,
+    "sha256": "d646783ed7a77bded1c2793c913436c3723a433646a0e4d3223b2706493155ed"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part07.h5",
+    "bytes": 148175596,
+    "sha256": "17a0ab9dc60bf6b57b661a9fc04298ecd69117dadca14401776eab668d9854a2"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part08.h5",
+    "bytes": 144329970,
+    "sha256": "930a773a097c0d8b877e74e29f659b55d55c5e0ae44e49039024090fb2e80d21"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part09.h5",
+    "bytes": 144334449,
+    "sha256": "8e3d033ee40548b7dd729c647118d00788f77270c3175055446c3873f2a5f1fd"
+  },
+  {
+    "path": "04_影像與矩陣/SU3/matlab_checks/part10.h5",
+    "bytes": 140560519,
+    "sha256": "569ab81b282e9240b77b3766ba8454a22f97cc4ee199e5ea9bc534d5f7fc5214"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/attacks.h5",
+    "bytes": 860272921,
+    "sha256": "4c6af6d618cd5a3ea45bac8f659e1dcf2333b8218aea7b3b7ade707330195ef2"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/embedding.h5",
+    "bytes": 24795418,
+    "sha256": "dc6677b71cafd4575bbdd38d24401004b8dc3d0f5abe5b32019eac5cb7bcac51"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/geometry_audit.h5",
+    "bytes": 246729,
+    "sha256": "754e6c143664f4b36c77fee795e4a8be9aa79432e9604678ded2964b91a53f3b"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part00.h5",
+    "bytes": 14547698,
+    "sha256": "0ee2e67276b4f9125cac9f60dfacb798743c1ccc1e71e1c0d63ac72efb6ee12d"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part01.h5",
+    "bytes": 133343312,
+    "sha256": "400e3710384da6edcb466dd9277c0d08102efed391095e81febf6ffbac8a58b6"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part02.h5",
+    "bytes": 136515016,
+    "sha256": "a3d502791f20702490e99eabc3a9e884f5dba3bb58b90e32eca3b4c397295473"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part03.h5",
+    "bytes": 137695487,
+    "sha256": "04b24b1c812720d9b1038aa8981c1a1dd363af23a5e79e56660b06574c5db42a"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part04.h5",
+    "bytes": 138977120,
+    "sha256": "528a7af51a3d5ba18531f659da6984cec01da1c352803b599d8fae9fcdd6e3c7"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part05.h5",
+    "bytes": 139525366,
+    "sha256": "ee06784c5d6f268f10ed83bee162bf4433e26ac92bf908ce2baae5fb033603fa"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part06.h5",
+    "bytes": 142565416,
+    "sha256": "a7bb7ffab130faf48b0bbd70d18561bb43855f6fe8e36263fe555117ccd67c11"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part07.h5",
+    "bytes": 147711968,
+    "sha256": "8d353c7b48d56dcefc07b737e66c6231b18061714a1b9e0c6ecb726678ce939e"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part08.h5",
+    "bytes": 143256382,
+    "sha256": "69dd7bb1b8d11b8ff93f3a3728c4d5045b7632579065860d89eba19841468580"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part09.h5",
+    "bytes": 143389640,
+    "sha256": "17a948a013d09c4c43a9fcd28a8fc064d1857fc72f39decf538c2e11ecdd8d54"
+  },
+  {
+    "path": "04_影像與矩陣/SU4/matlab_checks/part10.h5",
+    "bytes": 138514056,
+    "sha256": "c239f69234890036e548253d426f94f4d284ecaaf427d503112f075afae1081d"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/attacks.h5",
+    "bytes": 997292089,
+    "sha256": "6c147aa8ebd583bf3d71da543acb9f34d598c43be8620586b9f9241af47a9c8a"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/embedding.h5",
+    "bytes": 26504964,
+    "sha256": "4b7c8fa27cee2ecab306cbbcc14c9c3d8d80fd7052892c6661b2c5eeddceb49d"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/geometry_audit.h5",
+    "bytes": 246597,
+    "sha256": "d1e3606aee2ffb7a9004b233155f5e5d2df07a4a062578a4c902998f62ae3b0d"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part00.h5",
+    "bytes": 18444513,
+    "sha256": "9b3f858b36c4b95f4a6dfe8b8fd00e5555bd25b58582f35b877e81751020376a"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part01.h5",
+    "bytes": 141910447,
+    "sha256": "443c9991fb4ef83ab579a7a14d526efb30887836e4c3596394571c44cc08ff30"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part02.h5",
+    "bytes": 144927986,
+    "sha256": "55db0ca0a64968a6ec4150821aee5571b8f7bcfcc67de513a9dfdaef739157fa"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part03.h5",
+    "bytes": 149647634,
+    "sha256": "e67bfdfbbd278e3e4f6e59567bead9c5b3c4e2eed4940af7282fa8a9aafa00d9"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part04.h5",
+    "bytes": 153979373,
+    "sha256": "771af74a40b2d1a691405b811c72b862f440659cf594b167dfe18edbeebc75cb"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part05.h5",
+    "bytes": 156591927,
+    "sha256": "f7ac27c5d193f537491530c0174a2b926c748d6de465d4e831650c084dee270c"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part06.h5",
+    "bytes": 157879966,
+    "sha256": "1b7b657034b6417280804c1c048952640c2fb7c85f49238359ff7b29b5787037"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part07.h5",
+    "bytes": 159659448,
+    "sha256": "87232a63c19486bc1889a10f16dd34a3b1ef2cb46052b1a006a470531d5fdb08"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part08.h5",
+    "bytes": 160417746,
+    "sha256": "8d4b875f320e7bee68c6ced87196db88d340d1a21dbc3ce292b7769953c3db79"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part09.h5",
+    "bytes": 161042660,
+    "sha256": "ffce106be1300d4058d707cc42afbb487a5b02fad0e05c53c3a8d037fa749a5e"
+  },
+  {
+    "path": "04_影像與矩陣/SV1/matlab_checks/part10.h5",
+    "bytes": 161501883,
+    "sha256": "ad0352a657c59a31a212e0028414c7abe3947d4d1c3d88bf5b8aa0bf5fa5eb10"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/attacks.h5",
+    "bytes": 864612934,
+    "sha256": "02264b6f445b8157dfd36b8d94ca65fa056f15dfa3bfd53f0b29be2d71875e42"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/embedding.h5",
+    "bytes": 24966801,
+    "sha256": "08a4ff1fbfded67dc10fda42b84b3583d469629a03ff4852501e857d2b3a9c52"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/geometry_audit.h5",
+    "bytes": 249848,
+    "sha256": "aa7529f00962f589c4a7bb7908f74f3990125b29943757bf30d4d0c95c6ef871"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part00.h5",
+    "bytes": 16061038,
+    "sha256": "94b55c068fffa11566bf806e6a6937538e58787579b67b0be689e635277cc82a"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part01.h5",
+    "bytes": 136038620,
+    "sha256": "90e38b18f2e585c79835ff3fc4c7e52fb07c74471f6303a452de6ff74ce71ccf"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part02.h5",
+    "bytes": 138894952,
+    "sha256": "7d1c9d22c40ed5a7bc729faccceec2a0a593170a3a4da5598717add57a8833b7"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part03.h5",
+    "bytes": 140015100,
+    "sha256": "2f4c1c42afa01443f2a6351adbf419dc3ab919a47cabb42f63afc45968686a07"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part04.h5",
+    "bytes": 141242897,
+    "sha256": "2b51e1b07f4334eab72b0f1b6693762ed6caff20e14483e35882969b4e4e346a"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part05.h5",
+    "bytes": 141984445,
+    "sha256": "4b3b6556949c1a2ea1ac981aa1c0a2c7fb6d3083d34e604f8d77bc0156de87ff"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part06.h5",
+    "bytes": 145072453,
+    "sha256": "a2b2404d678db2827e0df46fa1809006f321630155a5fe420342497e992d06a9"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part07.h5",
+    "bytes": 149431347,
+    "sha256": "f37198eeef39d6fda6c33e25b2bd300dd48b1039e89a3057a3ad2b2b634890ef"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part08.h5",
+    "bytes": 145314345,
+    "sha256": "1a28c7b8605c53622ecae2563670bd7ee6f81ff4f48989a901d898b1003b8224"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part09.h5",
+    "bytes": 145330077,
+    "sha256": "610c19596fbeec436f4f937ffdfc4667a2cdbc774c4065ada5fa11b5309011f3"
+  },
+  {
+    "path": "04_影像與矩陣/SV2/matlab_checks/part10.h5",
+    "bytes": 141417325,
+    "sha256": "c419ae80e2ab21f112181fc1a89b87eb22f5099b3060803e735f51cf70e55441"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/attacks.h5",
+    "bytes": 861808374,
+    "sha256": "b72660df08e77c5e6321722c43bf241001d1a916d004d27d83fcb78723a4d2cd"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/embedding.h5",
+    "bytes": 24881988,
+    "sha256": "68740fb74b05efdf3a3b0947b02dea0a6cb4125291251bdf749137c7775b9dcf"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/geometry_audit.h5",
+    "bytes": 248389,
+    "sha256": "4b6c08d747ac08b8bf900bbadc44a5aa21c3e8c472e54bfd70084280667bf358"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part00.h5",
+    "bytes": 15842042,
+    "sha256": "36503cfd47f2f620b1c50ddaa60b31a0cac2e4e1d6ace1eb96e0dfcc92fdca59"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part01.h5",
+    "bytes": 134954513,
+    "sha256": "40fa93a4d8e7f2c2b3b457a1a2c8ef8f8f361e65242de3c7b11aca66b712bf13"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part02.h5",
+    "bytes": 137908703,
+    "sha256": "97525623251d42e9b26ac63ac36411d99a9128eec82acd6516a2bd79c4604b69"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part03.h5",
+    "bytes": 138999054,
+    "sha256": "a1f7a9520288a0f86e12513518fb45fb2c23c73192960a6230d6a1279d4bc302"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part04.h5",
+    "bytes": 140149687,
+    "sha256": "bd0fca1600495be62cccd9a4ed63c5c1a59b3cf430e94a785187d9dc4acddd1a"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part05.h5",
+    "bytes": 140909087,
+    "sha256": "17072caf6ec52e0b132c24f558104cfca8c89653e768674ecf3b96db786635f4"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part06.h5",
+    "bytes": 143744922,
+    "sha256": "4c14b2bc8d9c1c20fb77ad6bcafc555840e3777ecbaa7905a8c215be36f2e40f"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part07.h5",
+    "bytes": 148083670,
+    "sha256": "5f69c92538a81ac1607360310140a4724c7d12bf1cee1c085a4aeee1bcba16cb"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part08.h5",
+    "bytes": 144292843,
+    "sha256": "f552e96141798b64964b83f83a45b1f80619f3dc12d8371545bc50362f1f6d77"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part09.h5",
+    "bytes": 144244827,
+    "sha256": "b00c7fff7e78ca1eb72fc476a208eb77ad56d53bba8a6aca8943706014f8f00c"
+  },
+  {
+    "path": "04_影像與矩陣/SV3/matlab_checks/part10.h5",
+    "bytes": 140510776,
+    "sha256": "8fe687e42902fd4968ff60bd0e6754554a82b0133de651303095910046a20a77"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/attacks.h5",
+    "bytes": 860117690,
+    "sha256": "5ebaf333bd9f5ff842f30e4fb36ce0c2eedab32e948bc5674d752f1f62631263"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/embedding.h5",
+    "bytes": 24797709,
+    "sha256": "00656107cf00087b9075d825387e686df8a70e7ca6d79780fddf8f321c2a669b"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/geometry_audit.h5",
+    "bytes": 246472,
+    "sha256": "16390035fcd4d06f7a82db6f0824780647a2888bb2756d5d8cd7e3105cdd2d9e"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part00.h5",
+    "bytes": 14498188,
+    "sha256": "59b88b35dfe9eb04698664697218a0c598588182c05ecf5d2841a2e213e50404"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part01.h5",
+    "bytes": 133160901,
+    "sha256": "509c229ea40959886048bcff72a738f90d0121860bea1c68c13c9779ef9ab499"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part02.h5",
+    "bytes": 136342189,
+    "sha256": "8b1b84cbe5fd2f9714e11e9caecb925a179ff3f08fb7340caba741ad4c5b0992"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part03.h5",
+    "bytes": 137528956,
+    "sha256": "00afc0b5c74b0ce366adf02d688c8a681709d89adf0ab2a083fd6a15025e3e55"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part04.h5",
+    "bytes": 138792288,
+    "sha256": "42d7e80929a716054dc5a0dc70970072f41e04713634f7df023af1d72da225ce"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part05.h5",
+    "bytes": 139318968,
+    "sha256": "1a36be76f47e2cac7acabc9bd2d88535e16a47d110f7d8ef0f2c15077c03257e"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part06.h5",
+    "bytes": 142382899,
+    "sha256": "989bdc135cd93cfb0710f1d29a317b364e59066a60da37776f2bd19ea7948373"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part07.h5",
+    "bytes": 147574815,
+    "sha256": "59664691dfaeea65e2984de3627b6f7b9884e11d592416cbfe01b62c9b580521"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part08.h5",
+    "bytes": 143146998,
+    "sha256": "07422b0c202d6cfa070803e387322aa754b75d6c8f092b83f9b82260e71241ac"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part09.h5",
+    "bytes": 143269640,
+    "sha256": "18ab82dd188b99d5a6a49e481428830f941026381dc7eee0878405d893664062"
+  },
+  {
+    "path": "04_影像與矩陣/SV4/matlab_checks/part10.h5",
+    "bytes": 138436868,
+    "sha256": "9729fe035e2fe1ad2e4df03f01b8c5dae164d9606de6d03f28fd701542da34d3"
+  }
+]

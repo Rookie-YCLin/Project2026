@@ -1,0 +1,17 @@
+{
+  "label": "GV2",
+  "round": 2,
+  "q_rad": 0.7659822285584739,
+  "q_degrees": 43.88754887842575,
+  "psnr": 30.27124253769237,
+  "errors": 0,
+  "block_errors": 8839,
+  "failed_blocks": 6274,
+  "seconds_embed_png": 1.9213976000028197,
+  "seconds_blind": 2.609963399998378,
+  "png_sha256": "410571f6bfb36e80021a970de4a3781a487686522e41a1521489a80ed2b708e3",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 27,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

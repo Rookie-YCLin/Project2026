@@ -1,0 +1,17 @@
+{
+  "label": "SU3",
+  "round": 2,
+  "q_rad": 1.0725780755056826,
+  "q_degrees": 61.454196924739755,
+  "psnr": 37.56244448079002,
+  "errors": 187,
+  "block_errors": 19400,
+  "failed_blocks": 0,
+  "seconds_embed_png": 0.881106799992267,
+  "seconds_blind": 1.2256379000027664,
+  "png_sha256": "c4c4ec89b5bf662ef08cc5a0988889a11ba0e3c2868ac576b98f2218a7eec1cb",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 26,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

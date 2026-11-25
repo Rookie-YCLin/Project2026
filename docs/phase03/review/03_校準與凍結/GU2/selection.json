@@ -1,0 +1,17 @@
+{
+  "label": "GU2",
+  "round": 2,
+  "q_rad": 0.7084955072558723,
+  "q_degrees": 40.59380236974187,
+  "psnr": 30.668424532345256,
+  "errors": 0,
+  "block_errors": 10217,
+  "failed_blocks": 8199,
+  "seconds_embed_png": 0.8564618999953382,
+  "seconds_blind": 1.2208215999999084,
+  "png_sha256": "06f0112222c0681a1fdfd9c51e48c965ae7f299bfc0121adae0c4cdaffbdd33d",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 27,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}

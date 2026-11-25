@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "case_count": 1169,
+  "maxima": {
+    "orthogonality": 6.426189552625363e-15,
+    "projection": 4.440892098500626e-16,
+    "angle": 8.881784197001252e-16,
+    "determinant": 3.9968028886505635e-15,
+    "sigma": 4.440892098500626e-15,
+    "primal_dual_gap": 3.0592384763075866e-09,
+    "frobenius": 2.3817033220281312e-15
+  },
+  "elapsed_seconds": 8.766334400017513,
+  "example": {
+    "ordinary_dual": 22,
+    "det_positive_primal": 21.5,
+    "det_positive_dual": 21.500000000000448,
+    "lambda_sample": -17.000000000000085,
+    "squared_loss": 17.000000000000004,
+    "dual_gap": 0.5
+  }
+}

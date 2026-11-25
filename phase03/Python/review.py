@@ -11,6 +11,7 @@ import h5py
 import numpy as np
 import pandas as pd
 
+from audit_decisions import inspect as inspect_decisions
 from image_experiment import CALIB,DATA,LABELS,STATS,phase01
 from jpeg_experiment import json_file
 
@@ -164,6 +165,10 @@ def overview(run,phase02,phase01_root=None):
     report.mkdir(exist_ok=True)
     methods.to_csv(report/"method_summary.csv",index=False)
     index.to_csv(report/"qf_data_index.csv",index=False)
+    flagged=inspect_decisions(run,read_json(run/CALIB/"frozen.json"))
+    assert len(flagged)==methods.unexplained_disagreements.sum()
+    if len(flagged):
+        flagged.to_csv(report/"cross_platform_flagged_blocks.csv",index=False)
     figure_index=[
         "# 第三階段 MATLAB 圖表索引","",
         f"本機執行資料夾的 `{FIGURES}` 內有每張圖的 FIG、PNG、SVG、PDF 和製圖 CSV。"
@@ -307,8 +312,15 @@ def overview(run,phase02,phase01_root=None):
             lines.append(f"| {row.method} | {x.abs_offset/row.q_rad:.5f} | {x.target_margin:.5g} | {x.block_error:.4%} |")
         lines.append("")
     lines+= [
-            f"Python 與 MATLAB 逐區塊判決相差 {methods.cross_platform_bit_disagreements.sum():,} 次，"
-            f"其中 {methods.unexplained_disagreements.sum():,} 次未由精確重根分類或數值近界解釋。"
+            f"Python 與 MATLAB 逐區塊判決相差 {methods.cross_platform_bit_disagreements.sum():,} 次。"
+            f"其中 {len(flagged):,} 次通過原本的精確重根與距邊界 128 eps 篩查，因而列入額外查核。"]
+    if len(flagged):
+        crossed=int(flagged.midpoint_crossed.sum())
+        small=int((flagged.relative_gap<=1e-6).sum())
+        lines.append(
+            f"從保存的角度與判決索引回查，其中 {crossed} 次跨過同一個量化中點，"
+            f"{small} 次的相對奇異值間距不超過 10⁻⁶。逐筆列於 `cross_platform_flagged_blocks.csv`。")
+    lines+= [
             "正式盲式 BER 以研究設定所指定的 Python 提取流程為準。","",
             "## 解讀限制","",
             "本文使用單張影像與單一浮水印種子。重複嵌入與影像區塊結構會造成觀察值相依。"

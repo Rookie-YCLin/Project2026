@@ -1,0 +1,16 @@
+[ WARN:0@102.106] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@109.962] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@110.944] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@111.686] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@135.468] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@144.799] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@158.209] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@158.325] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+PU3 exploratory PSNR 37.050528381963886 errors 0
+PV2 exploratory PSNR 39.85250233320838 errors 0
+PU2 formal PSNR 39.993761733785064 errors 0
+PV3 exploratory PSNR 38.25184291982874 errors 0
+PU4 exploratory PSNR 37.4662231977696 errors 0
+PV1 exploratory PSNR 39.884287483948626 errors 0
+PU1 exploratory PSNR 39.888790743664266 errors 0
+PV4 exploratory PSNR 38.519081938271256 errors 0

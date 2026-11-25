@@ -1,0 +1,2 @@
+[ WARN:0@104.105] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@255.587] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.

@@ -1,0 +1,30 @@
+[ WARN:0@1.652] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@1.759] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@1.785] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+[ WARN:0@1.976] global loadsave.cpp:1652 cv::imencodeWithMetadata Unsupported depth image for selected encoder is fallbacked to CV_8U.
+concurrent.futures.process._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\macuz\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\process.py", line 254, in _process_worker
+    r = call_item.fn(*call_item.args, **call_item.kwargs)
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 278, in calibration_one
+    with h5py.File(dest/"embedding.pending","w") as h:
+         ^^^^
+NameError: name 'h5py' is not defined
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 317, in <module>
+    p.add_argument("--labels",choices=LABELS,nargs="+",default=LABELS)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macuz\Documents\Codex\2026-11-24\project2026-python-matlab-jpeg-a4-chatgpt\work\phase03_repo\phase03\Python\image_experiment.py", line 307, in calibration_main
+    tasks=[p.submit(calibration_one,(args.run,args.source,args.upstream,s)) for s in labels]
+        ^^^^^^^^^^
+  File "C:\Users\macuz\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\macuz\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+NameError: name 'h5py' is not defined

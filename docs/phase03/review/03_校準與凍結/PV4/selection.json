@@ -1,0 +1,17 @@
+{
+  "label": "PV4",
+  "round": 1,
+  "q_rad": 0.5201825233342037,
+  "q_degrees": 29.804263163515333,
+  "psnr": 38.519081938271256,
+  "errors": 0,
+  "block_errors": 10836,
+  "failed_blocks": 0,
+  "seconds_embed_png": 88.78651400000672,
+  "seconds_blind": 1.7235687999927904,
+  "png_sha256": "05aab895018d9854718cae77501891ee87bde0fae970a9ed2dd37f8ac24d097b",
+  "done": true,
+  "classification": "exploratory",
+  "tested_candidates": 26,
+  "math_gate_sha256": "745c9d23bbbe237c1656e26ddd6392b4f4aba581eeccc4a2a45660f3ba9e54dc"
+}
